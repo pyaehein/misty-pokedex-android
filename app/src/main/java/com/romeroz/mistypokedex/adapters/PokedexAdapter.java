@@ -1,7 +1,10 @@
 package com.romeroz.mistypokedex.adapters;
 
+import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -34,7 +37,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder viewHolder, final int position) {
+    public void onBindViewHolder(final ViewHolder viewHolder, final int position) {
         // Set default view visibility
 
         // Data from the ArrayList
@@ -54,6 +57,26 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         int drawableResourceId = mContext.getResources().getIdentifier("pokemon_thumb_" + String.valueOf(id)
                 , "drawable", mContext.getPackageName());
         viewHolder.mPokemonImageView.setImageResource(drawableResourceId);
+
+        /*viewHolder.mCardView.setOnClickListener(new View.OnClickListener() {
+            // Todo: api 21+
+            @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+            @Override
+            public void onClick(View view) {
+
+                // Pass pokemon id to activity
+                int id = mItemArrayList.get(position).getId();
+
+                Intent i = new Intent(mContext, DetailActivity.class);
+                i.putExtra(DetailActivity.ARG_POKEMON_ID, id);
+                mContext.startActivity(i);
+
+                boolean curve = (position % 2 == 0);
+                i.putExtra(DetailActivity.EXTRA_CURVE, curve);
+                mContext.startActivity(i, ActivityOptions.makeSceneTransitionAnimation(
+                        (Activity) mContext, viewHolder.mPokemonImageView, viewHolder.mPokemonImageView.getTransitionName()).toBundle());
+            }
+        });*/
     }
 
     @Override
@@ -80,6 +103,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
 
 
             mCardView.setOnClickListener(new View.OnClickListener() {
+
                 @Override
                 public void onClick(View view) {
 
@@ -88,7 +112,17 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
 
                     Intent i = new Intent(mContext, DetailActivity.class);
                     i.putExtra(DetailActivity.ARG_POKEMON_ID, id);
-                    mContext.startActivity(i);
+
+                    // Pretty transitions on newer devices
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        // Remember to set android:transitionName in activity_detail.xml and item_layout.xml
+                        mContext.startActivity(i, ActivityOptions.makeSceneTransitionAnimation(
+                                (Activity) mContext, mPokemonImageView, mPokemonImageView.getTransitionName()).toBundle());
+                    } else {
+                        // Code to run on older devices
+                        mContext.startActivity(i);
+                    }
+
                 }
             });
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Misty\'s Pokedex</string>
+    <string name="transition_pokemon_image">pokemon_image</string>
 </resources>

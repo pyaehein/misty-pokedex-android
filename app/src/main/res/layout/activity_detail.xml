@@ -23,6 +23,7 @@
             android:src="@drawable/pokemon_img_1"
             android:layout_gravity="center"
             android:layout_margin="16dp"
+            android:transitionName="@string/transition_pokemon_image"
             />
 
         <TextView

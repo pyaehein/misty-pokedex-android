@@ -20,7 +20,8 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/pokemon_thumb_1"
-            android:layout_marginRight="16dp"/>
+            android:layout_marginRight="16dp"
+            android:transitionName="@string/transition_pokemon_image"/>
 
         <TextView
             android:id="@+id/id_text_view"
