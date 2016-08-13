@@ -18,7 +18,7 @@
 
         <ImageView
             android:id="@+id/pokemon_image_view"
-            android:layout_width="1800dp"
+            android:layout_width="180dp"
             android:layout_height="180dp"
             android:src="@drawable/pokemon_img_1"
             android:layout_gravity="center"

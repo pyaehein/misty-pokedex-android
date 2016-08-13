@@ -4,7 +4,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.util.Log;
 import android.view.WindowManager;
+import android.widget.EditText;
 
 import com.romeroz.mistypokedex.adapters.PokedexAdapter;
 import com.romeroz.mistypokedex.model.Pokemon;
@@ -12,9 +16,13 @@ import com.romeroz.mistypokedex.model.Pokemon;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.realm.Case;
 import io.realm.Realm;
+import io.realm.RealmResults;
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText mSearchEditText;
 
     private RecyclerView mPokemonRecyclerView;
     private PokedexAdapter mPokedexAdapter;
@@ -27,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mSearchEditText = (EditText) findViewById(R.id.search_edit_text);
+        mSearchEditText.addTextChangedListener(new SearchTextWatcher());
+
 
         mRealm = Realm.getDefaultInstance();
 
@@ -65,6 +77,44 @@ public class MainActivity extends AppCompatActivity {
         // Hide keyboard from popping up when activity starts
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
+    }
+
+    // Execute code after text has changed in an EditText
+    private class SearchTextWatcher implements TextWatcher {
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            if (count == 0){
+
+            }
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            final String searchText = s.toString();
+            final int textLength = s.length();
+
+            if (searchText.isEmpty()){
+                mPokedexAdapter.swapData(mPokemonList);
+                return;
+            }
+
+            if(textLength >= 1){
+                Log.d("Roman", "textLength: " + String.valueOf(textLength));
+                RealmResults<Pokemon> searchPokemonList = mRealm.where(Pokemon.class).contains("name", searchText, Case.INSENSITIVE).findAll();
+                ArrayList<Pokemon> searchPokemonArrayList = new ArrayList<>(searchPokemonList);
+                mPokedexAdapter.swapData(searchPokemonArrayList);
+            }
+
+
+
+
+        }
     }
 
     @Override

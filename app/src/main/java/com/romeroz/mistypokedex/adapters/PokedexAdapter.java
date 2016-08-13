@@ -58,25 +58,6 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
                 , "drawable", mContext.getPackageName());
         viewHolder.mPokemonImageView.setImageResource(drawableResourceId);
 
-        /*viewHolder.mCardView.setOnClickListener(new View.OnClickListener() {
-            // Todo: api 21+
-            @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-            @Override
-            public void onClick(View view) {
-
-                // Pass pokemon id to activity
-                int id = mItemArrayList.get(position).getId();
-
-                Intent i = new Intent(mContext, DetailActivity.class);
-                i.putExtra(DetailActivity.ARG_POKEMON_ID, id);
-                mContext.startActivity(i);
-
-                boolean curve = (position % 2 == 0);
-                i.putExtra(DetailActivity.EXTRA_CURVE, curve);
-                mContext.startActivity(i, ActivityOptions.makeSceneTransitionAnimation(
-                        (Activity) mContext, viewHolder.mPokemonImageView, viewHolder.mPokemonImageView.getTransitionName()).toBundle());
-            }
-        });*/
     }
 
     @Override

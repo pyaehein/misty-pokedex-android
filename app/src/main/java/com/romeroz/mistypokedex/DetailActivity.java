@@ -17,7 +17,6 @@ public class DetailActivity extends AppCompatActivity {
 
     // Activity initialization parameters
     public static final String ARG_POKEMON_ID = "POKEMON_ID";
-    public static final String ARG_EXTRA_CURVE = "EXTRA_CURVE";
     private int pokemonId;
 
     private Toolbar mToolbar;
