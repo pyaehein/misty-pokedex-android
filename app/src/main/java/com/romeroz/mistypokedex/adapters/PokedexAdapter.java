@@ -45,7 +45,9 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         id = mItemArrayList.get(position).getId();
         name = mItemArrayList.get(position).getName();
 
-
+        // Format pokemon id from "1" to "001"
+        String formattedId = String.format("%03d", id);
+        viewHolder.mIdTextView.setText(String.valueOf(formattedId));
         viewHolder.mNameTextView.setText(name);
 
         // Generate Image resource Id by image name in drawable folder
@@ -65,7 +67,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         protected CardView mCardView;
         protected ImageView mPokemonImageView;
         protected TextView mNameTextView;
-
+        protected TextView mIdTextView;
 
         public ViewHolder(View view) {
             super(view);
@@ -74,6 +76,8 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             mCardView = (CardView) view.findViewById(R.id.card_view);
             mPokemonImageView = (ImageView) view.findViewById(R.id.pokemon_image_view);
             mNameTextView = (TextView) view.findViewById(R.id.name_text_view);
+            mIdTextView = (TextView) view.findViewById(R.id.id_text_view);
+
 
             mCardView.setOnClickListener(new View.OnClickListener() {
                 @Override

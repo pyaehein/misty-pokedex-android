@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.WindowManager;
-import android.widget.EditText;
 
 import com.romeroz.mistypokedex.adapters.PokedexAdapter;
 import com.romeroz.mistypokedex.model.Pokemon;
@@ -16,8 +15,6 @@ import java.util.List;
 import io.realm.Realm;
 
 public class MainActivity extends AppCompatActivity {
-
-    private EditText mSearchEditText;
 
     private RecyclerView mPokemonRecyclerView;
     private PokedexAdapter mPokedexAdapter;

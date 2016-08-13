@@ -16,6 +16,7 @@ public class DetailActivity extends AppCompatActivity {
     public static final String ARG_POKEMON_ID = "POKEMON_ID";
     private int pokemonId;
 
+    private Toolbar mToolbar;
     private ImageView mPokemonImageView;
     private TextView mNameTextView;
 
@@ -27,8 +28,9 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        // Setup Toolbar
+        mToolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -50,6 +52,7 @@ public class DetailActivity extends AppCompatActivity {
         Pokemon pokemon = mRealm.where(Pokemon.class).equalTo("id", pokemonId).findFirst();
 
         mNameTextView.setText(pokemon.getName());
+        getSupportActionBar().setTitle(pokemon.getName());
 
         // Generate Image resource Id by image name in drawable folder
         int drawableResourceId = getResources().getIdentifier("pokemon_img_" + String.valueOf(pokemonId)
