@@ -1,6 +1,8 @@
 package com.romeroz.mistypokedex.adapters;
 
 import android.content.Context;
+import android.content.Intent;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.romeroz.mistypokedex.DetailActivity;
 import com.romeroz.mistypokedex.R;
 import com.romeroz.mistypokedex.model.Pokemon;
 
@@ -42,7 +45,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         id = mItemArrayList.get(position).getId();
         name = mItemArrayList.get(position).getName();
 
-        
+
         viewHolder.mNameTextView.setText(name);
 
         // Generate Image resource Id by image name in drawable folder
@@ -59,6 +62,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
+        protected CardView mCardView;
         protected ImageView mPokemonImageView;
         protected TextView mNameTextView;
 
@@ -67,9 +71,22 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             super(view);
 
             // Get references to our views
+            mCardView = (CardView) view.findViewById(R.id.card_view);
             mPokemonImageView = (ImageView) view.findViewById(R.id.pokemon_image_view);
             mNameTextView = (TextView) view.findViewById(R.id.name_text_view);
 
+            mCardView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    // Pass pokemon id to activity
+                    int id = mItemArrayList.get(getAdapterPosition()).getId();
+
+                    Intent i = new Intent(mContext, DetailActivity.class);
+                    i.putExtra(DetailActivity.ARG_POKEMON_ID, id);
+                    mContext.startActivity(i);
+                }
+            });
 
         }
     }

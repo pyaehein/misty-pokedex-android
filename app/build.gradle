@@ -31,4 +31,7 @@ dependencies {
 
     // Gson
     compile 'com.google.code.gson:gson:2.7'
+
+    // EasyPreferences. See: https://github.com/Pixplicity/EasyPreferences
+    compile 'com.pixplicity.easyprefs:library:1.8.1@aar'
 }
