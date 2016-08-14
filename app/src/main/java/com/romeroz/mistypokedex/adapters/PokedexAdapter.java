@@ -16,8 +16,11 @@ import android.widget.TextView;
 import com.romeroz.mistypokedex.DetailActivity;
 import com.romeroz.mistypokedex.R;
 import com.romeroz.mistypokedex.model.Pokemon;
+import com.romeroz.mistypokedex.model.RealmString;
 
 import java.util.ArrayList;
+
+import io.realm.RealmList;
 
 
 public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHolder> {
@@ -44,7 +47,6 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         int id;
         String name;
 
-
         id = mItemArrayList.get(position).getId();
         name = mItemArrayList.get(position).getName();
 
@@ -57,6 +59,40 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         int drawableResourceId = mContext.getResources().getIdentifier("pokemon_thumb_" + String.valueOf(id)
                 , "drawable", mContext.getPackageName());
         viewHolder.mPokemonImageView.setImageResource(drawableResourceId);
+
+        // Set up pokemon types image views
+        RealmList<RealmString> types = mItemArrayList.get(position).getType();
+
+        // Check for first type (should always be there)
+        if(types.size() > 0){
+            // Get first type
+            String typeOne = types.get(0).getVal();
+
+            String typeImageOne = getTypeImageName(typeOne);
+
+            // Generate Image resource Id by image name in drawable folder
+            drawableResourceId = mContext.getResources().getIdentifier(typeImageOne
+                    , "drawable", mContext.getPackageName());
+            viewHolder.mTypeOneImageView.setImageResource(drawableResourceId);
+        }
+
+        // Check if there is array index for two types
+        if (types.size() > 1){
+            // Get second type
+            String typeTwo = types.get(1).getVal();
+
+            String typeImageTwo = getTypeImageName(typeTwo);
+
+            // Generate Image resource Id by image name in drawable folder
+            drawableResourceId = mContext.getResources().getIdentifier(typeImageTwo
+                    , "drawable", mContext.getPackageName());
+            viewHolder.mTypeTwoImageView.setImageResource(drawableResourceId);
+
+            viewHolder.mTypeTwoImageView.setVisibility(View.VISIBLE);
+
+        } else {
+            viewHolder.mTypeTwoImageView.setVisibility(View.GONE);
+        }
 
     }
 
@@ -72,6 +108,9 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         protected ImageView mPokemonImageView;
         protected TextView mNameTextView;
         protected TextView mIdTextView;
+        protected ImageView mTypeOneImageView;
+        protected ImageView mTypeTwoImageView;
+
 
         public ViewHolder(View view) {
             super(view);
@@ -81,6 +120,9 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             mPokemonImageView = (ImageView) view.findViewById(R.id.pokemon_image_view);
             mNameTextView = (TextView) view.findViewById(R.id.name_text_view);
             mIdTextView = (TextView) view.findViewById(R.id.id_text_view);
+            mTypeOneImageView = (ImageView) view.findViewById(R.id.type_one_image_view);
+            mTypeTwoImageView = (ImageView) view.findViewById(R.id.type_two_image_view);
+
 
 
             mCardView.setOnClickListener(new View.OnClickListener() {
@@ -108,6 +150,74 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             });
 
         }
+    }
+
+    /**
+     * Get the image name based on type of pokemon
+     * @param type
+     * @return
+     */
+    private String getTypeImageName(String type){
+        String typeImage = "";
+
+        switch (type) {
+            case "Normal":
+                typeImage = "type_normal";
+                break;
+            case "Fire":
+                typeImage = "type_fire";
+                break;
+            case "Fighting":
+                typeImage = "type_fighting";
+                break;
+            case "Water":
+                typeImage = "type_water";
+                break;
+            case "Poison":
+                typeImage = "type_poison";
+                break;
+            case "Electric":
+                typeImage = "type_electric";
+                break;
+            case "Ground":
+                typeImage = "type_ground";
+                break;
+            case "Grass":
+                typeImage = "type_grass";
+                break;
+            case "Flying":
+                typeImage = "type_flying";
+                break;
+            case "Ice":
+                typeImage = "type_ice";
+                break;
+            case "Bug":
+                typeImage = "type_bug";
+                break;
+            case "Psychic":
+                typeImage = "type_psychic";
+                break;
+            case "Rock":
+                typeImage = "type_rock";
+                break;
+            case "Dragon":
+                typeImage = "type_dragon";
+                break;
+            case "Ghost":
+                typeImage = "type_ghost";
+                break;
+            case "Dark":
+                typeImage = "type_dark";
+                break;
+            case "Steel":
+                typeImage = "type_steel";
+                break;
+            case "Fairy":
+                typeImage = "type_fairy";
+                break;
+        }
+
+        return typeImage;
     }
 
     public void swapData(ArrayList<Pokemon> itemArrayList) {

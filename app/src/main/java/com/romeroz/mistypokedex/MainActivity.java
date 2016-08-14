@@ -7,8 +7,11 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.WindowManager;
+import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.romeroz.mistypokedex.adapters.PokedexAdapter;
 import com.romeroz.mistypokedex.model.Pokemon;
@@ -69,13 +72,24 @@ public class MainActivity extends AppCompatActivity {
         // Set up our RecyclerView's Adapter
         mPokedexAdapter = new PokedexAdapter(MainActivity.this);
         mPokemonRecyclerView.setAdapter(mPokedexAdapter);
-
-
-
+        
         mPokedexAdapter.swapData(mPokemonList);
 
         // Hide keyboard from popping up when activity starts
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+
+        // Remember to set android:imeOptions="actionSearch" in the last EditText
+        mSearchEditText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
+                if (id == EditorInfo.IME_ACTION_SEARCH) {
+                    // Hide keyboard when search IME button pressed
+                    Utility.hideSoftKeyboard(MainActivity.this);
+                    return true;
+                }
+                return false;
+            }
+        });
 
     }
 
