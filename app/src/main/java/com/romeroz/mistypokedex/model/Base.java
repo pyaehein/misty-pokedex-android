@@ -9,55 +9,56 @@ import io.realm.RealmObject;
  */
 public class Base extends RealmObject {
     @SerializedName("attack")
-    private String attack;
+    private int attack;
     @SerializedName("defense")
-    private String defense;
+    private int defense;
     @SerializedName("hp")
-    private String hp;
+    private int hp;
     @SerializedName("special_attack")
-    private String specialAttack;
+    private int specialAttack;
     @SerializedName("special_defense")
-    private String specialDefense;
+    private int specialDefense;
+    // Speed wouldn't parse if set as int - maybe data has a string somewhere?
     @SerializedName("speed")
     private String speed;
 
-    public String getAttack() {
+    public int getAttack() {
         return attack;
     }
 
-    public void setAttack(String attack) {
+    public void setAttack(int attack) {
         this.attack = attack;
     }
 
-    public String getDefense() {
+    public int getDefense() {
         return defense;
     }
 
-    public void setDefense(String defense) {
+    public void setDefense(int defense) {
         this.defense = defense;
     }
 
-    public String getHp() {
+    public int getHp() {
         return hp;
     }
 
-    public void setHp(String hp) {
+    public void setHp(int hp) {
         this.hp = hp;
     }
 
-    public String getSpecialAttack() {
+    public int getSpecialAttack() {
         return specialAttack;
     }
 
-    public void setSpecialAttack(String specialAttack) {
+    public void setSpecialAttack(int specialAttack) {
         this.specialAttack = specialAttack;
     }
 
-    public String getSpecialDefense() {
+    public int getSpecialDefense() {
         return specialDefense;
     }
 
-    public void setSpecialDefense(String specialDefense) {
+    public void setSpecialDefense(int specialDefense) {
         this.specialDefense = specialDefense;
     }
 

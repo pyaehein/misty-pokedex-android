@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.transition.TransitionInflater;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,8 +25,19 @@ public class DetailActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private ImageView mPokemonImageView;
     private TextView mNameTextView;
+
+    // Pokemon Type
     private ImageView mTypeOneImageView;
     private ImageView mTypeTwoImageView;
+
+    // Pokemon Stats
+    private TextView mHpTextView;
+    private TextView mAtkTextView;
+    private TextView mDefTextView;
+    private TextView mSpaTextView;
+    private TextView mSpdTextView;
+    private TextView mSpeTextView;
+    private TextView mTotalTextView;
 
     Realm mRealm;
 
@@ -84,7 +96,8 @@ public class DetailActivity extends AppCompatActivity {
         RealmList<RealmString> types = pokemon.getType();
         setupTypeImageViews(types);
 
-
+        // Setup pokemon stats
+        setupPokemonStats(pokemon);
 
         // For mPokemonImageView transition (see PokedexAdapter
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -124,6 +137,38 @@ public class DetailActivity extends AppCompatActivity {
         } else {
             mTypeTwoImageView.setVisibility(View.GONE);
         }
+
+    }
+
+    private void setupPokemonStats(Pokemon pokemon){
+        mHpTextView = (TextView) findViewById(R.id.hp_text_view);
+        mAtkTextView = (TextView) findViewById(R.id.atk_text_view);
+        mDefTextView = (TextView) findViewById(R.id.def_text_view);
+        mSpaTextView = (TextView) findViewById(R.id.spa_text_view);
+        mSpdTextView = (TextView) findViewById(R.id.spd_text_view);
+        mSpeTextView = (TextView) findViewById(R.id.spe_text_view);
+        mTotalTextView = (TextView) findViewById(R.id.total_text_view);
+
+        int hp = pokemon.getBaseStats().getHp();
+        int atk = pokemon.getBaseStats().getAttack();
+        int def = pokemon.getBaseStats().getDefense();
+        int spa = pokemon.getBaseStats().getSpecialAttack();
+        int spd = pokemon.getBaseStats().getSpecialDefense();
+        // Speed wouldn't parse if set as int - maybe data has a string somewhere?
+        int spe = Integer.parseInt( pokemon.getBaseStats().getSpeed());
+        int total = hp + atk + def + spa + spd + spe;
+
+        mHpTextView.setText(String.valueOf(hp));
+        mAtkTextView.setText(String.valueOf(atk));
+        mDefTextView.setText(String.valueOf(def));
+        mSpaTextView.setText(String.valueOf(spa));
+        mSpdTextView.setText(String.valueOf(spd));
+        mSpeTextView.setText(String.valueOf(spe));
+        mTotalTextView.setText(String.valueOf(total));
+
+
+
+
 
     }
 

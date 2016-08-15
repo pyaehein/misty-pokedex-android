@@ -6,7 +6,7 @@
             "hp": 45, 
             "special_attack": 65, 
             "special_defense": 65, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u5999\u86d9\u79cd\u5b50", 
         "ename": "Bulbasaur", 
@@ -103,7 +103,7 @@
             "hp": 60, 
             "special_attack": 80, 
             "special_defense": 80, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u5999\u86d9Grass", 
         "ename": "Ivysaur", 
@@ -206,7 +206,7 @@
             "hp": 80, 
             "special_attack": 100, 
             "special_defense": 100, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u5999\u86d9\u82b1", 
         "ename": "Venusaur", 
@@ -321,7 +321,7 @@
             "hp": 39, 
             "special_attack": 60, 
             "special_defense": 50, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u5c0f\u706bDragon", 
         "ename": "Charmander", 
@@ -423,7 +423,7 @@
             "hp": 58, 
             "special_attack": 80, 
             "special_defense": 65, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u706b\u6050Dragon", 
         "ename": "Charmeleon", 
@@ -526,7 +526,7 @@
             "hp": 78, 
             "special_attack": 109, 
             "special_defense": 85, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u55b7\u706bDragon", 
         "ename": "Charizard", 
@@ -654,7 +654,7 @@
             "hp": 44, 
             "special_attack": 50, 
             "special_defense": 64, 
-            "Speed": 43
+            "speed": 43
         }, 
         "cname": "\u6770\u5c3c\u9f9f", 
         "ename": "Squirtle", 
@@ -756,7 +756,7 @@
             "hp": 59, 
             "special_attack": 65, 
             "special_defense": 80, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u5361\u54aa\u9f9f", 
         "ename": "Wartortle", 
@@ -860,7 +860,7 @@
             "hp": 79, 
             "special_attack": 85, 
             "special_defense": 105, 
-            "Speed": 78
+            "speed": 78
         }, 
         "cname": "Water\u7bad\u9f9f", 
         "ename": "Blastoise", 
@@ -982,7 +982,7 @@
             "hp": 45, 
             "special_attack": 20, 
             "special_defense": 20, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u7eff\u6bdbBug", 
         "ename": "Caterpie", 
@@ -1010,7 +1010,7 @@
             "hp": 50, 
             "special_attack": 25, 
             "special_defense": 25, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u94c1\u7532\u86f9", 
         "ename": "Metapod", 
@@ -1043,7 +1043,7 @@
             "hp": 60, 
             "special_attack": 90, 
             "special_defense": 80, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5df4\u5927\u8774", 
         "ename": "Butterfree", 
@@ -1135,7 +1135,7 @@
             "hp": 40, 
             "special_attack": 20, 
             "special_defense": 20, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u72ec\u89d2Bug", 
         "ename": "Weedle", 
@@ -1163,7 +1163,7 @@
             "hp": 45, 
             "special_attack": 25, 
             "special_defense": 25, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u94c1\u58f3\u6606", 
         "ename": "Kakuna", 
@@ -1197,7 +1197,7 @@
             "hp": 65, 
             "special_attack": 45, 
             "special_defense": 80, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u5927\u9488\u8702", 
         "ename": "Beedrill", 
@@ -1291,7 +1291,7 @@
             "hp": 40, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 56
+            "speed": 56
         }, 
         "cname": "\u6ce2\u6ce2", 
         "ename": "Pidgey", 
@@ -1373,7 +1373,7 @@
             "hp": 63, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 71
+            "speed": 71
         }, 
         "cname": "\u6bd4\u6bd4\u9e1f", 
         "ename": "Pidgeotto", 
@@ -1457,7 +1457,7 @@
             "hp": 83, 
             "special_attack": 70, 
             "special_defense": 70, 
-            "Speed": 101
+            "speed": 101
         }, 
         "cname": "\u6bd4\u96d5", 
         "ename": "Pidgeot", 
@@ -1546,7 +1546,7 @@
             "hp": 30, 
             "special_attack": 25, 
             "special_defense": 35, 
-            "Speed": 72
+            "speed": 72
         }, 
         "cname": "\u5c0f\u62c9\u8fbe", 
         "ename": "Rattata", 
@@ -1564,7 +1564,7 @@
             "hp": 55, 
             "special_attack": 50, 
             "special_defense": 70, 
-            "Speed": 97
+            "speed": 97
         }, 
         "cname": "\u62c9\u8fbe", 
         "ename": "Raticate", 
@@ -1582,7 +1582,7 @@
             "hp": 40, 
             "special_attack": 31, 
             "special_defense": 31, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u70c8\u96c0", 
         "ename": "Spearow", 
@@ -1668,7 +1668,7 @@
             "hp": 65, 
             "special_attack": 61, 
             "special_defense": 61, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u5927\u5634\u96c0", 
         "ename": "Fearow", 
@@ -1758,7 +1758,7 @@
             "hp": 35, 
             "special_attack": 40, 
             "special_defense": 54, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u963f\u67cf\u86c7", 
         "ename": "Ekans", 
@@ -1854,7 +1854,7 @@
             "hp": 60, 
             "special_attack": 65, 
             "special_defense": 79, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u963f\u67cf\u602a", 
         "ename": "Arbok", 
@@ -1959,7 +1959,7 @@
             "hp": 35, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u76ae\u5361\u4e18", 
         "ename": "Pikachu", 
@@ -2065,7 +2065,7 @@
             "hp": 60, 
             "special_attack": 90, 
             "special_defense": 80, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u96f7\u4e18", 
         "ename": "Raichu", 
@@ -2175,7 +2175,7 @@
             "hp": 50, 
             "special_attack": 20, 
             "special_defense": 30, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u7a7f\u5c71\u9f20", 
         "ename": "Sandshrew", 
@@ -2276,7 +2276,7 @@
             "hp": 75, 
             "special_attack": 45, 
             "special_defense": 55, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u7a7f\u5c71\u738b", 
         "ename": "Sandslash", 
@@ -2384,7 +2384,7 @@
             "hp": 55, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 41
+            "speed": 41
         }, 
         "cname": "\u5c3c\u591a\u5170", 
         "ename": "Nidoran\u2640", 
@@ -2477,7 +2477,7 @@
             "hp": 70, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 56
+            "speed": 56
         }, 
         "cname": "\u5c3c\u591a\u5a1c", 
         "ename": "Nidorina", 
@@ -2569,7 +2569,7 @@
             "hp": 90, 
             "special_attack": 75, 
             "special_defense": 85, 
-            "Speed": 76
+            "speed": 76
         }, 
         "cname": "\u5c3c\u591a\u540e", 
         "ename": "Nidoqueen", 
@@ -2707,7 +2707,7 @@
             "hp": 46, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5c3c\u591a\u6717", 
         "ename": "Nidoran\u2642", 
@@ -2800,7 +2800,7 @@
             "hp": 61, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u5c3c\u591a\u529b\u8bfa", 
         "ename": "Nidorino", 
@@ -2892,7 +2892,7 @@
             "hp": 81, 
             "special_attack": 85, 
             "special_defense": 75, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u5c3c\u591a\u738b", 
         "ename": "Nidoking", 
@@ -3031,7 +3031,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 65, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u76ae\u76ae", 
         "ename": "Clefairy", 
@@ -3180,7 +3180,7 @@
             "hp": 95, 
             "special_attack": 95, 
             "special_defense": 90, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u76ae\u53ef\u897f", 
         "ename": "Clefable", 
@@ -3332,7 +3332,7 @@
             "hp": 38, 
             "special_attack": 50, 
             "special_defense": 65, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u516d\u5c3e", 
         "ename": "Vulpix", 
@@ -3430,7 +3430,7 @@
             "hp": 73, 
             "special_attack": 81, 
             "special_defense": 100, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u4e5d\u5c3e", 
         "ename": "Ninetales", 
@@ -3538,7 +3538,7 @@
             "hp": 115, 
             "special_attack": 45, 
             "special_defense": 25, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u80d6\u4e01", 
         "ename": "Jigglypuff", 
@@ -3669,7 +3669,7 @@
             "hp": 140, 
             "special_attack": 85, 
             "special_defense": 50, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u80d6\u53ef\u4e01", 
         "ename": "Wigglytuff", 
@@ -3806,7 +3806,7 @@
             "hp": 40, 
             "special_attack": 30, 
             "special_defense": 40, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u8d85\u97f3\u8760", 
         "ename": "Zubat", 
@@ -3902,7 +3902,7 @@
             "hp": 75, 
             "special_attack": 65, 
             "special_defense": 75, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u5927\u5634\u8760", 
         "ename": "Golbat", 
@@ -4003,7 +4003,7 @@
             "hp": 45, 
             "special_attack": 75, 
             "special_defense": 65, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u8d70\u8defGrass", 
         "ename": "Oddish", 
@@ -4087,7 +4087,7 @@
             "hp": 60, 
             "special_attack": 85, 
             "special_defense": 75, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u81ed\u81ed\u82b1", 
         "ename": "Gloom", 
@@ -4176,7 +4176,7 @@
             "hp": 75, 
             "special_attack": 110, 
             "special_defense": 90, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u9738\u738b\u82b1", 
         "ename": "Vileplume", 
@@ -4272,7 +4272,7 @@
             "hp": 35, 
             "special_attack": 45, 
             "special_defense": 55, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u6d3e\u62c9\u65af", 
         "ename": "Paras", 
@@ -4369,7 +4369,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 80, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u6d3e\u62c9\u65af\u7279", 
         "ename": "Parasect", 
@@ -4472,7 +4472,7 @@
             "hp": 60, 
             "special_attack": 40, 
             "special_defense": 55, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u6bdb\u7403", 
         "ename": "Venonat", 
@@ -4552,7 +4552,7 @@
             "hp": 70, 
             "special_attack": 90, 
             "special_defense": 75, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u672b\u5165\u86fe", 
         "ename": "Venomoth", 
@@ -4648,7 +4648,7 @@
             "hp": 10, 
             "special_attack": 35, 
             "special_defense": 45, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u5730\u9f20", 
         "ename": "Diglett", 
@@ -4736,7 +4736,7 @@
             "hp": 35, 
             "special_attack": 50, 
             "special_defense": 70, 
-            "Speed": 120
+            "speed": 120
         }, 
         "cname": "\u4e09\u5730\u9f20", 
         "ename": "Dugtrio", 
@@ -4833,7 +4833,7 @@
             "hp": 40, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u55b5\u55b5", 
         "ename": "Meowth", 
@@ -4851,7 +4851,7 @@
             "hp": 65, 
             "special_attack": 65, 
             "special_defense": 65, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u732b\u8001\u5927", 
         "ename": "Persian", 
@@ -4869,7 +4869,7 @@
             "hp": 50, 
             "special_attack": 65, 
             "special_defense": 50, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u53ef\u8fbe\u9e2d", 
         "ename": "Psyduck", 
@@ -4978,7 +4978,7 @@
             "hp": 80, 
             "special_attack": 95, 
             "special_defense": 80, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u54e5\u8fbe\u9e2d", 
         "ename": "Golduck", 
@@ -5095,7 +5095,7 @@
             "hp": 40, 
             "special_attack": 35, 
             "special_defense": 45, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u7334\u602a", 
         "ename": "Mankey", 
@@ -5210,7 +5210,7 @@
             "hp": 65, 
             "special_attack": 60, 
             "special_defense": 70, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u706b\u7206\u7334", 
         "ename": "Primeape", 
@@ -5334,7 +5334,7 @@
             "hp": 55, 
             "special_attack": 70, 
             "special_defense": 50, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u5361\u8482\u72d7", 
         "ename": "Growlithe", 
@@ -5428,7 +5428,7 @@
             "hp": 90, 
             "special_attack": 100, 
             "special_defense": 80, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u98ce\u901f\u72d7", 
         "ename": "Arcanine", 
@@ -5534,7 +5534,7 @@
             "hp": 40, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u868a\u9999\u874c\u86aa", 
         "ename": "Poliwag", 
@@ -5619,7 +5619,7 @@
             "hp": 65, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u868a\u9999\u86d9", 
         "ename": "Poliwhirl", 
@@ -5715,7 +5715,7 @@
             "hp": 90, 
             "special_attack": 70, 
             "special_defense": 90, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5feb\u6cf3\u86d9", 
         "ename": "Poliwrath", 
@@ -5827,7 +5827,7 @@
             "hp": 25, 
             "special_attack": 105, 
             "special_defense": 55, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u51ef\u897f", 
         "ename": "Abra", 
@@ -5925,7 +5925,7 @@
             "hp": 40, 
             "special_attack": 120, 
             "special_defense": 70, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u52c7\u5409\u62c9", 
         "ename": "Kadabra", 
@@ -6035,7 +6035,7 @@
             "hp": 55, 
             "special_attack": 135, 
             "special_defense": 95, 
-            "Speed": 120
+            "speed": 120
         }, 
         "cname": "\u80e1\u5730", 
         "ename": "Alakazam", 
@@ -6152,7 +6152,7 @@
             "hp": 70, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u8155\u529b", 
         "ename": "Machop", 
@@ -6257,7 +6257,7 @@
             "hp": 80, 
             "special_attack": 50, 
             "special_defense": 60, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u8c6a\u529b", 
         "ename": "Machoke", 
@@ -6364,7 +6364,7 @@
             "hp": 90, 
             "special_attack": 65, 
             "special_defense": 85, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u602a\u529b", 
         "ename": "Machamp", 
@@ -6475,7 +6475,7 @@
             "hp": 50, 
             "special_attack": 70, 
             "special_defense": 30, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u5587\u53ed\u82bd", 
         "ename": "Bellsprout", 
@@ -6564,7 +6564,7 @@
             "hp": 65, 
             "special_attack": 85, 
             "special_defense": 45, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u53e3\u5446\u82b1", 
         "ename": "Weepinbell", 
@@ -6656,7 +6656,7 @@
             "hp": 80, 
             "special_attack": 100, 
             "special_defense": 70, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5927\u98df\u82b1", 
         "ename": "Victreebel", 
@@ -6758,7 +6758,7 @@
             "hp": 40, 
             "special_attack": 50, 
             "special_defense": 100, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u739b\u7459Water\u6bcd", 
         "ename": "Tentacool", 
@@ -6857,7 +6857,7 @@
             "hp": 80, 
             "special_attack": 80, 
             "special_defense": 120, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "Poison\u523aWater\u6bcd", 
         "ename": "Tentacruel", 
@@ -6962,7 +6962,7 @@
             "hp": 40, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u5c0f\u62f3\u77f3", 
         "ename": "Geodude", 
@@ -7060,7 +7060,7 @@
             "hp": 55, 
             "special_attack": 45, 
             "special_defense": 45, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u9686\u9686\u77f3", 
         "ename": "Graveler", 
@@ -7158,7 +7158,7 @@
             "hp": 80, 
             "special_attack": 55, 
             "special_defense": 65, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u9686\u9686\u5ca9", 
         "ename": "Golem", 
@@ -7266,7 +7266,7 @@
             "hp": 50, 
             "special_attack": 65, 
             "special_defense": 65, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u5c0f\u706b\u9a6c", 
         "ename": "Ponyta", 
@@ -7349,7 +7349,7 @@
             "hp": 65, 
             "special_attack": 80, 
             "special_defense": 80, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u70c8\u7130\u9a6c", 
         "ename": "Rapidash", 
@@ -7444,7 +7444,7 @@
             "hp": 90, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u5446\u5446\u517d", 
         "ename": "Slowpoke", 
@@ -7557,7 +7557,7 @@
             "hp": 95, 
             "special_attack": 100, 
             "special_defense": 80, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5446\u6cb3\u9a6c", 
         "ename": "Slowbro", 
@@ -7686,7 +7686,7 @@
             "hp": 25, 
             "special_attack": 95, 
             "special_defense": 55, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u5c0f\u78c1\u602a", 
         "ename": "Magnemite", 
@@ -7768,7 +7768,7 @@
             "hp": 50, 
             "special_attack": 120, 
             "special_defense": 70, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u4e09\u5408\u4e00\u78c1\u602a", 
         "ename": "Magneton", 
@@ -7857,7 +7857,7 @@
             "hp": 52, 
             "special_attack": 58, 
             "special_defense": 62, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u5927\u8471\u9e2d", 
         "ename": "Farfetch'd",
@@ -7965,7 +7965,7 @@
             "hp": 35, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u561f\u561f", 
         "ename": "Doduo", 
@@ -8045,7 +8045,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u561f\u561f\u5229", 
         "ename": "Dodrio", 
@@ -8135,7 +8135,7 @@
             "hp": 65, 
             "special_attack": 45, 
             "special_defense": 70, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u5c0f\u6d77\u72ee", 
         "ename": "Seel", 
@@ -8227,7 +8227,7 @@
             "hp": 90, 
             "special_attack": 70, 
             "special_defense": 95, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u767d\u6d77\u72ee", 
         "ename": "Dewgong", 
@@ -8331,7 +8331,7 @@
             "hp": 80, 
             "special_attack": 40, 
             "special_defense": 50, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u81ed\u6ce5", 
         "ename": "Grimer", 
@@ -8434,7 +8434,7 @@
             "hp": 105, 
             "special_attack": 65, 
             "special_defense": 100, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u81ed\u81ed\u6ce5", 
         "ename": "Muk", 
@@ -8547,7 +8547,7 @@
             "hp": 30, 
             "special_attack": 45, 
             "special_defense": 25, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u5927\u820c\u8d1d", 
         "ename": "Shellder", 
@@ -8630,7 +8630,7 @@
             "hp": 50, 
             "special_attack": 85, 
             "special_defense": 45, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u94c1\u7532\u8d1d", 
         "ename": "Cloyster", 
@@ -8729,7 +8729,7 @@
             "hp": 30, 
             "special_attack": 100, 
             "special_defense": 35, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u9b3c\u65af", 
         "ename": "Gastly", 
@@ -8836,7 +8836,7 @@
             "hp": 45, 
             "special_attack": 115, 
             "special_defense": 55, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u9b3c\u65af\u901a", 
         "ename": "Haunter", 
@@ -8948,7 +8948,7 @@
             "hp": 60, 
             "special_attack": 130, 
             "special_defense": 75, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u803f\u9b3c", 
         "ename": "Gengar", 
@@ -9071,7 +9071,7 @@
             "hp": 35, 
             "special_attack": 30, 
             "special_defense": 45, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5927\u5ca9\u86c7", 
         "ename": "Onix", 
@@ -9173,7 +9173,7 @@
             "hp": 60, 
             "special_attack": 43, 
             "special_defense": 90, 
-            "Speed": 42
+            "speed": 42
         }, 
         "cname": "\u7d20\u5229\u666e", 
         "ename": "Drowzee", 
@@ -9280,7 +9280,7 @@
             "hp": 85, 
             "special_attack": 73, 
             "special_defense": 115, 
-            "Speed": 67
+            "speed": 67
         }, 
         "cname": "\u7d20\u5229\u62cd", 
         "ename": "Hypno", 
@@ -9396,7 +9396,7 @@
             "hp": 30, 
             "special_attack": 25, 
             "special_defense": 25, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5927\u94b3\u87f9", 
         "ename": "Krabby", 
@@ -9490,7 +9490,7 @@
             "hp": 55, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u5de8\u94b3\u87f9", 
         "ename": "Kingler", 
@@ -9590,7 +9590,7 @@
             "hp": 40, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u96f7Electric\u7403", 
         "ename": "Voltorb", 
@@ -9666,7 +9666,7 @@
             "hp": 60, 
             "special_attack": 80, 
             "special_defense": 80, 
-            "Speed": 140
+            "speed": 140
         }, 
         "cname": "\u987d\u76ae\u5f39", 
         "ename": "Electrode", 
@@ -9747,7 +9747,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 45, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u86cb\u86cb", 
         "ename": "Exeggcute", 
@@ -9843,7 +9843,7 @@
             "hp": 95, 
             "special_attack": 125, 
             "special_defense": 65, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u6930\u86cb\u6811", 
         "ename": "Exeggutor", 
@@ -9953,7 +9953,7 @@
             "hp": 50, 
             "special_attack": 40, 
             "special_defense": 50, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u53ef\u62c9\u53ef\u62c9", 
         "ename": "Cubone", 
@@ -10058,7 +10058,7 @@
             "hp": 60, 
             "special_attack": 50, 
             "special_defense": 80, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u560e\u62c9\u560e\u62c9", 
         "ename": "Marowak", 
@@ -10171,7 +10171,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 110, 
-            "Speed": 87
+            "speed": 87
         }, 
         "cname": "\u6c99\u74e6\u90ce", 
         "ename": "Hitmonlee", 
@@ -10278,7 +10278,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 110, 
-            "Speed": 76
+            "speed": 76
         }, 
         "cname": "\u827e\u6bd4\u90ce", 
         "ename": "Hitmonchan", 
@@ -10383,7 +10383,7 @@
             "hp": 90, 
             "special_attack": 60, 
             "special_defense": 75, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5927\u820c\u5934", 
         "ename": "Lickitung", 
@@ -10499,7 +10499,7 @@
             "hp": 40, 
             "special_attack": 60, 
             "special_defense": 45, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u74e6\u65af\u5f39", 
         "ename": "Koffing", 
@@ -10517,7 +10517,7 @@
             "hp": 65, 
             "special_attack": 85, 
             "special_defense": 70, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u53cc\u5f39\u74e6\u65af", 
         "ename": "Weezing", 
@@ -10535,7 +10535,7 @@
             "hp": 80, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u94c1\u7532\u7280\u725b", 
         "ename": "Rhyhorn", 
@@ -10646,7 +10646,7 @@
             "hp": 105, 
             "special_attack": 45, 
             "special_defense": 45, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u94c1\u7532\u66b4Dragon", 
         "ename": "Rhydon", 
@@ -10781,7 +10781,7 @@
             "hp": 250, 
             "special_attack": 35, 
             "special_defense": 105, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5409\u5229\u86cb", 
         "ename": "Chansey", 
@@ -10917,7 +10917,7 @@
             "hp": 65, 
             "special_attack": 100, 
             "special_defense": 40, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u8513\u85e4\u602a", 
         "ename": "Tangela", 
@@ -11014,7 +11014,7 @@
             "hp": 105, 
             "special_attack": 40, 
             "special_defense": 80, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u888bDragon", 
         "ename": "Kangaskhan", 
@@ -11137,7 +11137,7 @@
             "hp": 30, 
             "special_attack": 70, 
             "special_defense": 25, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u58a8\u6d77\u9a6c", 
         "ename": "Horsea", 
@@ -11220,7 +11220,7 @@
             "hp": 55, 
             "special_attack": 95, 
             "special_defense": 45, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u6d77\u523aDragon", 
         "ename": "Seadra", 
@@ -11308,7 +11308,7 @@
             "hp": 45, 
             "special_attack": 35, 
             "special_defense": 50, 
-            "Speed": 63
+            "speed": 63
         }, 
         "cname": "\u89d2\u91d1\u9c7c", 
         "ename": "Goldeen", 
@@ -11393,7 +11393,7 @@
             "hp": 80, 
             "special_attack": 65, 
             "special_defense": 80, 
-            "Speed": 68
+            "speed": 68
         }, 
         "cname": "\u91d1\u9c7c\u738b", 
         "ename": "Seaking", 
@@ -11483,7 +11483,7 @@
             "hp": 30, 
             "special_attack": 70, 
             "special_defense": 55, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u6d77\u661f\u661f", 
         "ename": "Staryu", 
@@ -11568,7 +11568,7 @@
             "hp": 60, 
             "special_attack": 100, 
             "special_defense": 85, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u5b9d\u77f3\u6d77\u661f", 
         "ename": "Starmie", 
@@ -11669,7 +11669,7 @@
             "hp": 40, 
             "special_attack": 100, 
             "special_defense": 120, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u5438\u76d8\u9b54\u5076", 
         "ename": "Mr_ Mime", 
@@ -11808,7 +11808,7 @@
             "hp": 70, 
             "special_attack": 55, 
             "special_defense": 80, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u98de\u5929\u87b3\u8782", 
         "ename": "Scyther", 
@@ -11904,7 +11904,7 @@
             "hp": 65, 
             "special_attack": 115, 
             "special_defense": 95, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u8ff7\u5507\u59d0", 
         "ename": "Jynx", 
@@ -12031,7 +12031,7 @@
             "hp": 65, 
             "special_attack": 95, 
             "special_defense": 85, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "Electric\u51fb\u517d", 
         "ename": "Electabuzz", 
@@ -12130,7 +12130,7 @@
             "hp": 65, 
             "special_attack": 100, 
             "special_defense": 85, 
-            "Speed": 93
+            "speed": 93
         }, 
         "cname": "\u9e2d\u5634\u706bDragon", 
         "ename": "Magmar", 
@@ -12228,7 +12228,7 @@
             "hp": 65, 
             "special_attack": 55, 
             "special_defense": 70, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u5927\u7532", 
         "ename": "Pinsir", 
@@ -12325,7 +12325,7 @@
             "hp": 75, 
             "special_attack": 40, 
             "special_defense": 70, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u80af\u6cf0\u7f57", 
         "ename": "Tauros", 
@@ -12419,7 +12419,7 @@
             "hp": 20, 
             "special_attack": 15, 
             "special_defense": 20, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u9ca4\u9c7c\u738b", 
         "ename": "Magikarp", 
@@ -12446,7 +12446,7 @@
             "hp": 95, 
             "special_attack": 60, 
             "special_defense": 100, 
-            "Speed": 81
+            "speed": 81
         }, 
         "cname": "\u66b4\u9ca4Dragon", 
         "ename": "Gyarados", 
@@ -12547,7 +12547,7 @@
             "hp": 130, 
             "special_attack": 85, 
             "special_defense": 95, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u4e58Dragon", 
         "ename": "Lapras", 
@@ -12655,7 +12655,7 @@
             "hp": 48, 
             "special_attack": 48, 
             "special_defense": 48, 
-            "Speed": 48
+            "speed": 48
         }, 
         "cname": "\u767e\u53d8\u602a", 
         "ename": "Ditto", 
@@ -12678,7 +12678,7 @@
             "hp": 55, 
             "special_attack": 45, 
             "special_defense": 65, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u4f0a\u5e03", 
         "ename": "Eevee", 
@@ -12762,7 +12762,7 @@
             "hp": 130, 
             "special_attack": 110, 
             "special_defense": 95, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "Water\u7cbe\u7075", 
         "ename": "Vaporeon", 
@@ -12874,7 +12874,7 @@
             "hp": 65, 
             "special_attack": 110, 
             "special_defense": 95, 
-            "Speed": 130
+            "speed": 130
         }, 
         "cname": "\u96f7\u7cbe\u7075", 
         "ename": "Jolteon", 
@@ -12984,7 +12984,7 @@
             "hp": 65, 
             "special_attack": 95, 
             "special_defense": 110, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u706b\u7cbe\u7075", 
         "ename": "Flareon", 
@@ -13090,7 +13090,7 @@
             "hp": 65, 
             "special_attack": 85, 
             "special_defense": 75, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "3DDragon", 
         "ename": "Porygon", 
@@ -13108,7 +13108,7 @@
             "hp": 35, 
             "special_attack": 90, 
             "special_defense": 55, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u83ca\u77f3\u517d", 
         "ename": "Omanyte", 
@@ -13204,7 +13204,7 @@
             "hp": 70, 
             "special_attack": 115, 
             "special_defense": 70, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u591a\u523a\u83ca\u77f3\u517d", 
         "ename": "Omastar", 
@@ -13306,7 +13306,7 @@
             "hp": 30, 
             "special_attack": 55, 
             "special_defense": 45, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u5316\u77f3\u76d4", 
         "ename": "Kabuto", 
@@ -13398,7 +13398,7 @@
             "hp": 60, 
             "special_attack": 65, 
             "special_defense": 70, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u9570\u5200\u76d4", 
         "ename": "Kabutops", 
@@ -13509,7 +13509,7 @@
             "hp": 80, 
             "special_attack": 60, 
             "special_defense": 75, 
-            "Speed": 130
+            "speed": 130
         }, 
         "cname": "\u5316\u77f3\u7ffcDragon", 
         "ename": "Aerodactyl", 
@@ -13621,7 +13621,7 @@
             "hp": 160, 
             "special_attack": 65, 
             "special_defense": 110, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5361\u6bd4\u517d", 
         "ename": "Snorlax", 
@@ -13753,7 +13753,7 @@
             "hp": 90, 
             "special_attack": 95, 
             "special_defense": 125, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u6025\u51bb\u9e1f", 
         "ename": "Articuno", 
@@ -13842,7 +13842,7 @@
             "hp": 90, 
             "special_attack": 125, 
             "special_defense": 90, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u95eaElectric\u9e1f", 
         "ename": "Zapdos", 
@@ -13930,7 +13930,7 @@
             "hp": 90, 
             "special_attack": 125, 
             "special_defense": 85, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u706b\u7130\u9e1f", 
         "ename": "Moltres", 
@@ -14016,7 +14016,7 @@
             "hp": 41, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u8ff7\u4f60Dragon", 
         "ename": "Dratini", 
@@ -14112,7 +14112,7 @@
             "hp": 61, 
             "special_attack": 70, 
             "special_defense": 70, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u54c8\u514bDragon", 
         "ename": "Dragonair", 
@@ -14210,7 +14210,7 @@
             "hp": 91, 
             "special_attack": 100, 
             "special_defense": 100, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u5febDragon", 
         "ename": "Dragonite", 
@@ -14345,7 +14345,7 @@
             "hp": 106, 
             "special_attack": 154, 
             "special_defense": 90, 
-            "Speed": 130
+            "speed": 130
         }, 
         "cname": "\u8d85\u68a6", 
         "ename": "Mewtwo", 
@@ -14478,7 +14478,7 @@
             "hp": 100, 
             "special_attack": 100, 
             "special_defense": 100, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u68a6\u5e7b", 
         "ename": "Mew", 
@@ -14496,7 +14496,7 @@
             "hp": 45, 
             "special_attack": 49, 
             "special_defense": 65, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u83caGrass\u53f6", 
         "ename": "Chikorita", 
@@ -14514,7 +14514,7 @@
             "hp": 60, 
             "special_attack": 63, 
             "special_defense": 80, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u6708\u6842\u53f6", 
         "ename": "Bayleef", 
@@ -14532,7 +14532,7 @@
             "hp": 80, 
             "special_attack": 83, 
             "special_defense": 100, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u5927\u83ca\u82b1", 
         "ename": "Meganium", 
@@ -14550,7 +14550,7 @@
             "hp": 39, 
             "special_attack": 60, 
             "special_defense": 50, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u706b\u7403\u9f20", 
         "ename": "Cyndaquil", 
@@ -14568,7 +14568,7 @@
             "hp": 58, 
             "special_attack": 80, 
             "special_defense": 65, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u706b\u5ca9\u9f20", 
         "ename": "Quilava", 
@@ -14586,7 +14586,7 @@
             "hp": 78, 
             "special_attack": 109, 
             "special_defense": 85, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u706b\u66b4\u517d", 
         "ename": "Typhlosion", 
@@ -14604,7 +14604,7 @@
             "hp": 50, 
             "special_attack": 44, 
             "special_defense": 48, 
-            "Speed": 43
+            "speed": 43
         }, 
         "cname": "\u5c0f\u952f\u9cc4", 
         "ename": "Totodile", 
@@ -14622,7 +14622,7 @@
             "hp": 65, 
             "special_attack": 59, 
             "special_defense": 63, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u84dd\u9cc4", 
         "ename": "Croconaw", 
@@ -14640,7 +14640,7 @@
             "hp": 85, 
             "special_attack": 79, 
             "special_defense": 83, 
-            "Speed": 78
+            "speed": 78
         }, 
         "cname": "\u5927\u529b\u9cc4", 
         "ename": "Feraligatr", 
@@ -14658,7 +14658,7 @@
             "hp": 35, 
             "special_attack": 35, 
             "special_defense": 45, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u5c3e\u7acb", 
         "ename": "Sentret", 
@@ -14762,7 +14762,7 @@
             "hp": 85, 
             "special_attack": 45, 
             "special_defense": 55, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u5927\u5c3e\u7acb", 
         "ename": "Furret", 
@@ -14875,7 +14875,7 @@
             "hp": 60, 
             "special_attack": 36, 
             "special_defense": 56, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5495\u5495", 
         "ename": "Hoothoot", 
@@ -14970,7 +14970,7 @@
             "hp": 100, 
             "special_attack": 76, 
             "special_defense": 96, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u732b\u5934\u591c\u9e70", 
         "ename": "Noctowl", 
@@ -15070,7 +15070,7 @@
             "hp": 40, 
             "special_attack": 40, 
             "special_defense": 80, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u82ad\u74e2Bug", 
         "ename": "Ledyba", 
@@ -15164,7 +15164,7 @@
             "hp": 55, 
             "special_attack": 55, 
             "special_defense": 110, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u5b89\u74e2Bug", 
         "ename": "Ledian", 
@@ -15265,7 +15265,7 @@
             "hp": 40, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u7ebf\u7403", 
         "ename": "Spinarak", 
@@ -15356,7 +15356,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u963f\u5229\u591a\u65af", 
         "ename": "Ariados", 
@@ -15453,7 +15453,7 @@
             "hp": 85, 
             "special_attack": 70, 
             "special_defense": 80, 
-            "Speed": 130
+            "speed": 130
         }, 
         "cname": "\u53c9\u5b57\u8760", 
         "ename": "Crobat", 
@@ -15558,7 +15558,7 @@
             "hp": 75, 
             "special_attack": 56, 
             "special_defense": 56, 
-            "Speed": 67
+            "speed": 67
         }, 
         "cname": "\u706f\u7b3c\u9c7c", 
         "ename": "Chinchou", 
@@ -15651,7 +15651,7 @@
             "hp": 125, 
             "special_attack": 76, 
             "special_defense": 76, 
-            "Speed": 67
+            "speed": 67
         }, 
         "cname": "Electric\u706f\u602a", 
         "ename": "Lanturn", 
@@ -15751,7 +15751,7 @@
             "hp": 20, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u76ae\u4e18", 
         "ename": "Pichu", 
@@ -15837,7 +15837,7 @@
             "hp": 50, 
             "special_attack": 45, 
             "special_defense": 55, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u76ae\u5b9d\u5b9d", 
         "ename": "Cleffa", 
@@ -15944,7 +15944,7 @@
             "hp": 90, 
             "special_attack": 40, 
             "special_defense": 20, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u5b9d\u5b9d\u4e01", 
         "ename": "Igglybuff", 
@@ -16043,7 +16043,7 @@
             "hp": 35, 
             "special_attack": 40, 
             "special_defense": 65, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u6ce2\u514b\u6bd4", 
         "ename": "Togepi", 
@@ -16149,7 +16149,7 @@
             "hp": 55, 
             "special_attack": 80, 
             "special_defense": 105, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u6ce2\u514b\u57fa\u53e4", 
         "ename": "Togetic", 
@@ -16273,7 +16273,7 @@
             "hp": 40, 
             "special_attack": 70, 
             "special_defense": 45, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5929\u7136\u96c0", 
         "ename": "Natu", 
@@ -16383,7 +16383,7 @@
             "hp": 65, 
             "special_attack": 95, 
             "special_defense": 70, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u5929\u7136\u9e1f", 
         "ename": "Xatu", 
@@ -16499,7 +16499,7 @@
             "hp": 55, 
             "special_attack": 65, 
             "special_defense": 45, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u54a9\u5229\u7f8a", 
         "ename": "Mareep", 
@@ -16585,7 +16585,7 @@
             "hp": 70, 
             "special_attack": 80, 
             "special_defense": 60, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u7ef5\u7ef5", 
         "ename": "Flaaffy", 
@@ -16682,7 +16682,7 @@
             "hp": 90, 
             "special_attack": 115, 
             "special_defense": 90, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "ElectricDragon", 
         "ename": "Ampharos", 
@@ -16787,7 +16787,7 @@
             "hp": 75, 
             "special_attack": 90, 
             "special_defense": 100, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u7f8e\u4e3d\u82b1", 
         "ename": "Bellossom", 
@@ -16886,7 +16886,7 @@
             "hp": 70, 
             "special_attack": 20, 
             "special_defense": 50, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u739b\u529b\u9732", 
         "ename": "Marill", 
@@ -17002,7 +17002,7 @@
             "hp": 100, 
             "special_attack": 60, 
             "special_defense": 80, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u739b\u529b\u9732\u4e3d", 
         "ename": "Azumarill", 
@@ -17124,7 +17124,7 @@
             "hp": 70, 
             "special_attack": 30, 
             "special_defense": 65, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u80e1\u8bf4\u6811", 
         "ename": "Sudowoodo", 
@@ -17232,7 +17232,7 @@
             "hp": 90, 
             "special_attack": 90, 
             "special_defense": 100, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u725b\u86d9\u541b", 
         "ename": "Politoed", 
@@ -17337,7 +17337,7 @@
             "hp": 35, 
             "special_attack": 35, 
             "special_defense": 55, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u6bfd\u5b50Grass", 
         "ename": "Hoppip", 
@@ -17427,7 +17427,7 @@
             "hp": 55, 
             "special_attack": 45, 
             "special_defense": 65, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u6bfd\u5b50\u82b1", 
         "ename": "Skiploom", 
@@ -17520,7 +17520,7 @@
             "hp": 75, 
             "special_attack": 55, 
             "special_defense": 95, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u6bfd\u5b50\u7ef5", 
         "ename": "Jumpluff", 
@@ -17615,7 +17615,7 @@
             "hp": 55, 
             "special_attack": 40, 
             "special_defense": 55, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u957f\u5c3e\u602a\u624b", 
         "ename": "Aipom", 
@@ -17731,7 +17731,7 @@
             "hp": 30, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5411\u65e5\u79cd\u5b50", 
         "ename": "Sunkern", 
@@ -17818,7 +17818,7 @@
             "hp": 75, 
             "special_attack": 105, 
             "special_defense": 85, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5411\u65e5\u82b1\u602a", 
         "ename": "Sunflora", 
@@ -17917,7 +17917,7 @@
             "hp": 65, 
             "special_attack": 75, 
             "special_defense": 45, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u9633\u9633\u739b", 
         "ename": "Yanma", 
@@ -18004,7 +18004,7 @@
             "hp": 55, 
             "special_attack": 25, 
             "special_defense": 25, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u4e4c\u6ce2", 
         "ename": "Wooper", 
@@ -18105,7 +18105,7 @@
             "hp": 95, 
             "special_attack": 65, 
             "special_defense": 65, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u6cbc\u738b", 
         "ename": "Quagsire", 
@@ -18219,7 +18219,7 @@
             "hp": 65, 
             "special_attack": 130, 
             "special_defense": 95, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u592a\u9633\u7cbe\u7075", 
         "ename": "Espeon", 
@@ -18333,7 +18333,7 @@
             "hp": 95, 
             "special_attack": 60, 
             "special_defense": 130, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u6708\u7cbe\u7075", 
         "ename": "Umbreon", 
@@ -18443,7 +18443,7 @@
             "hp": 60, 
             "special_attack": 85, 
             "special_defense": 42, 
-            "Speed": 91
+            "speed": 91
         }, 
         "cname": "\u9ed1\u6697\u9e26", 
         "ename": "Murkrow", 
@@ -18548,7 +18548,7 @@
             "hp": 95, 
             "special_attack": 100, 
             "special_defense": 110, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u6cb3\u9a6c\u738b", 
         "ename": "Slowking", 
@@ -18684,7 +18684,7 @@
             "hp": 60, 
             "special_attack": 85, 
             "special_defense": 85, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u68a6\u5996", 
         "ename": "Misdreavus", 
@@ -18702,7 +18702,7 @@
             "hp": 48, 
             "special_attack": 72, 
             "special_defense": 48, 
-            "Speed": 48
+            "speed": 48
         }, 
         "cname": "\u672a\u77e5\u56fe\u817e", 
         "ename": "Unown", 
@@ -18720,7 +18720,7 @@
             "hp": 190, 
             "special_attack": 33, 
             "special_defense": 58, 
-            "Speed": 33
+            "speed": 33
         }, 
         "cname": "\u679c\u7136\u7fc1", 
         "ename": "Wobbuffet", 
@@ -18754,7 +18754,7 @@
             "hp": 70, 
             "special_attack": 90, 
             "special_defense": 65, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u9e92\u9e9f\u5947", 
         "ename": "Girafarig", 
@@ -18866,7 +18866,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u699b\u679c\u7403", 
         "ename": "Pineco", 
@@ -18956,7 +18956,7 @@
             "hp": 75, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u4f5b\u70c8\u6258\u65af", 
         "ename": "Forretress", 
@@ -19063,7 +19063,7 @@
             "hp": 100, 
             "special_attack": 65, 
             "special_defense": 65, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u571fDragon\u5f1f\u5f1f", 
         "ename": "Dunsparce", 
@@ -19175,7 +19175,7 @@
             "hp": 65, 
             "special_attack": 35, 
             "special_defense": 65, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u5929\u874e", 
         "ename": "Gligar", 
@@ -19291,7 +19291,7 @@
             "hp": 75, 
             "special_attack": 55, 
             "special_defense": 65, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5927Steel\u86c7", 
         "ename": "Steelix", 
@@ -19407,7 +19407,7 @@
             "hp": 60, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5e03\u5362", 
         "ename": "Snubbull", 
@@ -19526,7 +19526,7 @@
             "hp": 90, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u5e03\u5362\u7687", 
         "ename": "Granbull", 
@@ -19654,7 +19654,7 @@
             "hp": 65, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u5343\u9488\u9c7c", 
         "ename": "Qwilfish", 
@@ -19757,7 +19757,7 @@
             "hp": 70, 
             "special_attack": 55, 
             "special_defense": 80, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u5de8\u94b3\u87b3\u8782", 
         "ename": "Scizor", 
@@ -19867,7 +19867,7 @@
             "hp": 20, 
             "special_attack": 10, 
             "special_defense": 230, 
-            "Speed": 5
+            "speed": 5
         }, 
         "cname": "\u58f6\u58f6", 
         "ename": "Shuckle", 
@@ -19967,7 +19967,7 @@
             "hp": 80, 
             "special_attack": 40, 
             "special_defense": 95, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u8d6b\u62c9\u514b\u7f57\u65af", 
         "ename": "Heracross", 
@@ -20073,7 +20073,7 @@
             "hp": 55, 
             "special_attack": 35, 
             "special_defense": 75, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u72c3\u62c9", 
         "ename": "Sneasel", 
@@ -20191,7 +20191,7 @@
             "hp": 60, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u718a\u5b9d\u5b9d", 
         "ename": "Teddiursa", 
@@ -20302,7 +20302,7 @@
             "hp": 90, 
             "special_attack": 75, 
             "special_defense": 75, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u5708\u5708\u718a", 
         "ename": "Ursaring", 
@@ -20425,7 +20425,7 @@
             "hp": 40, 
             "special_attack": 70, 
             "special_defense": 40, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u7194\u5ca9Bug", 
         "ename": "Slugma", 
@@ -20514,7 +20514,7 @@
             "hp": 50, 
             "special_attack": 80, 
             "special_defense": 80, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u7194\u5ca9\u8717\u725b", 
         "ename": "Magcargo", 
@@ -20621,7 +20621,7 @@
             "hp": 50, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5c0f\u5c71\u732a", 
         "ename": "Swinub", 
@@ -20713,7 +20713,7 @@
             "hp": 100, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u957f\u6bdb\u732a", 
         "ename": "Piloswine", 
@@ -20817,7 +20817,7 @@
             "hp": 55, 
             "special_attack": 65, 
             "special_defense": 85, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u592a\u9633\u73ca\u745a", 
         "ename": "Corsola", 
@@ -20925,7 +20925,7 @@
             "hp": 35, 
             "special_attack": 65, 
             "special_defense": 35, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u94c1\u70ae\u9c7c", 
         "ename": "Remoraid", 
@@ -21020,7 +21020,7 @@
             "hp": 75, 
             "special_attack": 105, 
             "special_defense": 75, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u7ae0\u9c7c\u6876", 
         "ename": "Octillery", 
@@ -21131,7 +21131,7 @@
             "hp": 45, 
             "special_attack": 65, 
             "special_defense": 45, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u4fe1\u4f7f\u9e1f", 
         "ename": "Delibird", 
@@ -21215,7 +21215,7 @@
             "hp": 65, 
             "special_attack": 80, 
             "special_defense": 140, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5de8\u7fc5\u98de\u9c7c", 
         "ename": "Mantine", 
@@ -21322,7 +21322,7 @@
             "hp": 65, 
             "special_attack": 40, 
             "special_defense": 70, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u76d4\u7532\u9e1f", 
         "ename": "Skarmory", 
@@ -21421,7 +21421,7 @@
             "hp": 45, 
             "special_attack": 80, 
             "special_defense": 50, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u6234\u9c81\u6bd4", 
         "ename": "Houndour", 
@@ -21526,7 +21526,7 @@
             "hp": 75, 
             "special_attack": 110, 
             "special_defense": 80, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u9ed1\u9c81\u52a0", 
         "ename": "Houndoom", 
@@ -21639,7 +21639,7 @@
             "hp": 75, 
             "special_attack": 95, 
             "special_defense": 95, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u523aDragon\u738b", 
         "ename": "Kingdra", 
@@ -21736,7 +21736,7 @@
             "hp": 90, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u5c0f\u5c0f\u8c61", 
         "ename": "Phanpy", 
@@ -21822,7 +21822,7 @@
             "hp": 90, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u987f\u7532", 
         "ename": "Donphan", 
@@ -21933,7 +21933,7 @@
             "hp": 85, 
             "special_attack": 105, 
             "special_defense": 95, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "3DDragonII", 
         "ename": "Porygon2", 
@@ -21951,7 +21951,7 @@
             "hp": 73, 
             "special_attack": 85, 
             "special_defense": 65, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u60ca\u89d2\u9e7f", 
         "ename": "Stantler", 
@@ -21969,7 +21969,7 @@
             "hp": 55, 
             "special_attack": 20, 
             "special_defense": 45, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u56fe\u56fe\u72ac", 
         "ename": "Smeargle", 
@@ -22001,7 +22001,7 @@
             "hp": 35, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u5df4\u5c14\u90ce", 
         "ename": "Tyrogue", 
@@ -22077,7 +22077,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 110, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u67ef\u6ce2\u6717", 
         "ename": "Hitmontop", 
@@ -22179,7 +22179,7 @@
             "hp": 45, 
             "special_attack": 85, 
             "special_defense": 65, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u8ff7\u5507\u5a03", 
         "ename": "Smoochum", 
@@ -22282,7 +22282,7 @@
             "hp": 45, 
             "special_attack": 65, 
             "special_defense": 55, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "Electric\u51fb\u602a", 
         "ename": "Elekid", 
@@ -22375,7 +22375,7 @@
             "hp": 45, 
             "special_attack": 70, 
             "special_defense": 55, 
-            "Speed": 83
+            "speed": 83
         }, 
         "cname": "\u5c0f\u9e2d\u5634Dragon", 
         "ename": "Magby", 
@@ -22467,7 +22467,7 @@
             "hp": 95, 
             "special_attack": 40, 
             "special_defense": 70, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u5927\u5976\u7f50", 
         "ename": "Miltank", 
@@ -22578,7 +22578,7 @@
             "hp": 255, 
             "special_attack": 75, 
             "special_defense": 135, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u5e78\u798f\u86cb", 
         "ename": "Blissey", 
@@ -22717,7 +22717,7 @@
             "hp": 90, 
             "special_attack": 115, 
             "special_defense": 100, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u96f7\u516c", 
         "ename": "Raikou", 
@@ -22735,7 +22735,7 @@
             "hp": 115, 
             "special_attack": 90, 
             "special_defense": 75, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "Fire\u5e1d", 
         "ename": "Entei", 
@@ -22753,7 +22753,7 @@
             "hp": 100, 
             "special_attack": 90, 
             "special_defense": 115, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "Water\u541b", 
         "ename": "Suicune", 
@@ -22771,7 +22771,7 @@
             "hp": 50, 
             "special_attack": 45, 
             "special_defense": 50, 
-            "Speed": 41
+            "speed": 41
         }, 
         "cname": "\u7531\u57fa\u62c9", 
         "ename": "Larvitar", 
@@ -22869,7 +22869,7 @@
             "hp": 70, 
             "special_attack": 65, 
             "special_defense": 70, 
-            "Speed": 51
+            "speed": 51
         }, 
         "cname": "\u6c99\u57fa\u62c9", 
         "ename": "Pupitar", 
@@ -22969,7 +22969,7 @@
             "hp": 100, 
             "special_attack": 95, 
             "special_defense": 100, 
-            "Speed": 61
+            "speed": 61
         }, 
         "cname": "\u73ed\u5409\u62c9", 
         "ename": "Tyranitar", 
@@ -23106,7 +23106,7 @@
             "hp": 106, 
             "special_attack": 90, 
             "special_defense": 154, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u6d1b\u5947\u4e9a", 
         "ename": "Lugia", 
@@ -23125,7 +23125,7 @@
             "hp": 106, 
             "special_attack": 110, 
             "special_defense": 154, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u51e4\u738b", 
         "ename": "Ho-Oh", 
@@ -23144,7 +23144,7 @@
             "hp": 100, 
             "special_attack": 100, 
             "special_defense": 100, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u96ea\u62c9\u6bd4", 
         "ename": "Celebi", 
@@ -23163,7 +23163,7 @@
             "hp": 40, 
             "special_attack": 65, 
             "special_defense": 55, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u6728\u5b88\u5bab", 
         "ename": "Treecko", 
@@ -23181,7 +23181,7 @@
             "hp": 50, 
             "special_attack": 85, 
             "special_defense": 65, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u68ee\u6797\u8725\u8734", 
         "ename": "Grovyle", 
@@ -23199,7 +23199,7 @@
             "hp": 70, 
             "special_attack": 105, 
             "special_defense": 85, 
-            "Speed": 120
+            "speed": 120
         }, 
         "cname": "\u8725\u8734\u738b", 
         "ename": "Sceptile", 
@@ -23217,7 +23217,7 @@
             "hp": 45, 
             "special_attack": 70, 
             "special_defense": 50, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u706b\u7a1a\u9e21", 
         "ename": "Torchic", 
@@ -23312,7 +23312,7 @@
             "hp": 60, 
             "special_attack": 85, 
             "special_defense": 60, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u529b\u58ee\u9e21", 
         "ename": "Combusken", 
@@ -23426,7 +23426,7 @@
             "hp": 80, 
             "special_attack": 110, 
             "special_defense": 70, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u706b\u7130\u9e21", 
         "ename": "Blaziken", 
@@ -23557,7 +23557,7 @@
             "hp": 50, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "Water\u8dc3\u9c7c", 
         "ename": "Mudkip", 
@@ -23575,7 +23575,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 70, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u6cbc\u8dc3\u9c7c", 
         "ename": "Marshtomp", 
@@ -23594,7 +23594,7 @@
             "hp": 100, 
             "special_attack": 85, 
             "special_defense": 90, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u5de8\u6cbc\u602a", 
         "ename": "Swampert", 
@@ -23613,7 +23613,7 @@
             "hp": 35, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u571f\u72fc\u72ac", 
         "ename": "Poochyena", 
@@ -23707,7 +23707,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5927\u72fc\u72ac", 
         "ename": "Mightyena", 
@@ -23809,7 +23809,7 @@
             "hp": 38, 
             "special_attack": 30, 
             "special_defense": 41, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u86c7\u7eb9\u718a", 
         "ename": "Zigzagoon", 
@@ -23909,7 +23909,7 @@
             "hp": 78, 
             "special_attack": 50, 
             "special_defense": 61, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u76f4\u51b2\u718a", 
         "ename": "Linoone", 
@@ -24023,7 +24023,7 @@
             "hp": 45, 
             "special_attack": 20, 
             "special_defense": 30, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u523a\u5c3eBug", 
         "ename": "Wurmple", 
@@ -24052,7 +24052,7 @@
             "hp": 50, 
             "special_attack": 25, 
             "special_defense": 25, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u7532\u58f3\u86f9", 
         "ename": "Silcoon", 
@@ -24086,7 +24086,7 @@
             "hp": 60, 
             "special_attack": 100, 
             "special_defense": 50, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u72e9\u730e\u51e4\u8776", 
         "ename": "Beautifly", 
@@ -24172,7 +24172,7 @@
             "hp": 50, 
             "special_attack": 25, 
             "special_defense": 25, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u76fe\u7532\u8327", 
         "ename": "Cascoon", 
@@ -24206,7 +24206,7 @@
             "hp": 60, 
             "special_attack": 50, 
             "special_defense": 90, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "Poison\u7c89\u8776", 
         "ename": "Dustox", 
@@ -24294,7 +24294,7 @@
             "hp": 40, 
             "special_attack": 40, 
             "special_defense": 50, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u83b2\u53f6\u7ae5\u5b50", 
         "ename": "Lotad", 
@@ -24382,7 +24382,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 70, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u83b2\u5e3d\u5c0f\u7ae5", 
         "ename": "Lombre", 
@@ -24490,7 +24490,7 @@
             "hp": 80, 
             "special_attack": 90, 
             "special_defense": 100, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u4e50\u5929\u6cb3\u7ae5", 
         "ename": "Ludicolo", 
@@ -24604,7 +24604,7 @@
             "hp": 40, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u6a61\u5b9e\u679c", 
         "ename": "Seedot", 
@@ -24685,7 +24685,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 40, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u957f\u9f3b\u53f6", 
         "ename": "Nuzleaf", 
@@ -24795,7 +24795,7 @@
             "hp": 90, 
             "special_attack": 90, 
             "special_defense": 60, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u72e1\u733e\u5929\u72d7", 
         "ename": "Shiftry", 
@@ -24919,7 +24919,7 @@
             "hp": 40, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u50b2\u9aa8\u71d5", 
         "ename": "Taillow", 
@@ -25002,7 +25002,7 @@
             "hp": 60, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 125
+            "speed": 125
         }, 
         "cname": "\u5927\u738b\u71d5", 
         "ename": "Swellow", 
@@ -25089,7 +25089,7 @@
             "hp": 40, 
             "special_attack": 55, 
             "special_defense": 30, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u957f\u7fc5\u9e25", 
         "ename": "Wingull", 
@@ -25180,7 +25180,7 @@
             "hp": 60, 
             "special_attack": 85, 
             "special_defense": 70, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u5927\u5634\u9e25", 
         "ename": "Pelipper", 
@@ -25296,7 +25296,7 @@
             "hp": 28, 
             "special_attack": 45, 
             "special_defense": 35, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u62c9\u9c81\u62c9\u4e1d", 
         "ename": "Ralts", 
@@ -25411,7 +25411,7 @@
             "hp": 38, 
             "special_attack": 65, 
             "special_defense": 55, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5947\u9c81\u8389\u5b89", 
         "ename": "Kirlia", 
@@ -25529,7 +25529,7 @@
             "hp": 68, 
             "special_attack": 125, 
             "special_defense": 115, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u6c99\u5948\u6735", 
         "ename": "Gardevoir", 
@@ -25660,7 +25660,7 @@
             "hp": 40, 
             "special_attack": 50, 
             "special_defense": 52, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u6e9c\u6e9c\u7cd6\u7403", 
         "ename": "Surskit", 
@@ -25742,7 +25742,7 @@
             "hp": 70, 
             "special_attack": 80, 
             "special_defense": 82, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u96e8\u7fc5\u86fe", 
         "ename": "Masquerain", 
@@ -25849,7 +25849,7 @@
             "hp": 60, 
             "special_attack": 40, 
             "special_defense": 60, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u8611\u8611\u83c7", 
         "ename": "Shroomish", 
@@ -25928,7 +25928,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u6597\u7b20\u83c7", 
         "ename": "Breloom", 
@@ -26039,7 +26039,7 @@
             "hp": 60, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u61d2\u4eba\u7fc1", 
         "ename": "Slakoth", 
@@ -26057,7 +26057,7 @@
             "hp": 80, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u8fc7\u52a8\u733f", 
         "ename": "Vigoroth", 
@@ -26075,7 +26075,7 @@
             "hp": 150, 
             "special_attack": 95, 
             "special_defense": 65, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u8bf7\u5047\u738b", 
         "ename": "Slaking", 
@@ -26093,7 +26093,7 @@
             "hp": 31, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u571f\u5c45\u5fcd\u58eb", 
         "ename": "Nincada", 
@@ -26169,7 +26169,7 @@
             "hp": 61, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 160
+            "speed": 160
         }, 
         "cname": "\u94c1\u9762\u5fcd\u8005", 
         "ename": "Ninjask", 
@@ -26268,7 +26268,7 @@
             "hp": 1, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u8131\u58f3\u5fcd\u8005", 
         "ename": "Shedinja", 
@@ -26352,7 +26352,7 @@
             "hp": 64, 
             "special_attack": 51, 
             "special_defense": 23, 
-            "Speed": 28
+            "speed": 28
         }, 
         "cname": "\u5495\u599e\u599e", 
         "ename": "Whismur", 
@@ -26440,7 +26440,7 @@
             "hp": 84, 
             "special_attack": 71, 
             "special_defense": 43, 
-            "Speed": 48
+            "speed": 48
         }, 
         "cname": "\u543c\u7206\u5f39", 
         "ename": "Loudred", 
@@ -26545,7 +26545,7 @@
             "hp": 104, 
             "special_attack": 91, 
             "special_defense": 73, 
-            "Speed": 68
+            "speed": 68
         }, 
         "cname": "\u7206\u97f3\u602a", 
         "ename": "Exploud", 
@@ -26664,7 +26664,7 @@
             "hp": 72, 
             "special_attack": 20, 
             "special_defense": 30, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u5e55\u4e0b\u529b\u58eb", 
         "ename": "Makuhita", 
@@ -26767,7 +26767,7 @@
             "hp": 144, 
             "special_attack": 40, 
             "special_defense": 60, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u8d85\u529b\u738b", 
         "ename": "Hariyama", 
@@ -26878,7 +26878,7 @@
             "hp": 50, 
             "special_attack": 20, 
             "special_defense": 40, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u9732\u529b\u4e3d", 
         "ename": "Azurill", 
@@ -26964,7 +26964,7 @@
             "hp": 30, 
             "special_attack": 45, 
             "special_defense": 90, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u671d\u5317\u9f3b", 
         "ename": "Nosepass", 
@@ -27060,7 +27060,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5411\u5c3e\u55b5", 
         "ename": "Skitty", 
@@ -27164,7 +27164,7 @@
             "hp": 70, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u4f18\u96c5\u732b", 
         "ename": "Delcatty", 
@@ -27276,7 +27276,7 @@
             "hp": 50, 
             "special_attack": 65, 
             "special_defense": 65, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u52fe\u9b42\u773c", 
         "ename": "Sableye", 
@@ -27401,7 +27401,7 @@
             "hp": 50, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5927\u5634\u5a03", 
         "ename": "Mawile", 
@@ -27525,7 +27525,7 @@
             "hp": 50, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u53ef\u53ef\u591a\u62c9", 
         "ename": "Aron", 
@@ -27622,7 +27622,7 @@
             "hp": 60, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u53ef\u591a\u62c9", 
         "ename": "Lairon", 
@@ -27722,7 +27722,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u6ce2\u58eb\u53ef\u591a\u62c9", 
         "ename": "Aggron", 
@@ -27857,7 +27857,7 @@
             "hp": 30, 
             "special_attack": 40, 
             "special_defense": 55, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u739b\u6c99\u90a3", 
         "ename": "Meditite", 
@@ -27969,7 +27969,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 75, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u6070\u96f7\u59c6", 
         "ename": "Medicham", 
@@ -28090,7 +28090,7 @@
             "hp": 40, 
             "special_attack": 65, 
             "special_defense": 40, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u843d\u96f7\u517d", 
         "ename": "Electrike", 
@@ -28181,7 +28181,7 @@
             "hp": 70, 
             "special_attack": 105, 
             "special_defense": 60, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u96f7Electric\u517d", 
         "ename": "Manectric", 
@@ -28281,7 +28281,7 @@
             "hp": 60, 
             "special_attack": 85, 
             "special_defense": 75, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u6b63Electric\u62cd\u62cd", 
         "ename": "Plusle", 
@@ -28372,7 +28372,7 @@
             "hp": 60, 
             "special_attack": 75, 
             "special_defense": 85, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u8d1fElectric\u62cd\u62cd", 
         "ename": "Minun", 
@@ -28464,7 +28464,7 @@
             "hp": 65, 
             "special_attack": 47, 
             "special_defense": 75, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "Electric\u8424Bug", 
         "ename": "Volbeat", 
@@ -28559,7 +28559,7 @@
             "hp": 65, 
             "special_attack": 73, 
             "special_defense": 75, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u751c\u751c\u8424", 
         "ename": "Illumise", 
@@ -28654,7 +28654,7 @@
             "hp": 50, 
             "special_attack": 100, 
             "special_defense": 80, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "Poison\u8537\u8587", 
         "ename": "Roselia", 
@@ -28752,7 +28752,7 @@
             "hp": 70, 
             "special_attack": 43, 
             "special_defense": 53, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u6eb6\u98df\u517d", 
         "ename": "Gulpin", 
@@ -28845,7 +28845,7 @@
             "hp": 100, 
             "special_attack": 73, 
             "special_defense": 83, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u541e\u98df\u517d", 
         "ename": "Swalot", 
@@ -28949,7 +28949,7 @@
             "hp": 45, 
             "special_attack": 65, 
             "special_defense": 20, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u5229\u7259\u9c7c", 
         "ename": "Carvanha", 
@@ -29039,7 +29039,7 @@
             "hp": 70, 
             "special_attack": 95, 
             "special_defense": 40, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u5de8\u7259\u9ca8", 
         "ename": "Sharpedo", 
@@ -29149,7 +29149,7 @@
             "hp": 130, 
             "special_attack": 70, 
             "special_defense": 35, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u543c\u543c\u9cb8", 
         "ename": "Wailmer", 
@@ -29240,7 +29240,7 @@
             "hp": 170, 
             "special_attack": 90, 
             "special_defense": 45, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u543c\u9cb8\u738b", 
         "ename": "Wailord", 
@@ -29338,7 +29338,7 @@
             "hp": 60, 
             "special_attack": 65, 
             "special_defense": 45, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u5446\u706b\u9a7c", 
         "ename": "Numel", 
@@ -29434,7 +29434,7 @@
             "hp": 70, 
             "special_attack": 105, 
             "special_defense": 75, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u55b7\u706b\u9a7c", 
         "ename": "Camerupt", 
@@ -29547,7 +29547,7 @@
             "hp": 70, 
             "special_attack": 85, 
             "special_defense": 70, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u7164\u70ad\u9f9f", 
         "ename": "Torkoal", 
@@ -29648,7 +29648,7 @@
             "hp": 60, 
             "special_attack": 70, 
             "special_defense": 80, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u8df3\u8df3\u732a", 
         "ename": "Spoink", 
@@ -29747,7 +29747,7 @@
             "hp": 80, 
             "special_attack": 90, 
             "special_defense": 110, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u5657\u5657\u732a", 
         "ename": "Grumpig", 
@@ -29862,7 +29862,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u6643\u6643\u6591", 
         "ename": "Spinda", 
@@ -29974,7 +29974,7 @@
             "hp": 45, 
             "special_attack": 45, 
             "special_defense": 45, 
-            "Speed": 10
+            "speed": 10
         }, 
         "cname": "\u5927\u989a\u8681", 
         "ename": "Trapinch", 
@@ -30062,7 +30062,7 @@
             "hp": 50, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u8d85\u97f3\u6ce2\u5e7cBug", 
         "ename": "Vibrava", 
@@ -30172,7 +30172,7 @@
             "hp": 80, 
             "special_attack": 80, 
             "special_defense": 80, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u6c99\u6f20\u873b\u8713", 
         "ename": "Flygon", 
@@ -30297,7 +30297,7 @@
             "hp": 50, 
             "special_attack": 85, 
             "special_defense": 40, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u6c99\u6f20\u5948\u4e9a", 
         "ename": "Cacnea", 
@@ -30399,7 +30399,7 @@
             "hp": 70, 
             "special_attack": 115, 
             "special_defense": 60, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u68a6\u6b4c\u5948\u4e9a", 
         "ename": "Cacturne", 
@@ -30514,7 +30514,7 @@
             "hp": 45, 
             "special_attack": 40, 
             "special_defense": 75, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u9752\u7ef5\u9e1f", 
         "ename": "Swablu", 
@@ -30607,7 +30607,7 @@
             "hp": 75, 
             "special_attack": 70, 
             "special_defense": 105, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u4e03\u5915\u9752\u9e1f", 
         "ename": "Altaria", 
@@ -30724,7 +30724,7 @@
             "hp": 73, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u732b\u9f2c\u65a9", 
         "ename": "Zangoose", 
@@ -30845,7 +30845,7 @@
             "hp": 73, 
             "special_attack": 100, 
             "special_defense": 60, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u996d\u5319\u86c7", 
         "ename": "Seviper", 
@@ -30946,7 +30946,7 @@
             "hp": 70, 
             "special_attack": 95, 
             "special_defense": 85, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u6708\u77f3", 
         "ename": "Lunatone", 
@@ -31051,7 +31051,7 @@
             "hp": 70, 
             "special_attack": 55, 
             "special_defense": 65, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u592a\u9633\u5ca9", 
         "ename": "Solrock", 
@@ -31160,7 +31160,7 @@
             "hp": 50, 
             "special_attack": 46, 
             "special_defense": 41, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u6ce5\u6ce5\u9cc5", 
         "ename": "Barboach", 
@@ -31244,7 +31244,7 @@
             "hp": 110, 
             "special_attack": 76, 
             "special_defense": 71, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u9cb6\u9c7c\u738b", 
         "ename": "Whiscash", 
@@ -31338,7 +31338,7 @@
             "hp": 43, 
             "special_attack": 50, 
             "special_defense": 35, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "Dragon\u867e\u5c0f\u5175", 
         "ename": "Corphish", 
@@ -31438,7 +31438,7 @@
             "hp": 63, 
             "special_attack": 90, 
             "special_defense": 55, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u94c1\u87afDragon\u867e", 
         "ename": "Crawdaunt", 
@@ -31553,7 +31553,7 @@
             "hp": 40, 
             "special_attack": 40, 
             "special_defense": 70, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u5929\u79e4\u5076", 
         "ename": "Baltoy", 
@@ -31572,7 +31572,7 @@
             "hp": 60, 
             "special_attack": 70, 
             "special_defense": 120, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u5ff5\u529b\u571f\u5076", 
         "ename": "Claydol", 
@@ -31591,7 +31591,7 @@
             "hp": 66, 
             "special_attack": 61, 
             "special_defense": 87, 
-            "Speed": 23
+            "speed": 23
         }, 
         "cname": "\u89e6\u624b\u767e\u5408", 
         "ename": "Lileep", 
@@ -31680,7 +31680,7 @@
             "hp": 86, 
             "special_attack": 81, 
             "special_defense": 107, 
-            "Speed": 43
+            "speed": 43
         }, 
         "cname": "\u6447\u7bee\u767e\u5408", 
         "ename": "Cradily", 
@@ -31784,7 +31784,7 @@
             "hp": 45, 
             "special_attack": 40, 
             "special_defense": 50, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u592a\u53e4\u7fbdBug", 
         "ename": "Anorith", 
@@ -31871,7 +31871,7 @@
             "hp": 75, 
             "special_attack": 70, 
             "special_defense": 80, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u592a\u53e4\u76d4\u7532", 
         "ename": "Armaldo", 
@@ -31973,7 +31973,7 @@
             "hp": 20, 
             "special_attack": 10, 
             "special_defense": 55, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u7b28\u7b28\u9c7c", 
         "ename": "Feebas", 
@@ -31991,7 +31991,7 @@
             "hp": 95, 
             "special_attack": 100, 
             "special_defense": 125, 
-            "Speed": 81
+            "speed": 81
         }, 
         "cname": "\u7f8e\u7eb3\u65af", 
         "ename": "Milotic", 
@@ -32009,7 +32009,7 @@
             "hp": 70, 
             "special_attack": 70, 
             "special_defense": 70, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u6f02\u6d6e\u6ce1\u6ce1", 
         "ename": "Castform", 
@@ -32047,7 +32047,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 120, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u53d8\u9690Dragon", 
         "ename": "Kecleon", 
@@ -32174,7 +32174,7 @@
             "hp": 44, 
             "special_attack": 63, 
             "special_defense": 33, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u6028\u5f71\u5a03\u5a03", 
         "ename": "Shuppet", 
@@ -32275,7 +32275,7 @@
             "hp": 64, 
             "special_attack": 83, 
             "special_defense": 63, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u8bc5\u5492\u5a03\u5a03", 
         "ename": "Banette", 
@@ -32384,7 +32384,7 @@
             "hp": 20, 
             "special_attack": 30, 
             "special_defense": 90, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u591c\u9ab7\u9885", 
         "ename": "Duskull", 
@@ -32481,7 +32481,7 @@
             "hp": 40, 
             "special_attack": 60, 
             "special_defense": 130, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u591c\u5de8\u4eba", 
         "ename": "Dusclops", 
@@ -32595,7 +32595,7 @@
             "hp": 99, 
             "special_attack": 72, 
             "special_defense": 87, 
-            "Speed": 51
+            "speed": 51
         }, 
         "cname": "\u70ed\u5e26Dragon", 
         "ename": "Tropius", 
@@ -32700,7 +32700,7 @@
             "hp": 65, 
             "special_attack": 95, 
             "special_defense": 80, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u98ce\u94c3\u94c3", 
         "ename": "Chimecho", 
@@ -32812,7 +32812,7 @@
             "hp": 65, 
             "special_attack": 75, 
             "special_defense": 60, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u963f\u52c3\u68ad\u9c81", 
         "ename": "Absol", 
@@ -32948,7 +32948,7 @@
             "hp": 95, 
             "special_attack": 23, 
             "special_defense": 48, 
-            "Speed": 23
+            "speed": 23
         }, 
         "cname": "\u5c0f\u679c\u7136", 
         "ename": "Wynaut", 
@@ -32980,7 +32980,7 @@
             "hp": 50, 
             "special_attack": 50, 
             "special_defense": 50, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u96ea\u7ae5\u5b50", 
         "ename": "Snorunt", 
@@ -33057,7 +33057,7 @@
             "hp": 80, 
             "special_attack": 80, 
             "special_defense": 80, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "Ice\u9b3c\u62a4", 
         "ename": "Glalie", 
@@ -33154,7 +33154,7 @@
             "hp": 70, 
             "special_attack": 55, 
             "special_defense": 50, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u6d77\u8c79\u7403", 
         "ename": "Spheal", 
@@ -33247,7 +33247,7 @@
             "hp": 90, 
             "special_attack": 75, 
             "special_defense": 70, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u6d77\u9b54\u72ee", 
         "ename": "Sealeo", 
@@ -33345,7 +33345,7 @@
             "hp": 110, 
             "special_attack": 95, 
             "special_defense": 90, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u5e1d\u7259\u6d77\u72ee", 
         "ename": "Walrein", 
@@ -33450,7 +33450,7 @@
             "hp": 35, 
             "special_attack": 74, 
             "special_defense": 55, 
-            "Speed": 32
+            "speed": 32
         }, 
         "cname": "\u73cd\u73e0\u8d1d", 
         "ename": "Clamperl", 
@@ -33520,7 +33520,7 @@
             "hp": 55, 
             "special_attack": 94, 
             "special_defense": 75, 
-            "Speed": 52
+            "speed": 52
         }, 
         "cname": "\u730e\u6591\u9c7c", 
         "ename": "Huntail", 
@@ -33610,7 +33610,7 @@
             "hp": 55, 
             "special_attack": 114, 
             "special_defense": 75, 
-            "Speed": 52
+            "speed": 52
         }, 
         "cname": "\u6a31\u82b1\u9c7c", 
         "ename": "Gorebyss", 
@@ -33701,7 +33701,7 @@
             "hp": 100, 
             "special_attack": 45, 
             "special_defense": 65, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u53e4\u7a7a\u68d8\u9c7c", 
         "ename": "Relicanth", 
@@ -33803,7 +33803,7 @@
             "hp": 43, 
             "special_attack": 40, 
             "special_defense": 65, 
-            "Speed": 97
+            "speed": 97
         }, 
         "cname": "\u7231\u5fc3\u9c7c", 
         "ename": "Luvdisc", 
@@ -33885,7 +33885,7 @@
             "hp": 45, 
             "special_attack": 40, 
             "special_defense": 30, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5b9d\u8d1dDragon", 
         "ename": "Bagon", 
@@ -33974,7 +33974,7 @@
             "hp": 65, 
             "special_attack": 60, 
             "special_defense": 50, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u7532\u58f3Dragon", 
         "ename": "Shelgon", 
@@ -34068,7 +34068,7 @@
             "hp": 95, 
             "special_attack": 110, 
             "special_defense": 80, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u66b4\u877e\u8788", 
         "ename": "Salamence", 
@@ -34181,7 +34181,7 @@
             "hp": 40, 
             "special_attack": 35, 
             "special_defense": 60, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u94c1\u54d1\u94c3", 
         "ename": "Beldum", 
@@ -34209,7 +34209,7 @@
             "hp": 60, 
             "special_attack": 55, 
             "special_defense": 80, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u91d1\u5c5e\u602a", 
         "ename": "Metang", 
@@ -34305,7 +34305,7 @@
             "hp": 80, 
             "special_attack": 95, 
             "special_defense": 90, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5de8\u91d1\u602a", 
         "ename": "Metagross", 
@@ -34404,7 +34404,7 @@
             "hp": 80, 
             "special_attack": 50, 
             "special_defense": 100, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u96f7\u5409\u6d1b\u514b", 
         "ename": "Regirock", 
@@ -34422,7 +34422,7 @@
             "hp": 80, 
             "special_attack": 100, 
             "special_defense": 200, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u96f7\u5409\u827e\u65af", 
         "ename": "Regice", 
@@ -34440,7 +34440,7 @@
             "hp": 80, 
             "special_attack": 75, 
             "special_defense": 150, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u96f7\u5409\u65af\u5947\u9c81", 
         "ename": "Registeel", 
@@ -34458,7 +34458,7 @@
             "hp": 80, 
             "special_attack": 110, 
             "special_defense": 130, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u62c9\u5e1d\u4e9a\u65af", 
         "ename": "Latias", 
@@ -34477,7 +34477,7 @@
             "hp": 80, 
             "special_attack": 130, 
             "special_defense": 110, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u62c9\u5e1d\u6b27\u65af", 
         "ename": "Latios", 
@@ -34496,7 +34496,7 @@
             "hp": 100, 
             "special_attack": 150, 
             "special_defense": 140, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u76d6\u6b27\u5361", 
         "ename": "Kyogre", 
@@ -34514,7 +34514,7 @@
             "hp": 100, 
             "special_attack": 100, 
             "special_defense": 90, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u56fa\u62c9\u591a", 
         "ename": "Groudon", 
@@ -34532,7 +34532,7 @@
             "hp": 105, 
             "special_attack": 150, 
             "special_defense": 90, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u70c8\u7a7a\u5750", 
         "ename": "Rayquaza", 
@@ -34551,7 +34551,7 @@
             "hp": 100, 
             "special_attack": 100, 
             "special_defense": 100, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u57fa\u62c9\u7948", 
         "ename": "Jirachi", 
@@ -34570,7 +34570,7 @@
             "hp": 50, 
             "special_attack": 150, 
             "special_defense": 50, 
-            "Speed": 150
+            "speed": 150
         }, 
         "cname": "\u4ee3\u6b27\u5947\u5e0c\u65af", 
         "ename": "Deoxys", 
@@ -34608,7 +34608,7 @@
             "hp": 55, 
             "special_attack": 45, 
             "special_defense": 55, 
-            "Speed": 31
+            "speed": 31
         }, 
         "cname": "Grass\u82d7\u9f9f", 
         "ename": "Turtwig", 
@@ -34626,7 +34626,7 @@
             "hp": 75, 
             "special_attack": 55, 
             "special_defense": 65, 
-            "Speed": 36
+            "speed": 36
         }, 
         "cname": "\u6811\u6797\u9f9f", 
         "ename": "Grotle", 
@@ -34644,7 +34644,7 @@
             "hp": 95, 
             "special_attack": 75, 
             "special_defense": 85, 
-            "Speed": 56
+            "speed": 56
         }, 
         "cname": "\u571f\u53f0\u9f9f", 
         "ename": "Torterra", 
@@ -34663,7 +34663,7 @@
             "hp": 44, 
             "special_attack": 58, 
             "special_defense": 44, 
-            "Speed": 61
+            "speed": 61
         }, 
         "cname": "\u5c0f\u706b\u7130\u7334", 
         "ename": "Chimchar", 
@@ -34681,7 +34681,7 @@
             "hp": 64, 
             "special_attack": 78, 
             "special_defense": 52, 
-            "Speed": 81
+            "speed": 81
         }, 
         "cname": "\u731b\u706b\u7334", 
         "ename": "Monferno", 
@@ -34700,7 +34700,7 @@
             "hp": 76, 
             "special_attack": 104, 
             "special_defense": 71, 
-            "Speed": 108
+            "speed": 108
         }, 
         "cname": "\u70c8\u7130\u7334", 
         "ename": "Infernape", 
@@ -34719,7 +34719,7 @@
             "hp": 53, 
             "special_attack": 61, 
             "special_defense": 56, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u6ce2\u52a0\u66fc", 
         "ename": "Piplup", 
@@ -34737,7 +34737,7 @@
             "hp": 64, 
             "special_attack": 81, 
             "special_defense": 76, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u6ce2\u7687\u5b50", 
         "ename": "Prinplup", 
@@ -34755,7 +34755,7 @@
             "hp": 84, 
             "special_attack": 111, 
             "special_defense": 101, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u5e1d\u738b\u62ff\u6ce2", 
         "ename": "Empoleon", 
@@ -34774,7 +34774,7 @@
             "hp": 40, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u59c6\u514b\u513f", 
         "ename": "Starly", 
@@ -34861,7 +34861,7 @@
             "hp": 55, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u59c6\u514b\u9e1f", 
         "ename": "Staravia", 
@@ -34950,7 +34950,7 @@
             "hp": 85, 
             "special_attack": 50, 
             "special_defense": 60, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u59c6\u514b\u9e70", 
         "ename": "Staraptor", 
@@ -35044,7 +35044,7 @@
             "hp": 59, 
             "special_attack": 35, 
             "special_defense": 40, 
-            "Speed": 31
+            "speed": 31
         }, 
         "cname": "\u5927\u7259\u72f8", 
         "ename": "Bidoof", 
@@ -35139,7 +35139,7 @@
             "hp": 79, 
             "special_attack": 55, 
             "special_defense": 60, 
-            "Speed": 71
+            "speed": 71
         }, 
         "cname": "\u5927\u5c3e\u72f8", 
         "ename": "Bibarel", 
@@ -35250,7 +35250,7 @@
             "hp": 37, 
             "special_attack": 25, 
             "special_defense": 41, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u5706\u6cd5\u5e08", 
         "ename": "Kricketot", 
@@ -35268,7 +35268,7 @@
             "hp": 77, 
             "special_attack": 55, 
             "special_defense": 51, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u97f3\u7bb1\u87c0", 
         "ename": "Kricketune", 
@@ -35286,7 +35286,7 @@
             "hp": 45, 
             "special_attack": 40, 
             "special_defense": 34, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u5c0f\u732b\u602a", 
         "ename": "Shinx", 
@@ -35374,7 +35374,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 49, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u52d2\u514b\u732b", 
         "ename": "Luxio", 
@@ -35465,7 +35465,7 @@
             "hp": 80, 
             "special_attack": 95, 
             "special_defense": 79, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u4f26\u7434\u732b", 
         "ename": "Luxray", 
@@ -35562,7 +35562,7 @@
             "hp": 40, 
             "special_attack": 50, 
             "special_defense": 70, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u542b\u7f9e\u82de", 
         "ename": "Budew", 
@@ -35644,7 +35644,7 @@
             "hp": 60, 
             "special_attack": 125, 
             "special_defense": 105, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u7f57\u4e1d\u96f7\u6735", 
         "ename": "Roserade", 
@@ -35747,7 +35747,7 @@
             "hp": 67, 
             "special_attack": 30, 
             "special_defense": 30, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u5934\u76d6Dragon", 
         "ename": "Cranidos", 
@@ -35852,7 +35852,7 @@
             "hp": 97, 
             "special_attack": 65, 
             "special_defense": 50, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u6218\u69ccDragon", 
         "ename": "Rampardos", 
@@ -35969,7 +35969,7 @@
             "hp": 30, 
             "special_attack": 42, 
             "special_defense": 88, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u76fe\u7532Dragon", 
         "ename": "Shieldon", 
@@ -36067,7 +36067,7 @@
             "hp": 60, 
             "special_attack": 47, 
             "special_defense": 138, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u62a4\u57ceDragon", 
         "ename": "Bastiodon", 
@@ -36173,7 +36173,7 @@
             "hp": 40, 
             "special_attack": 29, 
             "special_defense": 45, 
-            "Speed": 36
+            "speed": 36
         }, 
         "cname": "\u7ed3Grass\u513f", 
         "ename": "Burmy", 
@@ -36220,7 +36220,7 @@
             "hp": 60, 
             "special_attack": 79, 
             "special_defense": 105, 
-            "Speed": 36
+            "speed": 36
         }, 
         "cname": "\u7ed3Grass\u8d35\u5987", 
         "ename": "Wormadam", 
@@ -36327,7 +36327,7 @@
             "hp": 70, 
             "special_attack": 94, 
             "special_defense": 50, 
-            "Speed": 66
+            "speed": 66
         }, 
         "cname": "\u7ec5\u58eb\u86fe", 
         "ename": "Mothim", 
@@ -36412,7 +36412,7 @@
             "hp": 30, 
             "special_attack": 30, 
             "special_defense": 42, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u4e09\u871c\u8702", 
         "ename": "Combee", 
@@ -36443,7 +36443,7 @@
             "hp": 70, 
             "special_attack": 80, 
             "special_defense": 102, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u8702\u540e", 
         "ename": "Vespiquen", 
@@ -36536,7 +36536,7 @@
             "hp": 60, 
             "special_attack": 45, 
             "special_defense": 90, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u5e15\u5947\u5229\u5179", 
         "ename": "Pachirisu", 
@@ -36630,7 +36630,7 @@
             "hp": 55, 
             "special_attack": 60, 
             "special_defense": 30, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u6cf3\u6c14\u9f2c", 
         "ename": "Buizel", 
@@ -36726,7 +36726,7 @@
             "hp": 85, 
             "special_attack": 85, 
             "special_defense": 50, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u6d6e\u6f5c\u9f2c", 
         "ename": "Floatzel", 
@@ -36835,7 +36835,7 @@
             "hp": 45, 
             "special_attack": 62, 
             "special_defense": 53, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u6a31\u82b1\u5b9d", 
         "ename": "Cherubi", 
@@ -36853,7 +36853,7 @@
             "hp": 70, 
             "special_attack": 87, 
             "special_defense": 78, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u6a31\u82b1\u513f", 
         "ename": "Cherrim", 
@@ -36871,7 +36871,7 @@
             "hp": 76, 
             "special_attack": 57, 
             "special_defense": 62, 
-            "Speed": 34
+            "speed": 34
         }, 
         "cname": "\u65e0\u58f3\u6d77\u725b", 
         "ename": "Shellos", 
@@ -36963,7 +36963,7 @@
             "hp": 111, 
             "special_attack": 92, 
             "special_defense": 82, 
-            "Speed": 39
+            "speed": 39
         }, 
         "cname": "\u6d77\u725b\u517d", 
         "ename": "Gastrodon", 
@@ -37076,7 +37076,7 @@
             "hp": 75, 
             "special_attack": 60, 
             "special_defense": 66, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u53cc\u5c3e\u602a\u624b", 
         "ename": "Ambipom", 
@@ -37196,7 +37196,7 @@
             "hp": 90, 
             "special_attack": 60, 
             "special_defense": 44, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u98d8\u98d8\u7403", 
         "ename": "Drifloon", 
@@ -37300,7 +37300,7 @@
             "hp": 150, 
             "special_attack": 90, 
             "special_defense": 54, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u9644\u548c\u6c14\u7403", 
         "ename": "Drifblim", 
@@ -37411,7 +37411,7 @@
             "hp": 55, 
             "special_attack": 44, 
             "special_defense": 56, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u5377\u5377\u8033", 
         "ename": "Buneary", 
@@ -37429,7 +37429,7 @@
             "hp": 65, 
             "special_attack": 54, 
             "special_defense": 96, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u957f\u8033\u5154", 
         "ename": "Lopunny", 
@@ -37447,7 +37447,7 @@
             "hp": 60, 
             "special_attack": 105, 
             "special_defense": 105, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u68a6\u5996\u9b54", 
         "ename": "Mismagius", 
@@ -37465,7 +37465,7 @@
             "hp": 100, 
             "special_attack": 105, 
             "special_defense": 52, 
-            "Speed": 71
+            "speed": 71
         }, 
         "cname": "\u4e4c\u9e26\u5934\u5934", 
         "ename": "Honchkrow", 
@@ -37582,7 +37582,7 @@
             "hp": 49, 
             "special_attack": 42, 
             "special_defense": 37, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u9b45\u529b\u55b5", 
         "ename": "Glameow", 
@@ -37600,7 +37600,7 @@
             "hp": 71, 
             "special_attack": 64, 
             "special_defense": 59, 
-            "Speed": 112
+            "speed": 112
         }, 
         "cname": "\u4e1c\u65bd\u55b5", 
         "ename": "Purugly", 
@@ -37618,7 +37618,7 @@
             "hp": 45, 
             "special_attack": 65, 
             "special_defense": 50, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u94c3\u94db\u54cd", 
         "ename": "Chingling", 
@@ -37715,7 +37715,7 @@
             "hp": 63, 
             "special_attack": 41, 
             "special_defense": 41, 
-            "Speed": 74
+            "speed": 74
         }, 
         "cname": "\u81ed\u9f2c\u5657", 
         "ename": "Stunky", 
@@ -37812,7 +37812,7 @@
             "hp": 103, 
             "special_attack": 71, 
             "special_defense": 61, 
-            "Speed": 84
+            "speed": 84
         }, 
         "cname": "\u5766\u514b\u81ed\u9f2c", 
         "ename": "Skuntank", 
@@ -37915,7 +37915,7 @@
             "hp": 57, 
             "special_attack": 24, 
             "special_defense": 86, 
-            "Speed": 23
+            "speed": 23
         }, 
         "cname": "\u94dc\u955c\u602a", 
         "ename": "Bronzor", 
@@ -38007,7 +38007,7 @@
             "hp": 67, 
             "special_attack": 79, 
             "special_defense": 116, 
-            "Speed": 33
+            "speed": 33
         }, 
         "cname": "\u9752\u94dc\u949f", 
         "ename": "Bronzong", 
@@ -38111,7 +38111,7 @@
             "hp": 50, 
             "special_attack": 10, 
             "special_defense": 45, 
-            "Speed": 10
+            "speed": 10
         }, 
         "cname": "\u7231\u54ed\u6811", 
         "ename": "Bonsly", 
@@ -38199,7 +38199,7 @@
             "hp": 20, 
             "special_attack": 70, 
             "special_defense": 90, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u9b54\u5c3c\u5c3c", 
         "ename": "Mime Jr_", 
@@ -38316,7 +38316,7 @@
             "hp": 100, 
             "special_attack": 15, 
             "special_defense": 65, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u597d\u8fd0\u86cb", 
         "ename": "Happiny", 
@@ -38405,7 +38405,7 @@
             "hp": 76, 
             "special_attack": 92, 
             "special_defense": 42, 
-            "Speed": 91
+            "speed": 91
         }, 
         "cname": "\u8052\u566a\u9e1f", 
         "ename": "Chatot", 
@@ -38499,7 +38499,7 @@
             "hp": 50, 
             "special_attack": 92, 
             "special_defense": 108, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u82b1\u5ca9\u602a", 
         "ename": "Spiritomb", 
@@ -38597,7 +38597,7 @@
             "hp": 58, 
             "special_attack": 40, 
             "special_defense": 45, 
-            "Speed": 42
+            "speed": 42
         }, 
         "cname": "\u5706\u9646\u9ca8", 
         "ename": "Gible", 
@@ -38694,7 +38694,7 @@
             "hp": 68, 
             "special_attack": 50, 
             "special_defense": 55, 
-            "Speed": 82
+            "speed": 82
         }, 
         "cname": "\u5c16\u7259\u9646\u9ca8", 
         "ename": "Gabite", 
@@ -38793,7 +38793,7 @@
             "hp": 108, 
             "special_attack": 80, 
             "special_defense": 85, 
-            "Speed": 102
+            "speed": 102
         }, 
         "cname": "\u70c8\u54ac\u9646\u9ca8", 
         "ename": "Garchomp", 
@@ -38907,7 +38907,7 @@
             "hp": 135, 
             "special_attack": 40, 
             "special_defense": 85, 
-            "Speed": 5
+            "speed": 5
         }, 
         "cname": "\u5c0f\u5361\u6bd4\u517d", 
         "ename": "Munchlax", 
@@ -39025,7 +39025,7 @@
             "hp": 40, 
             "special_attack": 35, 
             "special_defense": 40, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u5229\u6b27\u8def", 
         "ename": "Riolu", 
@@ -39128,7 +39128,7 @@
             "hp": 70, 
             "special_attack": 115, 
             "special_defense": 70, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u8def\u5361\u5229\u6b27", 
         "ename": "Lucario", 
@@ -39264,7 +39264,7 @@
             "hp": 68, 
             "special_attack": 38, 
             "special_defense": 42, 
-            "Speed": 32
+            "speed": 32
         }, 
         "cname": "\u602a\u6cb3\u9a6c", 
         "ename": "Hippopotas", 
@@ -39346,7 +39346,7 @@
             "hp": 108, 
             "special_attack": 68, 
             "special_defense": 72, 
-            "Speed": 47
+            "speed": 47
         }, 
         "cname": "\u6cb3\u9a6c\u517d", 
         "ename": "Hippowdon", 
@@ -39437,7 +39437,7 @@
             "hp": 40, 
             "special_attack": 30, 
             "special_defense": 55, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u7d2b\u5929\u874e", 
         "ename": "Skorupi", 
@@ -39540,7 +39540,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 75, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "Dragon\u738b\u874e", 
         "ename": "Drapion", 
@@ -39655,7 +39655,7 @@
             "hp": 48, 
             "special_attack": 61, 
             "special_defense": 40, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u4e0d\u826f\u86d9", 
         "ename": "Croagunk", 
@@ -39777,7 +39777,7 @@
             "hp": 83, 
             "special_attack": 86, 
             "special_defense": 65, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "Poison\u9ab7\u86d9", 
         "ename": "Toxicroak", 
@@ -39906,7 +39906,7 @@
             "hp": 74, 
             "special_attack": 90, 
             "special_defense": 72, 
-            "Speed": 46
+            "speed": 46
         }, 
         "cname": "\u5c16\u7259\u7b3c", 
         "ename": "Carnivine", 
@@ -39997,7 +39997,7 @@
             "hp": 49, 
             "special_attack": 49, 
             "special_defense": 61, 
-            "Speed": 66
+            "speed": 66
         }, 
         "cname": "\u8424\u5149\u9c7c", 
         "ename": "Finneon", 
@@ -40015,7 +40015,7 @@
             "hp": 69, 
             "special_attack": 69, 
             "special_defense": 86, 
-            "Speed": 91
+            "speed": 91
         }, 
         "cname": "\u9713\u8679\u9c7c", 
         "ename": "Lumineon", 
@@ -40033,7 +40033,7 @@
             "hp": 45, 
             "special_attack": 60, 
             "special_defense": 120, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5c0f\u7403\u98de\u9c7c", 
         "ename": "Mantyke", 
@@ -40123,7 +40123,7 @@
             "hp": 60, 
             "special_attack": 62, 
             "special_defense": 60, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u96ea\u7b20\u602a", 
         "ename": "Snover", 
@@ -40212,7 +40212,7 @@
             "hp": 90, 
             "special_attack": 92, 
             "special_defense": 85, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u66b4\u96ea\u738b", 
         "ename": "Abomasnow", 
@@ -40317,7 +40317,7 @@
             "hp": 70, 
             "special_attack": 45, 
             "special_defense": 85, 
-            "Speed": 125
+            "speed": 125
         }, 
         "cname": "\u739b\u72c3\u62c9", 
         "ename": "Weavile", 
@@ -40448,7 +40448,7 @@
             "hp": 70, 
             "special_attack": 130, 
             "special_defense": 90, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u81ea\u7206\u78c1\u602a", 
         "ename": "Magnezone", 
@@ -40542,7 +40542,7 @@
             "hp": 110, 
             "special_attack": 80, 
             "special_defense": 95, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5927\u820c\u8214", 
         "ename": "Lickilicky", 
@@ -40665,7 +40665,7 @@
             "hp": 115, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u8d85\u94c1\u66b4Dragon", 
         "ename": "Rhyperior", 
@@ -40807,7 +40807,7 @@
             "hp": 100, 
             "special_attack": 110, 
             "special_defense": 50, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5de8\u8513\u85e4", 
         "ename": "Tangrowth", 
@@ -40918,7 +40918,7 @@
             "hp": 75, 
             "special_attack": 95, 
             "special_defense": 85, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "Electric\u51fb\u9b54\u517d", 
         "ename": "Electivire", 
@@ -41031,7 +41031,7 @@
             "hp": 75, 
             "special_attack": 125, 
             "special_defense": 95, 
-            "Speed": 83
+            "speed": 83
         }, 
         "cname": "\u9e2d\u5634\u7130Dragon", 
         "ename": "Magmortar", 
@@ -41140,7 +41140,7 @@
             "hp": 85, 
             "special_attack": 120, 
             "special_defense": 115, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u6ce2\u514b\u57fa\u65af", 
         "ename": "Togekiss", 
@@ -41271,7 +41271,7 @@
             "hp": 86, 
             "special_attack": 116, 
             "special_defense": 56, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u6885\u5361\u9633\u739b", 
         "ename": "Yanmega", 
@@ -41371,7 +41371,7 @@
             "hp": 65, 
             "special_attack": 60, 
             "special_defense": 65, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u53f6\u7cbe\u7075", 
         "ename": "Leafeon", 
@@ -41482,7 +41482,7 @@
             "hp": 65, 
             "special_attack": 130, 
             "special_defense": 95, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "Ice\u7cbe\u7075", 
         "ename": "Glaceon", 
@@ -41588,7 +41588,7 @@
             "hp": 75, 
             "special_attack": 45, 
             "special_defense": 75, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u5929\u874e\u738b", 
         "ename": "Gliscor", 
@@ -41718,7 +41718,7 @@
             "hp": 110, 
             "special_attack": 70, 
             "special_defense": 60, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u8c61\u7259\u732a", 
         "ename": "Mamoswine", 
@@ -41830,7 +41830,7 @@
             "hp": 85, 
             "special_attack": 135, 
             "special_defense": 75, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "3DDragonZ", 
         "ename": "Porygon-Z", 
@@ -41848,7 +41848,7 @@
             "hp": 68, 
             "special_attack": 65, 
             "special_defense": 115, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u827e\u8def\u96f7\u6735", 
         "ename": "Gallade", 
@@ -42007,7 +42007,7 @@
             "hp": 60, 
             "special_attack": 75, 
             "special_defense": 150, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u5927\u671d\u5317\u9f3b", 
         "ename": "Probopass", 
@@ -42114,7 +42114,7 @@
             "hp": 45, 
             "special_attack": 65, 
             "special_defense": 135, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u591c\u9ed1\u9b54\u4eba", 
         "ename": "Dusknoir", 
@@ -42228,7 +42228,7 @@
             "hp": 70, 
             "special_attack": 80, 
             "special_defense": 70, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u96ea\u5996\u5973", 
         "ename": "Froslass", 
@@ -42336,7 +42336,7 @@
             "hp": 50, 
             "special_attack": 95, 
             "special_defense": 77, 
-            "Speed": 91
+            "speed": 91
         }, 
         "cname": "\u6d1b\u6258\u59c6", 
         "ename": "Rotom", 
@@ -42454,7 +42454,7 @@
             "hp": 75, 
             "special_attack": 75, 
             "special_defense": 130, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u7531\u514b\u5e0c", 
         "ename": "Uxie", 
@@ -42472,7 +42472,7 @@
             "hp": 80, 
             "special_attack": 105, 
             "special_defense": 105, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u827e\u59c6\u5229\u591a", 
         "ename": "Mesprit", 
@@ -42490,7 +42490,7 @@
             "hp": 75, 
             "special_attack": 125, 
             "special_defense": 70, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u4e9a\u514b\u8bfa\u59c6", 
         "ename": "Azelf", 
@@ -42508,7 +42508,7 @@
             "hp": 100, 
             "special_attack": 150, 
             "special_defense": 100, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u5e1d\u7259\u5362\u5361", 
         "ename": "Dialga", 
@@ -42527,7 +42527,7 @@
             "hp": 90, 
             "special_attack": 150, 
             "special_defense": 120, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u5e15\u8def\u5947\u72bd", 
         "ename": "Palkia", 
@@ -42546,7 +42546,7 @@
             "hp": 91, 
             "special_attack": 130, 
             "special_defense": 106, 
-            "Speed": 77
+            "speed": 77
         }, 
         "cname": "\u5e2d\u591a\u84dd\u6069", 
         "ename": "Heatran", 
@@ -42565,7 +42565,7 @@
             "hp": 110, 
             "special_attack": 80, 
             "special_defense": 110, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u96f7\u5409\u5947\u5361\u65af", 
         "ename": "Regigigas", 
@@ -42583,7 +42583,7 @@
             "hp": 150, 
             "special_attack": 100, 
             "special_defense": 120, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u9a91\u62c9\u5e1d\u7eb3", 
         "ename": "Giratina", 
@@ -42611,7 +42611,7 @@
             "hp": 120, 
             "special_attack": 75, 
             "special_defense": 130, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u514b\u96f7\u8272\u5229\u4e9a", 
         "ename": "Cresselia", 
@@ -42629,7 +42629,7 @@
             "hp": 80, 
             "special_attack": 80, 
             "special_defense": 80, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u970f\u6b27\u7eb3", 
         "ename": "Phione", 
@@ -42647,7 +42647,7 @@
             "hp": 100, 
             "special_attack": 100, 
             "special_defense": 100, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u739b\u7eb3\u970f", 
         "ename": "Manaphy", 
@@ -42665,7 +42665,7 @@
             "hp": 70, 
             "special_attack": 135, 
             "special_defense": 90, 
-            "Speed": 125
+            "speed": 125
         }, 
         "cname": "\u8fbe\u514b\u83b1\u4f0a", 
         "ename": "Darkrai", 
@@ -42683,7 +42683,7 @@
             "hp": 100, 
             "special_attack": 120, 
             "special_defense": 75, 
-            "Speed": 127
+            "speed": 127
         }, 
         "cname": "\u6d01\u54aa", 
         "ename": "Shaymin", 
@@ -42710,7 +42710,7 @@
             "hp": 120, 
             "special_attack": 120, 
             "special_defense": 120, 
-            "Speed": 120
+            "speed": 120
         }, 
         "cname": "\u963f\u5c14\u5b99\u65af", 
         "ename": "Arceus", 
@@ -42728,7 +42728,7 @@
             "hp": 100, 
             "special_attack": 100, 
             "special_defense": 100, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u6bd4\u514b\u63d0\u5c3c", 
         "ename": "Victini", 
@@ -42747,7 +42747,7 @@
             "hp": 45, 
             "special_attack": 45, 
             "special_defense": 55, 
-            "Speed": 63
+            "speed": 63
         }, 
         "cname": "\u85e4\u85e4\u86c7", 
         "ename": "Snivy", 
@@ -42765,7 +42765,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 75, 
-            "Speed": 83
+            "speed": 83
         }, 
         "cname": "\u9752\u85e4\u86c7", 
         "ename": "Servine", 
@@ -42782,7 +42782,7 @@
             "hp": 75, 
             "special_attack": 75, 
             "special_defense": 95, 
-            "Speed": 113
+            "speed": 113
         }, 
         "cname": "\u541b\u4e3b\u86c7", 
         "ename": "Serperior", 
@@ -42800,7 +42800,7 @@
             "hp": 65, 
             "special_attack": 45, 
             "special_defense": 45, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u6696\u6696\u732a", 
         "ename": "Tepig", 
@@ -42818,7 +42818,7 @@
             "hp": 90, 
             "special_attack": 70, 
             "special_defense": 55, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u7092\u7092\u732a", 
         "ename": "Pignite", 
@@ -42837,7 +42837,7 @@
             "hp": 110, 
             "special_attack": 100, 
             "special_defense": 65, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "Fire\u6b66\u738b", 
         "ename": "Emboar", 
@@ -42856,7 +42856,7 @@
             "hp": 55, 
             "special_attack": 63, 
             "special_defense": 45, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "WaterWater\u736d", 
         "ename": "Oshawott", 
@@ -42874,7 +42874,7 @@
             "hp": 75, 
             "special_attack": 83, 
             "special_defense": 60, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u53cc\u5203\u4e38", 
         "ename": "Dewott", 
@@ -42892,7 +42892,7 @@
             "hp": 95, 
             "special_attack": 108, 
             "special_defense": 70, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5927\u528d\u9b3c", 
         "ename": "Samurott", 
@@ -42910,7 +42910,7 @@
             "hp": 45, 
             "special_attack": 35, 
             "special_defense": 39, 
-            "Speed": 42
+            "speed": 42
         }, 
         "cname": "\u63a2\u63a2\u9f20", 
         "ename": "Patrat", 
@@ -43007,7 +43007,7 @@
             "hp": 60, 
             "special_attack": 60, 
             "special_defense": 69, 
-            "Speed": 77
+            "speed": 77
         }, 
         "cname": "\u6b65\u54e8\u9f20", 
         "ename": "Watchog", 
@@ -43124,7 +43124,7 @@
             "hp": 45, 
             "special_attack": 25, 
             "special_defense": 45, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u5c0f\u7ea6\u514b", 
         "ename": "Lillipup", 
@@ -43222,7 +43222,7 @@
             "hp": 65, 
             "special_attack": 35, 
             "special_defense": 65, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u54c8\u7ea6\u514b", 
         "ename": "Herdier", 
@@ -43325,7 +43325,7 @@
             "hp": 85, 
             "special_attack": 45, 
             "special_defense": 90, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u957f\u6bdb\u72d7", 
         "ename": "Stoutland", 
@@ -43423,7 +43423,7 @@
             "hp": 41, 
             "special_attack": 50, 
             "special_defense": 37, 
-            "Speed": 66
+            "speed": 66
         }, 
         "cname": "\u6252\u624b\u732b", 
         "ename": "Purrloin", 
@@ -43518,7 +43518,7 @@
             "hp": 64, 
             "special_attack": 88, 
             "special_defense": 50, 
-            "Speed": 106
+            "speed": 106
         }, 
         "cname": "\u9177\u8c79", 
         "ename": "Liepard", 
@@ -43622,7 +43622,7 @@
             "hp": 50, 
             "special_attack": 53, 
             "special_defense": 48, 
-            "Speed": 64
+            "speed": 64
         }, 
         "cname": "\u82b1\u6930\u7334", 
         "ename": "Pansage", 
@@ -43719,7 +43719,7 @@
             "hp": 75, 
             "special_attack": 98, 
             "special_defense": 63, 
-            "Speed": 101
+            "speed": 101
         }, 
         "cname": "\u82b1\u6930\u733f", 
         "ename": "Simisage", 
@@ -43827,7 +43827,7 @@
             "hp": 50, 
             "special_attack": 53, 
             "special_defense": 48, 
-            "Speed": 64
+            "speed": 64
         }, 
         "cname": "\u7206\u9999\u7334", 
         "ename": "Pansear", 
@@ -43924,7 +43924,7 @@
             "hp": 75, 
             "special_attack": 98, 
             "special_defense": 63, 
-            "Speed": 101
+            "speed": 101
         }, 
         "cname": "\u7206\u9999\u733f", 
         "ename": "Simisear", 
@@ -44032,7 +44032,7 @@
             "hp": 50, 
             "special_attack": 53, 
             "special_defense": 48, 
-            "Speed": 64
+            "speed": 64
         }, 
         "cname": "\u51b7Water\u7334", 
         "ename": "Panpour", 
@@ -44132,7 +44132,7 @@
             "hp": 75, 
             "special_attack": 98, 
             "special_defense": 63, 
-            "Speed": 101
+            "speed": 101
         }, 
         "cname": "\u51b7Water\u733f", 
         "ename": "Simipour", 
@@ -44242,7 +44242,7 @@
             "hp": 76, 
             "special_attack": 67, 
             "special_defense": 55, 
-            "Speed": 24
+            "speed": 24
         }, 
         "cname": "\u98df\u68a6\u68a6", 
         "ename": "Munna", 
@@ -44340,7 +44340,7 @@
             "hp": 116, 
             "special_attack": 107, 
             "special_defense": 95, 
-            "Speed": 29
+            "speed": 29
         }, 
         "cname": "\u68a6\u68a6\u8680", 
         "ename": "Musharna", 
@@ -44443,7 +44443,7 @@
             "hp": 50, 
             "special_attack": 36, 
             "special_defense": 30, 
-            "Speed": 43
+            "speed": 43
         }, 
         "cname": "\u8c46\u8c46\u9e3d", 
         "ename": "Pidove", 
@@ -44519,7 +44519,7 @@
             "hp": 62, 
             "special_attack": 50, 
             "special_defense": 42, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u6ce2\u6ce2\u9e3d", 
         "ename": "Tranquill", 
@@ -44598,7 +44598,7 @@
             "hp": 80, 
             "special_attack": 65, 
             "special_defense": 55, 
-            "Speed": 93
+            "speed": 93
         }, 
         "cname": "\u8f70\u9686\u96c9\u9e21", 
         "ename": "Unfezant", 
@@ -44690,7 +44690,7 @@
             "hp": 45, 
             "special_attack": 50, 
             "special_defense": 32, 
-            "Speed": 76
+            "speed": 76
         }, 
         "cname": "\u6591\u6591\u99ac", 
         "ename": "Blitzle", 
@@ -44768,7 +44768,7 @@
             "hp": 75, 
             "special_attack": 80, 
             "special_defense": 63, 
-            "Speed": 116
+            "speed": 116
         }, 
         "cname": "\u96f7Electric\u6591\u9a6c", 
         "ename": "Zebstrika", 
@@ -44855,7 +44855,7 @@
             "hp": 55, 
             "special_attack": 25, 
             "special_defense": 25, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u77f3\u4e38\u5b50", 
         "ename": "Roggenrola", 
@@ -44933,7 +44933,7 @@
             "hp": 70, 
             "special_attack": 50, 
             "special_defense": 40, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u5730\u5e54\u5ca9", 
         "ename": "Boldore", 
@@ -45016,7 +45016,7 @@
             "hp": 85, 
             "special_attack": 60, 
             "special_defense": 80, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u5e9e\u5ca9\u602a", 
         "ename": "Gigalith", 
@@ -45103,7 +45103,7 @@
             "hp": 55, 
             "special_attack": 55, 
             "special_defense": 43, 
-            "Speed": 72
+            "speed": 72
         }, 
         "cname": "\u6eda\u6eda\u8759\u8760", 
         "ename": "Woobat", 
@@ -45211,7 +45211,7 @@
             "hp": 67, 
             "special_attack": 77, 
             "special_defense": 55, 
-            "Speed": 114
+            "speed": 114
         }, 
         "cname": "\u5fc3\u8759\u8760", 
         "ename": "Swoobat", 
@@ -45324,7 +45324,7 @@
             "hp": 60, 
             "special_attack": 30, 
             "special_defense": 45, 
-            "Speed": 68
+            "speed": 68
         }, 
         "cname": "\u87ba\u9489\u5730\u9f20", 
         "ename": "Drilbur", 
@@ -45408,7 +45408,7 @@
             "hp": 110, 
             "special_attack": 50, 
             "special_defense": 65, 
-            "Speed": 88
+            "speed": 88
         }, 
         "cname": "Dragon\u5934\u5730\u9f20", 
         "ename": "Excadrill", 
@@ -45502,7 +45502,7 @@
             "hp": 103, 
             "special_attack": 60, 
             "special_defense": 86, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u5dee\u4e0d\u591a\u5a03\u5a03", 
         "ename": "Audino", 
@@ -45624,7 +45624,7 @@
             "hp": 75, 
             "special_attack": 25, 
             "special_defense": 35, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u642c\u8fd0\u5c0f\u5320", 
         "ename": "Timburr", 
@@ -45719,7 +45719,7 @@
             "hp": 85, 
             "special_attack": 40, 
             "special_defense": 50, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u94c1\u9aa8\u571f\u4eba", 
         "ename": "Gurdurr", 
@@ -45816,7 +45816,7 @@
             "hp": 105, 
             "special_attack": 55, 
             "special_defense": 65, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u4fee\u7f2e\u8001\u5934", 
         "ename": "Conkeldurr", 
@@ -45917,7 +45917,7 @@
             "hp": 50, 
             "special_attack": 50, 
             "special_defense": 40, 
-            "Speed": 64
+            "speed": 64
         }, 
         "cname": "\u5706\u874c\u86aa", 
         "ename": "Tympole", 
@@ -45991,7 +45991,7 @@
             "hp": 75, 
             "special_attack": 65, 
             "special_defense": 55, 
-            "Speed": 69
+            "speed": 69
         }, 
         "cname": "\u84dd\u87fe\u870d", 
         "ename": "Palpitoad", 
@@ -46072,7 +46072,7 @@
             "hp": 105, 
             "special_attack": 85, 
             "special_defense": 75, 
-            "Speed": 74
+            "speed": 74
         }, 
         "cname": "\u87fe\u870d\u738b", 
         "ename": "Seismitoad", 
@@ -46174,7 +46174,7 @@
             "hp": 120, 
             "special_attack": 30, 
             "special_defense": 85, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u6295\u5c04\u9b3c", 
         "ename": "Throh", 
@@ -46260,7 +46260,7 @@
             "hp": 75, 
             "special_attack": 30, 
             "special_defense": 75, 
-            "Speed": 85
+            "speed": 85
         }, 
         "cname": "\u6253\u64ca\u9b3c", 
         "ename": "Sawk", 
@@ -46348,7 +46348,7 @@
             "hp": 45, 
             "special_attack": 40, 
             "special_defense": 60, 
-            "Speed": 42
+            "speed": 42
         }, 
         "cname": "Bug\u5b9d\u5305", 
         "ename": "Sewaddle", 
@@ -46430,7 +46430,7 @@
             "hp": 55, 
             "special_attack": 50, 
             "special_defense": 80, 
-            "Speed": 42
+            "speed": 42
         }, 
         "cname": "\u5b9d\u5305\u8327", 
         "ename": "Swadloon", 
@@ -46515,7 +46515,7 @@
             "hp": 75, 
             "special_attack": 70, 
             "special_defense": 80, 
-            "Speed": 92
+            "speed": 92
         }, 
         "cname": "\u4fdd\u6bcdBug", 
         "ename": "Leavanny", 
@@ -46625,7 +46625,7 @@
             "hp": 30, 
             "special_attack": 30, 
             "special_defense": 39, 
-            "Speed": 57
+            "speed": 57
         }, 
         "cname": "\u767e\u8db3\u8708\u86a3", 
         "ename": "Venipede", 
@@ -46700,7 +46700,7 @@
             "hp": 40, 
             "special_attack": 40, 
             "special_defense": 79, 
-            "Speed": 47
+            "speed": 47
         }, 
         "cname": "\u8f66\u8f6e\u7403", 
         "ename": "Whirlipede", 
@@ -46777,7 +46777,7 @@
             "hp": 60, 
             "special_attack": 55, 
             "special_defense": 69, 
-            "Speed": 112
+            "speed": 112
         }, 
         "cname": "\u8708\u86a3\u738b", 
         "ename": "Scolipede", 
@@ -46875,7 +46875,7 @@
             "hp": 40, 
             "special_attack": 37, 
             "special_defense": 50, 
-            "Speed": 66
+            "speed": 66
         }, 
         "cname": "\u6728\u68c9\u7403", 
         "ename": "Cottonee", 
@@ -46893,7 +46893,7 @@
             "hp": 60, 
             "special_attack": 77, 
             "special_defense": 75, 
-            "Speed": 116
+            "speed": 116
         }, 
         "cname": "\u98ceFairy", 
         "ename": "Whimsicott", 
@@ -46911,7 +46911,7 @@
             "hp": 45, 
             "special_attack": 70, 
             "special_defense": 50, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u767e\u5408\u6839\u5a03\u5a03", 
         "ename": "Petilil", 
@@ -46989,7 +46989,7 @@
             "hp": 70, 
             "special_attack": 110, 
             "special_defense": 75, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u88d9\u513f\u5c0f\u59d0", 
         "ename": "Lilligant", 
@@ -47081,7 +47081,7 @@
             "hp": 70, 
             "special_attack": 80, 
             "special_defense": 55, 
-            "Speed": 98
+            "speed": 98
         }, 
         "cname": "\u52c7\u58eb\u9c88\u9c7c", 
         "ename": "Basculin", 
@@ -47172,7 +47172,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u9ed1\u773c\u9cc4", 
         "ename": "Sandile", 
@@ -47269,7 +47269,7 @@
             "hp": 60, 
             "special_attack": 45, 
             "special_defense": 45, 
-            "Speed": 74
+            "speed": 74
         }, 
         "cname": "\u6df7\u6df7\u9cc4", 
         "ename": "Krokorok", 
@@ -47377,7 +47377,7 @@
             "hp": 95, 
             "special_attack": 65, 
             "special_defense": 70, 
-            "Speed": 92
+            "speed": 92
         }, 
         "cname": "\u6d41\u6c13\u9cc4", 
         "ename": "Krookodile", 
@@ -47500,7 +47500,7 @@
             "hp": 70, 
             "special_attack": 15, 
             "special_defense": 45, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u706b\u7ea2\u4e0d\u5012\u7fc1", 
         "ename": "Darumaka", 
@@ -47517,7 +47517,7 @@
             "hp": 105, 
             "special_attack": 30, 
             "special_defense": 55, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u8fbe\u6469\u72d2\u72d2", 
         "ename": "Darmanitan", 
@@ -47544,7 +47544,7 @@
             "hp": 75, 
             "special_attack": 106, 
             "special_defense": 67, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u8857\u982d\u6c99\u9234", 
         "ename": "Maractus", 
@@ -47629,7 +47629,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 35, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u77f3\u5c45\u87f9", 
         "ename": "Dwebble", 
@@ -47719,7 +47719,7 @@
             "hp": 70, 
             "special_attack": 65, 
             "special_defense": 75, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u5ca9\u6bbf\u5c45\u87f9", 
         "ename": "Crustle", 
@@ -47816,7 +47816,7 @@
             "hp": 50, 
             "special_attack": 35, 
             "special_defense": 70, 
-            "Speed": 48
+            "speed": 48
         }, 
         "cname": "\u6ed1\u5934\u5c0f\u5b50", 
         "ename": "Scraggy", 
@@ -47926,7 +47926,7 @@
             "hp": 65, 
             "special_attack": 45, 
             "special_defense": 115, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u5934\u5dfe\u6df7\u6df7", 
         "ename": "Scrafty", 
@@ -48042,7 +48042,7 @@
             "hp": 72, 
             "special_attack": 103, 
             "special_defense": 80, 
-            "Speed": 97
+            "speed": 97
         }, 
         "cname": "\u8c61\u5f81\u9e1f", 
         "ename": "Sigilyph", 
@@ -48145,7 +48145,7 @@
             "hp": 38, 
             "special_attack": 55, 
             "special_defense": 65, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u54ed\u54ed\u9762\u5177", 
         "ename": "Yamask", 
@@ -48163,7 +48163,7 @@
             "hp": 58, 
             "special_attack": 95, 
             "special_defense": 105, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u6b7b\u795e\u68fa", 
         "ename": "Cofagrigus", 
@@ -48181,7 +48181,7 @@
             "hp": 54, 
             "special_attack": 53, 
             "special_defense": 45, 
-            "Speed": 22
+            "speed": 22
         }, 
         "cname": "\u539f\u76d6\u6d77\u9f9f", 
         "ename": "Tirtouga", 
@@ -48275,7 +48275,7 @@
             "hp": 74, 
             "special_attack": 83, 
             "special_defense": 65, 
-            "Speed": 32
+            "speed": 32
         }, 
         "cname": "\u808b\u9aa8\u6d77\u9f9f", 
         "ename": "Carracosta", 
@@ -48376,7 +48376,7 @@
             "hp": 55, 
             "special_attack": 74, 
             "special_defense": 45, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u59cb\u7956\u5c0f\u9e1f", 
         "ename": "Archen", 
@@ -48475,7 +48475,7 @@
             "hp": 75, 
             "special_attack": 112, 
             "special_defense": 65, 
-            "Speed": 110
+            "speed": 110
         }, 
         "cname": "\u59cb\u7956\u5927\u9e1f", 
         "ename": "Archeops", 
@@ -48582,7 +48582,7 @@
             "hp": 50, 
             "special_attack": 40, 
             "special_defense": 62, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u7834\u7834\u888b", 
         "ename": "Trubbish", 
@@ -48664,7 +48664,7 @@
             "hp": 80, 
             "special_attack": 60, 
             "special_defense": 82, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u7070\u5c18\u5c71", 
         "ename": "Garbodor", 
@@ -48760,7 +48760,7 @@
             "hp": 40, 
             "special_attack": 80, 
             "special_defense": 40, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u7d22\u7f57\u4e9a", 
         "ename": "Zorua", 
@@ -48857,7 +48857,7 @@
             "hp": 60, 
             "special_attack": 120, 
             "special_defense": 60, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u7d22\u7f57\u4e9a\u514b", 
         "ename": "Zoroark", 
@@ -48971,7 +48971,7 @@
             "hp": 55, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u6ce1\u6cab\u6817\u9f20", 
         "ename": "Minccino", 
@@ -49059,7 +49059,7 @@
             "hp": 75, 
             "special_attack": 65, 
             "special_defense": 60, 
-            "Speed": 115
+            "speed": 115
         }, 
         "cname": "\u5947\u8bfa\u6817\u9f20", 
         "ename": "Cinccino", 
@@ -49158,7 +49158,7 @@
             "hp": 45, 
             "special_attack": 55, 
             "special_defense": 65, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u54e5\u5fb7\u5b9d\u5b9d", 
         "ename": "Gothita", 
@@ -49262,7 +49262,7 @@
             "hp": 60, 
             "special_attack": 75, 
             "special_defense": 85, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u54e5\u5fb7\u5c0f\u7ae5", 
         "ename": "Gothorita", 
@@ -49368,7 +49368,7 @@
             "hp": 70, 
             "special_attack": 95, 
             "special_defense": 110, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u54e5\u5fb7\u5c0f\u59d0", 
         "ename": "Gothitelle", 
@@ -49479,7 +49479,7 @@
             "hp": 45, 
             "special_attack": 105, 
             "special_defense": 50, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u5355\u5375\u7ec6\u80de\u7403", 
         "ename": "Solosis", 
@@ -49574,7 +49574,7 @@
             "hp": 65, 
             "special_attack": 125, 
             "special_defense": 60, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u53cc\u5375\u7ec6\u80de\u7403", 
         "ename": "Duosion", 
@@ -49672,7 +49672,7 @@
             "hp": 110, 
             "special_attack": 125, 
             "special_defense": 85, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u4eba\u9020\u7d30\u80de\u5375", 
         "ename": "Reuniclus", 
@@ -49785,7 +49785,7 @@
             "hp": 62, 
             "special_attack": 44, 
             "special_defense": 50, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u9e2d\u5b9d\u5b9d", 
         "ename": "Ducklett", 
@@ -49865,7 +49865,7 @@
             "hp": 75, 
             "special_attack": 87, 
             "special_defense": 63, 
-            "Speed": 98
+            "speed": 98
         }, 
         "cname": "\u9996\u5e2d\u5929\u9e45", 
         "ename": "Swanna", 
@@ -49951,7 +49951,7 @@
             "hp": 36, 
             "special_attack": 65, 
             "special_defense": 60, 
-            "Speed": 44
+            "speed": 44
         }, 
         "cname": "\u8ff7\u4f60Ice", 
         "ename": "Vanillite", 
@@ -50027,7 +50027,7 @@
             "hp": 51, 
             "special_attack": 80, 
             "special_defense": 75, 
-            "Speed": 59
+            "speed": 59
         }, 
         "cname": "\u591a\u591aIce", 
         "ename": "Vanillish", 
@@ -50106,7 +50106,7 @@
             "hp": 71, 
             "special_attack": 110, 
             "special_defense": 95, 
-            "Speed": 79
+            "speed": 79
         }, 
         "cname": "\u53cc\u500d\u591a\u591aIce", 
         "ename": "Vanilluxe", 
@@ -50190,7 +50190,7 @@
             "hp": 60, 
             "special_attack": 40, 
             "special_defense": 50, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u56db\u5b63\u9e7f", 
         "ename": "Deerling", 
@@ -50276,7 +50276,7 @@
             "hp": 80, 
             "special_attack": 60, 
             "special_defense": 70, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u82bd\u5439\u9e7f", 
         "ename": "Sawsbuck", 
@@ -50371,7 +50371,7 @@
             "hp": 55, 
             "special_attack": 75, 
             "special_defense": 60, 
-            "Speed": 103
+            "speed": 103
         }, 
         "cname": "\u5bfcElectric\u98de\u9f20", 
         "ename": "Emolga", 
@@ -50461,7 +50461,7 @@
             "hp": 50, 
             "special_attack": 40, 
             "special_defense": 45, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u76d6\u76d6Bug", 
         "ename": "Karrablast", 
@@ -50539,7 +50539,7 @@
             "hp": 70, 
             "special_attack": 60, 
             "special_defense": 105, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u9a91\u58eb\u8717\u725b", 
         "ename": "Escavalier", 
@@ -50634,7 +50634,7 @@
             "hp": 69, 
             "special_attack": 55, 
             "special_defense": 55, 
-            "Speed": 15
+            "speed": 15
         }, 
         "cname": "\u5b9d\u8d1d\u7403\u83c7", 
         "ename": "Foongus", 
@@ -50714,7 +50714,7 @@
             "hp": 114, 
             "special_attack": 85, 
             "special_defense": 80, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u66b4\u9732\u83c7", 
         "ename": "Amoonguss", 
@@ -50799,7 +50799,7 @@
             "hp": 55, 
             "special_attack": 65, 
             "special_defense": 85, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u8f7b\u98d8\u98d8", 
         "ename": "Frillish", 
@@ -50827,7 +50827,7 @@
             "hp": 100, 
             "special_attack": 85, 
             "special_defense": 105, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u80d6\u561f\u561f", 
         "ename": "Jellicent", 
@@ -50855,7 +50855,7 @@
             "hp": 165, 
             "special_attack": 40, 
             "special_defense": 45, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u4fdd\u6bcd\u66fc\u6ce2", 
         "ename": "Alomomola", 
@@ -50941,7 +50941,7 @@
             "hp": 50, 
             "special_attack": 57, 
             "special_defense": 50, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "ElectricElectricBug", 
         "ename": "Joltik", 
@@ -51026,7 +51026,7 @@
             "hp": 70, 
             "special_attack": 97, 
             "special_defense": 60, 
-            "Speed": 108
+            "speed": 108
         }, 
         "cname": "Electric\u8718\u86db", 
         "ename": "Galvantula", 
@@ -51117,7 +51117,7 @@
             "hp": 44, 
             "special_attack": 24, 
             "special_defense": 86, 
-            "Speed": 10
+            "speed": 10
         }, 
         "cname": "\u79cd\u5b50\u94c1\u7403", 
         "ename": "Ferroseed", 
@@ -51201,7 +51201,7 @@
             "hp": 74, 
             "special_attack": 54, 
             "special_defense": 116, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u575a\u679c\u54d1\u94c3", 
         "ename": "Ferrothorn", 
@@ -51301,7 +51301,7 @@
             "hp": 40, 
             "special_attack": 45, 
             "special_defense": 60, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u9f7f\u8f6e\u513f", 
         "ename": "Klink", 
@@ -51372,7 +51372,7 @@
             "hp": 60, 
             "special_attack": 70, 
             "special_defense": 85, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u9f7f\u8f6e\u7ec4", 
         "ename": "Klang", 
@@ -51443,7 +51443,7 @@
             "hp": 60, 
             "special_attack": 70, 
             "special_defense": 85, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u9f7f\u8f6e\u602a", 
         "ename": "Klinklang", 
@@ -51520,7 +51520,7 @@
             "hp": 35, 
             "special_attack": 45, 
             "special_defense": 40, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u9ebb\u9ebb\u5c0f\u9c7c", 
         "ename": "Tynamo", 
@@ -51538,7 +51538,7 @@
             "hp": 65, 
             "special_attack": 75, 
             "special_defense": 70, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u9ebb\u9ebb\u9cd7", 
         "ename": "Eelektrik", 
@@ -51556,7 +51556,7 @@
             "hp": 85, 
             "special_attack": 105, 
             "special_defense": 80, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u9ebb\u9ebb\u9cd7\u9c7c\u738b", 
         "ename": "Eelektross", 
@@ -51574,7 +51574,7 @@
             "hp": 55, 
             "special_attack": 85, 
             "special_defense": 55, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u5c0f\u7070\u602a", 
         "ename": "Elgyem", 
@@ -51592,7 +51592,7 @@
             "hp": 75, 
             "special_attack": 125, 
             "special_defense": 95, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u5927\u5b87\u602a", 
         "ename": "Beheeyem", 
@@ -51610,7 +51610,7 @@
             "hp": 50, 
             "special_attack": 65, 
             "special_defense": 55, 
-            "Speed": 20
+            "speed": 20
         }, 
         "cname": "\u70db\u5149\u7075", 
         "ename": "Litwick", 
@@ -51703,7 +51703,7 @@
             "hp": 60, 
             "special_attack": 95, 
             "special_defense": 60, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u706f\u706bGhost", 
         "ename": "Lampent", 
@@ -51798,7 +51798,7 @@
             "hp": 60, 
             "special_attack": 145, 
             "special_defense": 90, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "Water\u6676\u706f\u706b\u7075", 
         "ename": "Chandelure", 
@@ -51895,7 +51895,7 @@
             "hp": 46, 
             "special_attack": 30, 
             "special_defense": 40, 
-            "Speed": 57
+            "speed": 57
         }, 
         "cname": "\u7259\u7259", 
         "ename": "Axew", 
@@ -51989,7 +51989,7 @@
             "hp": 66, 
             "special_attack": 40, 
             "special_defense": 50, 
-            "Speed": 67
+            "speed": 67
         }, 
         "cname": "\u65a7\u7259Dragon", 
         "ename": "Fraxure", 
@@ -52089,7 +52089,7 @@
             "hp": 76, 
             "special_attack": 60, 
             "special_defense": 70, 
-            "Speed": 97
+            "speed": 97
         }, 
         "cname": "\u53cc\u65a7\u6218Dragon", 
         "ename": "Haxorus", 
@@ -52198,7 +52198,7 @@
             "hp": 55, 
             "special_attack": 60, 
             "special_defense": 40, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u55b7\u568f\u718a", 
         "ename": "Cubchoo", 
@@ -52286,7 +52286,7 @@
             "hp": 95, 
             "special_attack": 70, 
             "special_defense": 80, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u51bb\u539f\u718a", 
         "ename": "Beartic", 
@@ -52394,7 +52394,7 @@
             "hp": 70, 
             "special_attack": 95, 
             "special_defense": 135, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u51e0\u4f55\u96ea\u82b1", 
         "ename": "Cryogonal", 
@@ -52475,7 +52475,7 @@
             "hp": 50, 
             "special_attack": 40, 
             "special_defense": 65, 
-            "Speed": 25
+            "speed": 25
         }, 
         "cname": "\u5c0f\u5634\u8717", 
         "ename": "Shelmet", 
@@ -52551,7 +52551,7 @@
             "hp": 80, 
             "special_attack": 100, 
             "special_defense": 60, 
-            "Speed": 145
+            "speed": 145
         }, 
         "cname": "\u654f\u6377Bug", 
         "ename": "Accelgor", 
@@ -52648,7 +52648,7 @@
             "hp": 109, 
             "special_attack": 81, 
             "special_defense": 99, 
-            "Speed": 32
+            "speed": 32
         }, 
         "cname": "\u6ce5\u5df4\u9c7c", 
         "ename": "Stunfisk", 
@@ -52747,7 +52747,7 @@
             "hp": 45, 
             "special_attack": 55, 
             "special_defense": 50, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u529f\u592b\u9f2c", 
         "ename": "Mienfoo", 
@@ -52844,7 +52844,7 @@
             "hp": 65, 
             "special_attack": 95, 
             "special_defense": 60, 
-            "Speed": 105
+            "speed": 105
         }, 
         "cname": "\u5e08\u7236\u9f2c", 
         "ename": "Mienshao", 
@@ -52951,7 +52951,7 @@
             "hp": 77, 
             "special_attack": 60, 
             "special_defense": 90, 
-            "Speed": 48
+            "speed": 48
         }, 
         "cname": "\u8d64\u9762Dragon", 
         "ename": "Druddigon", 
@@ -53066,7 +53066,7 @@
             "hp": 59, 
             "special_attack": 35, 
             "special_defense": 50, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u6ce5\u5076\u5c0f\u4eba", 
         "ename": "Golett", 
@@ -53156,7 +53156,7 @@
             "hp": 89, 
             "special_attack": 55, 
             "special_defense": 80, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u6ce5\u5076\u5de8\u4eba", 
         "ename": "Golurk", 
@@ -53260,7 +53260,7 @@
             "hp": 45, 
             "special_attack": 40, 
             "special_defense": 40, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u9a79\u5200\u5c0f\u5175", 
         "ename": "Pawniard", 
@@ -53363,7 +53363,7 @@
             "hp": 65, 
             "special_attack": 60, 
             "special_defense": 70, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u5288\u65a9\u53f8\u4ee4", 
         "ename": "Bisharp", 
@@ -53476,7 +53476,7 @@
             "hp": 95, 
             "special_attack": 40, 
             "special_defense": 95, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u7206\u7206\u5934Water\u725b", 
         "ename": "Bouffalant", 
@@ -53494,7 +53494,7 @@
             "hp": 70, 
             "special_attack": 37, 
             "special_defense": 50, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u6bdb\u5934\u5c0f\u9e70", 
         "ename": "Rufflet", 
@@ -53572,7 +53572,7 @@
             "hp": 100, 
             "special_attack": 57, 
             "special_defense": 75, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u52c7\u58eb\u9e70", 
         "ename": "Braviary", 
@@ -53659,7 +53659,7 @@
             "hp": 70, 
             "special_attack": 45, 
             "special_defense": 65, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u79c3\u9e70\u5c0f\u5b50", 
         "ename": "Vullaby", 
@@ -53750,7 +53750,7 @@
             "hp": 110, 
             "special_attack": 55, 
             "special_defense": 95, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u79c3\u9e70\u5a1c", 
         "ename": "Mandibuzz", 
@@ -53851,7 +53851,7 @@
             "hp": 85, 
             "special_attack": 105, 
             "special_defense": 66, 
-            "Speed": 65
+            "speed": 65
         }, 
         "cname": "\u98df\u8681\u7089", 
         "ename": "Heatmor", 
@@ -53951,7 +53951,7 @@
             "hp": 58, 
             "special_attack": 48, 
             "special_defense": 48, 
-            "Speed": 109
+            "speed": 109
         }, 
         "cname": "\u94c1\u8681", 
         "ename": "Durant", 
@@ -54039,7 +54039,7 @@
             "hp": 52, 
             "special_attack": 45, 
             "special_defense": 50, 
-            "Speed": 38
+            "speed": 38
         }, 
         "cname": "\u5355\u9996Dragon", 
         "ename": "Deino", 
@@ -54130,7 +54130,7 @@
             "hp": 72, 
             "special_attack": 65, 
             "special_defense": 70, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u53cc\u5934Dragon", 
         "ename": "Zweilous", 
@@ -54226,7 +54226,7 @@
             "hp": 92, 
             "special_attack": 125, 
             "special_defense": 90, 
-            "Speed": 98
+            "speed": 98
         }, 
         "cname": "\u4e09\u5934Dragon", 
         "ename": "Hydreigon", 
@@ -54350,7 +54350,7 @@
             "hp": 55, 
             "special_attack": 50, 
             "special_defense": 55, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u71c3\u70e7Bug", 
         "ename": "Larvesta", 
@@ -54430,7 +54430,7 @@
             "hp": 85, 
             "special_attack": 135, 
             "special_defense": 105, 
-            "Speed": 100
+            "speed": 100
         }, 
         "cname": "\u706b\u795eBug", 
         "ename": "Volcarona", 
@@ -54536,7 +54536,7 @@
             "hp": 91, 
             "special_attack": 90, 
             "special_defense": 72, 
-            "Speed": 108
+            "speed": 108
         }, 
         "cname": "\u52fe\u5e15\u8def\u7fc1", 
         "ename": "Cobalion", 
@@ -54555,7 +54555,7 @@
             "hp": 91, 
             "special_attack": 72, 
             "special_defense": 90, 
-            "Speed": 108
+            "speed": 108
         }, 
         "cname": "\u4ee3\u62c9\u57fa\u7fc1", 
         "ename": "Terrakion", 
@@ -54574,7 +54574,7 @@
             "hp": 91, 
             "special_attack": 90, 
             "special_defense": 129, 
-            "Speed": 108
+            "speed": 108
         }, 
         "cname": "\u6bd5\u529b\u5409\u7fc1", 
         "ename": "Virizion", 
@@ -54593,7 +54593,7 @@
             "hp": 79, 
             "special_attack": 125, 
             "special_defense": 80, 
-            "Speed": 111
+            "speed": 111
         }, 
         "cname": "Dragon\u5377\u4e91", 
         "ename": "Tornadus", 
@@ -54611,7 +54611,7 @@
             "hp": 79, 
             "special_attack": 125, 
             "special_defense": 80, 
-            "Speed": 111
+            "speed": 111
         }, 
         "cname": "\u96f7Electric\u4e91", 
         "ename": "Thundurus", 
@@ -54630,7 +54630,7 @@
             "hp": 100, 
             "special_attack": 150, 
             "special_defense": 120, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u96f7\u5e0c\u62c9\u59c6", 
         "ename": "Reshiram", 
@@ -54649,7 +54649,7 @@
             "hp": 100, 
             "special_attack": 120, 
             "special_defense": 100, 
-            "Speed": 90
+            "speed": 90
         }, 
         "cname": "\u6377\u514b\u7f57\u59c6", 
         "ename": "Zekrom", 
@@ -54668,7 +54668,7 @@
             "hp": 89, 
             "special_attack": 115, 
             "special_defense": 80, 
-            "Speed": 101
+            "speed": 101
         }, 
         "cname": "\u571f\u5730\u4e91", 
         "ename": "Landorus", 
@@ -54687,7 +54687,7 @@
             "hp": 125, 
             "special_attack": 130, 
             "special_defense": 90, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u914b\u96f7\u59c6", 
         "ename": "Kyurem", 
@@ -54706,7 +54706,7 @@
             "hp": 91, 
             "special_attack": 129, 
             "special_defense": 90, 
-            "Speed": 108
+            "speed": 108
         }, 
         "cname": "\u51ef\u8def\u8fea\u6b27", 
         "ename": "Keldeo", 
@@ -54725,7 +54725,7 @@
             "hp": 100, 
             "special_attack": 77, 
             "special_defense": 77, 
-            "Speed": 128
+            "speed": 128
         }, 
         "cname": "\u7f8e\u6d1b\u8036\u5854", 
         "ename": "Meloetta", 
@@ -54753,7 +54753,7 @@
             "hp": 71, 
             "special_attack": 120, 
             "special_defense": 95, 
-            "Speed": 99
+            "speed": 99
         }, 
         "cname": "\u76d6\u8bfa\u8d5b\u514b\u7279", 
         "ename": "Genesect", 
@@ -54772,7 +54772,7 @@
             "hp": 56, 
             "special_attack": 48, 
             "special_defense": 45, 
-            "Speed": 38
+            "speed": 38
         }, 
         "cname": "\u30cf\u30ea\u30de\u30ed\u30f3", 
         "ename": "Chespin", 
@@ -54866,7 +54866,7 @@
             "hp": 61, 
             "special_attack": 56, 
             "special_defense": 58, 
-            "Speed": 57
+            "speed": 57
         }, 
         "cname": "\u30cf\u30ea\u30dc\u30fc\u30b0", 
         "ename": "Quilladin", 
@@ -54962,7 +54962,7 @@
             "hp": 88, 
             "special_attack": 74, 
             "special_defense": 75, 
-            "Speed": 64
+            "speed": 64
         }, 
         "cname": "\u30d6\u30ea\u30ac\u30ed\u30f3", 
         "ename": "Chesnaught", 
@@ -55072,7 +55072,7 @@
             "hp": 40, 
             "special_attack": 62, 
             "special_defense": 60, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u30d5\u30a9\u30c3\u30b3", 
         "ename": "Fennekin", 
@@ -55155,7 +55155,7 @@
             "hp": 59, 
             "special_attack": 90, 
             "special_defense": 70, 
-            "Speed": 73
+            "speed": 73
         }, 
         "cname": "\u30c6\u30fc\u30eb\u30ca\u30fc", 
         "ename": "Braixen", 
@@ -55238,7 +55238,7 @@
             "hp": 75, 
             "special_attack": 114, 
             "special_defense": 100, 
-            "Speed": 104
+            "speed": 104
         }, 
         "cname": "\u30de\u30d5\u30a9\u30af\u30b7\u30fc", 
         "ename": "Delphox", 
@@ -55335,7 +55335,7 @@
             "hp": 41, 
             "special_attack": 62, 
             "special_defense": 44, 
-            "Speed": 71
+            "speed": 71
         }, 
         "cname": "\u30b1\u30ed\u30de\u30c4", 
         "ename": "Froakie", 
@@ -55419,7 +55419,7 @@
             "hp": 54, 
             "special_attack": 83, 
             "special_defense": 56, 
-            "Speed": 97
+            "speed": 97
         }, 
         "cname": "\u30b2\u30b3\u30ac\u30b7\u30e9", 
         "ename": "Frogadier", 
@@ -55504,7 +55504,7 @@
             "hp": 72, 
             "special_attack": 103, 
             "special_defense": 71, 
-            "Speed": 122
+            "speed": 122
         }, 
         "cname": "\u30b2\u30c3\u30b3\u30a6\u30ac", 
         "ename": "Greninja", 
@@ -55606,7 +55606,7 @@
             "hp": 38, 
             "special_attack": 32, 
             "special_defense": 36, 
-            "Speed": 57
+            "speed": 57
         }, 
         "cname": "\u30db\u30eb\u30d3\u30fc", 
         "ename": "Bunnelby", 
@@ -55688,7 +55688,7 @@
             "hp": 85, 
             "special_attack": 50, 
             "special_defense": 77, 
-            "Speed": 78
+            "speed": 78
         }, 
         "cname": "\u30db\u30eb\u30fc\u30c9", 
         "ename": "Diggersby", 
@@ -55781,7 +55781,7 @@
             "hp": 45, 
             "special_attack": 40, 
             "special_defense": 38, 
-            "Speed": 62
+            "speed": 62
         }, 
         "cname": "\u30e4\u30e4\u30b3\u30de", 
         "ename": "Fletchling", 
@@ -55850,7 +55850,7 @@
             "hp": 62, 
             "special_attack": 56, 
             "special_defense": 52, 
-            "Speed": 84
+            "speed": 84
         }, 
         "cname": "\u30d2\u30ce\u30e4\u30b3\u30de", 
         "ename": "Fletchinder", 
@@ -55924,7 +55924,7 @@
             "hp": 78, 
             "special_attack": 74, 
             "special_defense": 69, 
-            "Speed": 126
+            "speed": 126
         }, 
         "cname": "\u30d5\u30a1\u30a4\u30a2\u30ed\u30fc", 
         "ename": "Talonflame", 
@@ -56006,7 +56006,7 @@
             "hp": 38, 
             "special_attack": 27, 
             "special_defense": 25, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u30b3\u30d5\u30ad\u30e0\u30b7", 
         "ename": "Scatterbug", 
@@ -56036,7 +56036,7 @@
             "hp": 45, 
             "special_attack": 27, 
             "special_defense": 30, 
-            "Speed": 29
+            "speed": 29
         }, 
         "cname": "\u30b3\u30d5\u30fc\u30e9\u30a4", 
         "ename": "Spewpa", 
@@ -56073,7 +56073,7 @@
             "hp": 80, 
             "special_attack": 90, 
             "special_defense": 50, 
-            "Speed": 89
+            "speed": 89
         }, 
         "cname": "\u30d3\u30d3\u30e8\u30f3", 
         "ename": "Vivillon", 
@@ -56159,7 +56159,7 @@
             "hp": 62, 
             "special_attack": 73, 
             "special_defense": 54, 
-            "Speed": 72
+            "speed": 72
         }, 
         "cname": "\u30b7\u30b7\u30b3", 
         "ename": "Litleo", 
@@ -56240,7 +56240,7 @@
             "hp": 86, 
             "special_attack": 109, 
             "special_defense": 66, 
-            "Speed": 106
+            "speed": 106
         }, 
         "cname": "\u30ab\u30a8\u30f3\u30b8\u30b7", 
         "ename": "Pyroar", 
@@ -56324,7 +56324,7 @@
             "hp": 44, 
             "special_attack": 61, 
             "special_defense": 79, 
-            "Speed": 42
+            "speed": 42
         }, 
         "cname": "\u30d5\u30e9\u30d9\u30d9", 
         "ename": "Flab\u00e9b\u00e9", 
@@ -56393,7 +56393,7 @@
             "hp": 54, 
             "special_attack": 75, 
             "special_defense": 98, 
-            "Speed": 52
+            "speed": 52
         }, 
         "cname": "\u30d5\u30e9\u30a8\u30c3\u30c6", 
         "ename": "Floette", 
@@ -56461,7 +56461,7 @@
             "hp": 78, 
             "special_attack": 112, 
             "special_defense": 154, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u30d5\u30e9\u30fc\u30b8\u30a7\u30b9", 
         "ename": "Florges", 
@@ -56537,7 +56537,7 @@
             "hp": 66, 
             "special_attack": 62, 
             "special_defense": 57, 
-            "Speed": 52
+            "speed": 52
         }, 
         "cname": "\u30e1\u30a7\u30fc\u30af\u30eb", 
         "ename": "Skiddo", 
@@ -56622,7 +56622,7 @@
             "hp": 123, 
             "special_attack": 97, 
             "special_defense": 81, 
-            "Speed": 68
+            "speed": 68
         }, 
         "cname": "\u30b4\u30fc\u30b4\u30fc\u30c8", 
         "ename": "Gogoat", 
@@ -56705,7 +56705,7 @@
             "hp": 67, 
             "special_attack": 46, 
             "special_defense": 48, 
-            "Speed": 43
+            "speed": 43
         }, 
         "cname": "\u30e4\u30f3\u30c1\u30e3\u30e0", 
         "ename": "Pancham", 
@@ -56790,7 +56790,7 @@
             "hp": 95, 
             "special_attack": 69, 
             "special_defense": 71, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u30b4\u30ed\u30f3\u30c0", 
         "ename": "Pangoro", 
@@ -56896,7 +56896,7 @@
             "hp": 75, 
             "special_attack": 65, 
             "special_defense": 90, 
-            "Speed": 102
+            "speed": 102
         }, 
         "cname": "\u30c8\u30ea\u30df\u30a2\u30f3", 
         "ename": "Furfrou", 
@@ -56970,7 +56970,7 @@
             "hp": 62, 
             "special_attack": 63, 
             "special_defense": 60, 
-            "Speed": 68
+            "speed": 68
         }, 
         "cname": "\u30cb\u30e3\u30b9\u30d1\u30fc", 
         "ename": "Espurr", 
@@ -57043,7 +57043,7 @@
             "hp": 74, 
             "special_attack": 83, 
             "special_defense": 81, 
-            "Speed": 104
+            "speed": 104
         }, 
         "cname": "\u30cb\u30e3\u30aa\u30cb\u30af\u30b9", 
         "ename": "Meowstic", 
@@ -57135,7 +57135,7 @@
             "hp": 45, 
             "special_attack": 35, 
             "special_defense": 37, 
-            "Speed": 28
+            "speed": 28
         }, 
         "cname": "\u30d2\u30c8\u30c4\u30ad", 
         "ename": "Honedge", 
@@ -57206,7 +57206,7 @@
             "hp": 59, 
             "special_attack": 45, 
             "special_defense": 49, 
-            "Speed": 35
+            "speed": 35
         }, 
         "cname": "\u30cb\u30c0\u30f3\u30ae\u30eb", 
         "ename": "Doublade", 
@@ -57277,7 +57277,7 @@
             "hp": 60, 
             "special_attack": 50, 
             "special_defense": 150, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u30ae\u30eb\u30ac\u30eb\u30c9", 
         "ename": "Aegislash", 
@@ -57357,7 +57357,7 @@
             "hp": 78, 
             "special_attack": 63, 
             "special_defense": 65, 
-            "Speed": 23
+            "speed": 23
         }, 
         "cname": "\u30b7\u30e5\u30b7\u30e5\u30d7", 
         "ename": "Spritzee", 
@@ -57434,7 +57434,7 @@
             "hp": 101, 
             "special_attack": 99, 
             "special_defense": 89, 
-            "Speed": 29
+            "speed": 29
         }, 
         "cname": "\u30d5\u30ec\u30d5\u30ef\u30f3", 
         "ename": "Aromatisse", 
@@ -57519,7 +57519,7 @@
             "hp": 62, 
             "special_attack": 59, 
             "special_defense": 57, 
-            "Speed": 49
+            "speed": 49
         }, 
         "cname": "\u30da\u30ed\u30c3\u30d1\u30d5", 
         "ename": "Swirlix", 
@@ -57593,7 +57593,7 @@
             "hp": 82, 
             "special_attack": 85, 
             "special_defense": 75, 
-            "Speed": 72
+            "speed": 72
         }, 
         "cname": "\u30da\u30ed\u30ea\u30fc\u30e0", 
         "ename": "Slurpuff", 
@@ -57669,7 +57669,7 @@
             "hp": 53, 
             "special_attack": 37, 
             "special_defense": 46, 
-            "Speed": 45
+            "speed": 45
         }, 
         "cname": "\u30de\u30fc\u30a4\u30fc\u30ab", 
         "ename": "Inkay", 
@@ -57754,7 +57754,7 @@
             "hp": 86, 
             "special_attack": 68, 
             "special_defense": 75, 
-            "Speed": 73
+            "speed": 73
         }, 
         "cname": "\u30ab\u30e9\u30de\u30cd\u30ed", 
         "ename": "Malamar", 
@@ -57844,7 +57844,7 @@
             "hp": 42, 
             "special_attack": 39, 
             "special_defense": 56, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u30ab\u30e1\u30c6\u30c6", 
         "ename": "Binacle", 
@@ -57942,7 +57942,7 @@
             "hp": 72, 
             "special_attack": 54, 
             "special_defense": 86, 
-            "Speed": 68
+            "speed": 68
         }, 
         "cname": "\u30ac\u30e1\u30ce\u30c7\u30b9", 
         "ename": "Barbaracle", 
@@ -58049,7 +58049,7 @@
             "hp": 50, 
             "special_attack": 60, 
             "special_defense": 60, 
-            "Speed": 30
+            "speed": 30
         }, 
         "cname": "\u30af\u30ba\u30e2\u30fc", 
         "ename": "Skrelp", 
@@ -58120,7 +58120,7 @@
             "hp": 65, 
             "special_attack": 97, 
             "special_defense": 123, 
-            "Speed": 44
+            "speed": 44
         }, 
         "cname": "\u30c9\u30e9\u30df\u30c9\u30ed", 
         "ename": "Dragalge", 
@@ -58203,7 +58203,7 @@
             "hp": 50, 
             "special_attack": 58, 
             "special_defense": 63, 
-            "Speed": 44
+            "speed": 44
         }, 
         "cname": "\u30a6\u30c7\u30c3\u30dd\u30a6", 
         "ename": "Clauncher", 
@@ -58274,7 +58274,7 @@
             "hp": 71, 
             "special_attack": 120, 
             "special_defense": 89, 
-            "Speed": 59
+            "speed": 59
         }, 
         "cname": "\u30d6\u30ed\u30b9\u30bf\u30fc", 
         "ename": "Clawitzer", 
@@ -58357,7 +58357,7 @@
             "hp": 44, 
             "special_attack": 61, 
             "special_defense": 43, 
-            "Speed": 70
+            "speed": 70
         }, 
         "cname": "\u30a8\u30ea\u30ad\u30c6\u30eb", 
         "ename": "Helioptile", 
@@ -58436,7 +58436,7 @@
             "hp": 62, 
             "special_attack": 109, 
             "special_defense": 94, 
-            "Speed": 109
+            "speed": 109
         }, 
         "cname": "\u30a8\u30ec\u30b6\u30fc\u30c9", 
         "ename": "Heliolisk", 
@@ -58522,7 +58522,7 @@
             "hp": 58, 
             "special_attack": 45, 
             "special_defense": 45, 
-            "Speed": 48
+            "speed": 48
         }, 
         "cname": "\u30c1\u30b4\u30e9\u30b9", 
         "ename": "Tyrunt", 
@@ -58605,7 +58605,7 @@
             "hp": 82, 
             "special_attack": 69, 
             "special_defense": 59, 
-            "Speed": 71
+            "speed": 71
         }, 
         "cname": "\u30ac\u30c1\u30b4\u30e9\u30b9", 
         "ename": "Tyrantrum", 
@@ -58694,7 +58694,7 @@
             "hp": 77, 
             "special_attack": 67, 
             "special_defense": 63, 
-            "Speed": 46
+            "speed": 46
         }, 
         "cname": "\u30a2\u30de\u30eb\u30b9", 
         "ename": "Amaura", 
@@ -58786,7 +58786,7 @@
             "hp": 123, 
             "special_attack": 99, 
             "special_defense": 92, 
-            "Speed": 58
+            "speed": 58
         }, 
         "cname": "\u30a2\u30de\u30eb\u30eb\u30ac", 
         "ename": "Aurorus", 
@@ -58884,7 +58884,7 @@
             "hp": 95, 
             "special_attack": 110, 
             "special_defense": 130, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u4ed9\u5b50\u7cbe\u9748", 
         "ename": "Sylveon", 
@@ -58981,7 +58981,7 @@
             "hp": 78, 
             "special_attack": 74, 
             "special_defense": 63, 
-            "Speed": 118
+            "speed": 118
         }, 
         "cname": "\u30eb\u30c1\u30e3\u30d6\u30eb", 
         "ename": "Hawlucha", 
@@ -59078,7 +59078,7 @@
             "hp": 67, 
             "special_attack": 81, 
             "special_defense": 67, 
-            "Speed": 101
+            "speed": 101
         }, 
         "cname": "\u30c7\u30c7\u30f3\u30cd", 
         "ename": "Dedenne", 
@@ -59156,7 +59156,7 @@
             "hp": 50, 
             "special_attack": 50, 
             "special_defense": 150, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u30e1\u30ec\u30b7\u30fc", 
         "ename": "Carbink", 
@@ -59230,7 +59230,7 @@
             "hp": 45, 
             "special_attack": 55, 
             "special_defense": 75, 
-            "Speed": 40
+            "speed": 40
         }, 
         "cname": "\u30cc\u30e1\u30e9", 
         "ename": "Goomy", 
@@ -59296,7 +59296,7 @@
             "hp": 68, 
             "special_attack": 83, 
             "special_defense": 113, 
-            "Speed": 60
+            "speed": 60
         }, 
         "cname": "\u30cc\u30e1\u30a4\u30eb", 
         "ename": "Sliggoo", 
@@ -59364,7 +59364,7 @@
             "hp": 90, 
             "special_attack": 110, 
             "special_defense": 150, 
-            "Speed": 80
+            "speed": 80
         }, 
         "cname": "\u30cc\u30e1\u30eb\u30b4\u30f3", 
         "ename": "Goodra", 
@@ -59450,7 +59450,7 @@
             "hp": 57, 
             "special_attack": 80, 
             "special_defense": 87, 
-            "Speed": 75
+            "speed": 75
         }, 
         "cname": "\u30af\u30ec\u30c3\u30d5\u30a3", 
         "ename": "Klefki", 
@@ -59526,7 +59526,7 @@
             "hp": 43, 
             "special_attack": 50, 
             "special_defense": 60, 
-            "Speed": 38
+            "speed": 38
         }, 
         "cname": "\u30dc\u30af\u30ec\u30fc", 
         "ename": "Phantump", 
@@ -59606,7 +59606,7 @@
             "hp": 85, 
             "special_attack": 65, 
             "special_defense": 82, 
-            "Speed": 56
+            "speed": 56
         }, 
         "cname": "\u30aa\u30fc\u30ed\u30c3\u30c8", 
         "ename": "Trevenant", 
@@ -59696,7 +59696,7 @@
             "hp": 49, 
             "special_attack": 44, 
             "special_defense": 55, 
-            "Speed": 51
+            "speed": 51
         }, 
         "cname": "\u30d0\u30b1\u30c3\u30c1\u30e3", 
         "ename": "Pumpkaboo", 
@@ -59779,7 +59779,7 @@
             "hp": 65, 
             "special_attack": 58, 
             "special_defense": 75, 
-            "Speed": 84
+            "speed": 84
         }, 
         "cname": "\u30d1\u30f3\u30d7\u30b8\u30f3", 
         "ename": "Gourgeist", 
@@ -59871,7 +59871,7 @@
             "hp": 55, 
             "special_attack": 32, 
             "special_defense": 35, 
-            "Speed": 28
+            "speed": 28
         }, 
         "cname": "\u30ab\u30c1\u30b3\u30fc\u30eb", 
         "ename": "Bergmite", 
@@ -59945,7 +59945,7 @@
             "hp": 95, 
             "special_attack": 44, 
             "special_defense": 46, 
-            "Speed": 28
+            "speed": 28
         }, 
         "cname": "\u30af\u30ec\u30d9\u30fc\u30b9", 
         "ename": "Avalugg", 
@@ -60029,7 +60029,7 @@
             "hp": 40, 
             "special_attack": 45, 
             "special_defense": 40, 
-            "Speed": 55
+            "speed": 55
         }, 
         "cname": "\u30aa\u30f3\u30d0\u30c3\u30c8", 
         "ename": "Noibat", 
@@ -60113,7 +60113,7 @@
             "hp": 85, 
             "special_attack": 97, 
             "special_defense": 80, 
-            "Speed": 123
+            "speed": 123
         }, 
         "cname": "\u30aa\u30f3\u30d0\u30fc\u30f3", 
         "ename": "Noivern", 
@@ -60209,7 +60209,7 @@
             "hp": 126, 
             "special_attack": 131, 
             "special_defense": 98, 
-            "Speed": 99
+            "speed": 99
         }, 
         "cname": "\u30bc\u30eb\u30cd\u30a2\u30b9", 
         "ename": "Xerneas", 
@@ -60287,7 +60287,7 @@
             "hp": 126, 
             "special_attack": 131, 
             "special_defense": 98, 
-            "Speed": 99
+            "speed": 99
         }, 
         "cname": "\u30a4\u30d9\u30eb\u30bf\u30eb", 
         "ename": "Yveltal", 
@@ -60368,7 +60368,7 @@
             "hp": 108, 
             "special_attack": 81, 
             "special_defense": 95, 
-            "Speed": 95
+            "speed": 95
         }, 
         "cname": "\u30b8\u30ac\u30eb\u30c7", 
         "ename": "Zygarde", 
@@ -60443,7 +60443,7 @@
             "hp": 50, 
             "special_attack": 100, 
             "special_defense": 150, 
-            "Speed": 50
+            "speed": 50
         }, 
         "cname": "\u8482\u5B89\u5E0C", 
         "ename": "Diancie", 
@@ -60537,7 +60537,7 @@
         "hp": 80,
         "special_attack": 150,
         "special_defense": 130,
-        "Speed": 70
+        "speed": 70
       },
       "cname": "\u80E1\u5E15",
       "ename": "Hoopa",
@@ -60651,7 +60651,7 @@
         "hp": 80,
         "special_attack": 130,
         "special_defense": 90,
-        "Speed": 70
+        "speed": 70
       },
       "cname": "",
       "ename": "Volcanion",

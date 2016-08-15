@@ -3,88 +3,420 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.romeroz.mistypokedex.DetailActivity">
+    tools:context="com.romeroz.mistypokedex.DetailActivity"
+    >
 
     <include
         android:id="@+id/app_bar"
         layout="@layout/app_bar" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_below="@id/app_bar"
-        android:id="@+id/linearLayout">
+        android:orientation="vertical">
 
         <FrameLayout
             android:layout_width="240dp"
             android:layout_height="240dp"
             android:layout_gravity="center"
-            android:layout_margin="16dp"
-            >
+            android:layout_margin="16dp">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/pokeball"
                 android:layout_gravity="center"
                 android:alpha=".8"
-                />
+                android:src="@drawable/pokeball" />
 
             <ImageView
                 android:id="@+id/pokemon_image_view"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
-                android:src="@drawable/pokemon_img_1"
                 android:layout_gravity="center"
-                android:transitionName="@string/transition_pokemon_image"
-                />
+                android:src="@drawable/pokemon_img_1"
+                android:transitionName="@string/transition_pokemon_image" />
 
         </FrameLayout>
 
         <TextView
             android:id="@+id/name_text_view"
+            style="@style/Base.TextAppearance.AppCompat.Large"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Bulbasaur"
-            style="@style/Base.TextAppearance.AppCompat.Large"/>
+            android:text="Bulbasaur" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/type_one_image_view"
-                android:layout_width="100dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/type_grass"
-                android:adjustViewBounds="true"
                 android:layout_marginRight="4dp"
-                />
+                android:adjustViewBounds="true"
+                android:src="@drawable/type_grass" />
 
             <ImageView
                 android:id="@+id/type_two_image_view"
-                android:layout_width="100dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/type_poison"
                 android:adjustViewBounds="true"
-                />
+                android:src="@drawable/type_poison" />
 
         </LinearLayout>
 
-        <View
-            android:layout_width="180dp"
-            android:layout_height="20dp"
-            android:background="@drawable/boarder"
-            />
+        <!-- Pokemon Stats Layout-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <!-- HP stat bar -->
+            <LinearLayout
+                android:id="@+id/hp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="HP" />
+
+                    <TextView
+                        android:id="@+id/hp_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="86" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="@dimen/stat_bar_width"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_background" />
+
+                    <View
+                        android:id="@+id/hp_bar_view"
+                        android:layout_width="60dp"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_fill" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <!-- ATK stat bar -->
+            <LinearLayout
+                android:id="@+id/atk_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="ATK" />
+
+                    <TextView
+                        android:id="@+id/atk_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="178" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="@dimen/stat_bar_width"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_background" />
+
+                    <View
+                        android:id="@+id/atk_bar_view"
+                        android:layout_width="60dp"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_fill" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <!-- DEF stat bar -->
+            <LinearLayout
+                android:id="@+id/def_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="DEF" />
+
+                    <TextView
+                        android:id="@+id/def_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="78" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="@dimen/stat_bar_width"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_background" />
+
+                    <View
+                        android:id="@+id/def_bar_view"
+                        android:layout_width="60dp"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_fill" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <!-- SPA stat bar -->
+            <LinearLayout
+                android:id="@+id/spa_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="SPA" />
+
+                    <TextView
+                        android:id="@+id/spa_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="98" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="@dimen/stat_bar_width"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_background" />
+
+                    <View
+                        android:id="@+id/spa_bar_view"
+                        android:layout_width="60dp"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_fill" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <!-- SPD stat bar -->
+            <LinearLayout
+                android:id="@+id/spd_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="SPD" />
+
+                    <TextView
+                        android:id="@+id/spd_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="145" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="@dimen/stat_bar_width"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_background" />
+
+                    <View
+                        android:id="@+id/spd_bar_view"
+                        android:layout_width="60dp"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_fill" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <!-- SPE stat bar -->
+            <LinearLayout
+                android:id="@+id/spe_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="SPE" />
+
+                    <TextView
+                        android:id="@+id/spe_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="80" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="@dimen/stat_bar_width"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_background" />
+
+                    <View
+                        android:id="@+id/spe_bar_view"
+                        android:layout_width="60dp"
+                        android:layout_height="@dimen/stat_bar_height"
+                        android:background="@drawable/stat_bar_fill" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <!-- Total Stats -->
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:text="TOTAL" />
+
+                <TextView
+                    android:id="@+id/total_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="1300" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
 
     </LinearLayout>
-
-
 
 
 </RelativeLayout>
