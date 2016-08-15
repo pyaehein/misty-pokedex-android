@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.romeroz.mistypokedex.DetailActivity;
 import com.romeroz.mistypokedex.R;
+import com.romeroz.mistypokedex.Utility;
 import com.romeroz.mistypokedex.model.Pokemon;
 import com.romeroz.mistypokedex.model.RealmString;
 
@@ -50,9 +51,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         id = mItemArrayList.get(position).getId();
         name = mItemArrayList.get(position).getName();
 
-        // Format pokemon id from "1" to "001"
-        String formattedId = String.format("%03d", id);
-        viewHolder.mIdTextView.setText(String.valueOf(formattedId));
+        viewHolder.mIdTextView.setText(Utility.getPokemonIdStringFromInt(id));
         viewHolder.mNameTextView.setText(name);
 
         // Generate Image resource Id by image name in drawable folder
@@ -68,7 +67,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             // Get first type
             String typeOne = types.get(0).getVal();
 
-            String typeImageOne = getTypeImageName(typeOne);
+            String typeImageOne = Utility.getTypeImageName(typeOne);
 
             // Generate Image resource Id by image name in drawable folder
             drawableResourceId = mContext.getResources().getIdentifier(typeImageOne
@@ -81,7 +80,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             // Get second type
             String typeTwo = types.get(1).getVal();
 
-            String typeImageTwo = getTypeImageName(typeTwo);
+            String typeImageTwo = Utility.getTypeImageName(typeTwo);
 
             // Generate Image resource Id by image name in drawable folder
             drawableResourceId = mContext.getResources().getIdentifier(typeImageTwo
@@ -136,7 +135,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
                     Intent i = new Intent(mContext, DetailActivity.class);
                     i.putExtra(DetailActivity.ARG_POKEMON_ID, id);
 
-                    // Pretty transitions on newer devices
+                    // For mPokemonImageView transition (see DetailActivity.setupUI())
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         // Remember to set android:transitionName in activity_detail.xml and item_layout.xml
                         mContext.startActivity(i, ActivityOptions.makeSceneTransitionAnimation(
@@ -152,73 +151,7 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         }
     }
 
-    /**
-     * Get the image name based on type of pokemon
-     * @param type
-     * @return
-     */
-    private String getTypeImageName(String type){
-        String typeImage = "";
 
-        switch (type) {
-            case "Normal":
-                typeImage = "type_normal";
-                break;
-            case "Fire":
-                typeImage = "type_fire";
-                break;
-            case "Fighting":
-                typeImage = "type_fighting";
-                break;
-            case "Water":
-                typeImage = "type_water";
-                break;
-            case "Poison":
-                typeImage = "type_poison";
-                break;
-            case "Electric":
-                typeImage = "type_electric";
-                break;
-            case "Ground":
-                typeImage = "type_ground";
-                break;
-            case "Grass":
-                typeImage = "type_grass";
-                break;
-            case "Flying":
-                typeImage = "type_flying";
-                break;
-            case "Ice":
-                typeImage = "type_ice";
-                break;
-            case "Bug":
-                typeImage = "type_bug";
-                break;
-            case "Psychic":
-                typeImage = "type_psychic";
-                break;
-            case "Rock":
-                typeImage = "type_rock";
-                break;
-            case "Dragon":
-                typeImage = "type_dragon";
-                break;
-            case "Ghost":
-                typeImage = "type_ghost";
-                break;
-            case "Dark":
-                typeImage = "type_dark";
-                break;
-            case "Steel":
-                typeImage = "type_steel";
-                break;
-            case "Fairy":
-                typeImage = "type_fairy";
-                break;
-        }
-
-        return typeImage;
-    }
 
     public void swapData(ArrayList<Pokemon> itemArrayList) {
         this.mItemArrayList = null;

@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         // Set up our RecyclerView's Adapter
         mPokedexAdapter = new PokedexAdapter(MainActivity.this);
         mPokemonRecyclerView.setAdapter(mPokedexAdapter);
-        
+
         mPokedexAdapter.swapData(mPokemonList);
 
         // Hide keyboard from popping up when activity starts
