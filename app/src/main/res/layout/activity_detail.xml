@@ -10,11 +10,17 @@
         android:id="@+id/app_bar"
         layout="@layout/app_bar" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        >
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/app_bar"
+        android:paddingBottom="8dp"
         android:orientation="vertical">
 
         <FrameLayout
@@ -413,10 +419,8 @@
 
         </LinearLayout>
 
-
-
-
     </LinearLayout>
 
+    </ScrollView>
 
 </RelativeLayout>

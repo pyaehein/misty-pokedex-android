@@ -1,11 +1,12 @@
 package com.romeroz.mistypokedex;
 
+import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.transition.TransitionInflater;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -38,6 +39,13 @@ public class DetailActivity extends AppCompatActivity {
     private TextView mSpdTextView;
     private TextView mSpeTextView;
     private TextView mTotalTextView;
+
+    private View mHpBarView;
+    private View mAtkBarView;
+    private View mDefBarView;
+    private View mSpaBarView;
+    private View mSpdBarView;
+    private View mSpeBarView;
 
     Realm mRealm;
 
@@ -154,8 +162,8 @@ public class DetailActivity extends AppCompatActivity {
         int def = pokemon.getBaseStats().getDefense();
         int spa = pokemon.getBaseStats().getSpecialAttack();
         int spd = pokemon.getBaseStats().getSpecialDefense();
-        // Speed wouldn't parse if set as int - maybe data has a string somewhere?
-        int spe = Integer.parseInt( pokemon.getBaseStats().getSpeed());
+        // Speed wouldn't parse if set as int for some reason
+        int spe = Integer.parseInt(pokemon.getBaseStats().getSpeed());
         int total = hp + atk + def + spa + spd + spe;
 
         mHpTextView.setText(String.valueOf(hp));
@@ -166,9 +174,53 @@ public class DetailActivity extends AppCompatActivity {
         mSpeTextView.setText(String.valueOf(spe));
         mTotalTextView.setText(String.valueOf(total));
 
+        mHpBarView = findViewById(R.id.hp_bar_view);
+        mAtkBarView = findViewById(R.id.atk_bar_view);
+        mDefBarView = findViewById(R.id.def_bar_view);
+        mSpaBarView = findViewById(R.id.spa_bar_view);
+        mSpdBarView = findViewById(R.id.spd_bar_view);
+        mSpeBarView = findViewById(R.id.spe_bar_view);
 
+        /**
+         * Calculating stat bar widths:
+         */
 
+        // Max width of stat bar
+        int statBarWidth = (int) getResources().getDimension(R.dimen.stat_bar_width);
+        // Pokemon base stats range from 1-255
+        int maxBaseStat = 255;
 
+        // Example of how to calculate width of stat bar:
+        // hp/255 = x/statBarWidth
+        // Cross multiply: x * 255 = hp * statBarWidth
+        // Solve: x = (hp * statBarWidth)/255
+        int hpBarWidth = (hp * statBarWidth)/maxBaseStat;
+        int atkBarWidth = (atk * statBarWidth)/maxBaseStat;
+        int defBarWidth = (def * statBarWidth)/maxBaseStat;
+        int spaBarWidth = (spa * statBarWidth)/maxBaseStat;
+        int spdBarWidth = (spd * statBarWidth)/maxBaseStat;
+        int speBarWidth = (spe * statBarWidth)/maxBaseStat;
+
+        mHpBarView.getLayoutParams().width = hpBarWidth;
+        mAtkBarView.getLayoutParams().width = atkBarWidth;
+        mDefBarView.getLayoutParams().width = defBarWidth;
+        mSpaBarView.getLayoutParams().width = spaBarWidth;
+        mSpdBarView.getLayoutParams().width = spdBarWidth;
+        mSpeBarView.getLayoutParams().width = speBarWidth;
+
+        // Set stat bar colors respectively
+        GradientDrawable backgroundGradient = (GradientDrawable)mHpBarView.getBackground();
+        backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_hp));
+        backgroundGradient = (GradientDrawable)mAtkBarView.getBackground();
+        backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_atk));
+        backgroundGradient = (GradientDrawable)mDefBarView.getBackground();
+        backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_def));
+        backgroundGradient = (GradientDrawable)mSpaBarView.getBackground();
+        backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_spa));
+        backgroundGradient = (GradientDrawable)mSpdBarView.getBackground();
+        backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_spd));
+        backgroundGradient = (GradientDrawable)mSpeBarView.getBackground();
+        backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_spe));
 
     }
 

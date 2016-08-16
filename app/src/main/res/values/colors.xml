@@ -9,5 +9,15 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="grey">#cccccc</color>
+    <color name="dark_grey">#DD777777</color>
+
+    <!-- Pokemon stat colors -->
+    <color name="stat_hp">#FF5959</color>
+    <color name="stat_atk">#F5AC78</color>
+    <color name="stat_def">#FAE078</color>
+    <color name="stat_spa">#9DB7F5</color>
+    <color name="stat_spd">#A7DB8D</color>
+    <color name="stat_spe">#FA92B2</color>
+
 
 </resources>

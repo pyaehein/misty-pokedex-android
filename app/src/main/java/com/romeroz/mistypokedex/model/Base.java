@@ -18,7 +18,7 @@ public class Base extends RealmObject {
     private int specialAttack;
     @SerializedName("special_defense")
     private int specialDefense;
-    // Speed wouldn't parse if set as int - maybe data has a string somewhere?
+    // Speed wouldn't parse if set as int for some reason
     @SerializedName("speed")
     private String speed;
 

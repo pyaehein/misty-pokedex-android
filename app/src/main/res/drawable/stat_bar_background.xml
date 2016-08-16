@@ -10,14 +10,13 @@
     <!-- view border color and width -->
     <stroke
         android:width="1dp"
-        android:color="@color/black" >
+        android:color="@color/dark_grey" >
     </stroke>
 
     <gradient
-        android:endColor="#DDBBBBBB"
-        android:startColor="#DD777777"
-        android:centerColor="@color/black"
-        android:gradientRadius="50%"
+        android:endColor="#DD777777"
+        android:startColor="#DDBBBBBB"
+         android:gradientRadius="180%"
          />
 
     <!-- The radius makes the corners rounded -->
