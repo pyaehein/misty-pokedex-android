@@ -3,7 +3,10 @@ A Misty themed pokedex with all current 721 pokemon!
 
 Check out how to use some cool Android transitions, libraries, Material Design and more!
 
-![Screenshot](Screenshot_20160816-122639.png)
+
+<p align="center">
+  <img src="Screenshot_20160816-122639.png" width="350"/>
+</p>
 
 Android technologies used:<br />
 Realm: https://realm.io/news/realm-for-android/ <br />
