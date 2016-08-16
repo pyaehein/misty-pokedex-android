@@ -5,7 +5,9 @@ Check out how to use some cool Android transitions, libraries, Material Design a
 
 
 <p align="center">
-  <img src="Screenshot_20160816-122639.png" width="350"/>
+  <img src="screenshot_main.png" width="250"/>
+  <img src="screenshot_pikachu.png" width="250"/>
+  <img src="screenshot_squirtle.png" width="250"/>
 </p>
 
 Android technologies used:<br />
