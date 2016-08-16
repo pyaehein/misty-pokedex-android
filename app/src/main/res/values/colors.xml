@@ -19,5 +19,10 @@
     <color name="stat_spd">#A7DB8D</color>
     <color name="stat_spe">#FA92B2</color>
 
+    <!-- Misty's Colors -->
+    <color name="misty_hair">#F47524</color>
+    <color name="misty_shirt">#FFE779</color>
+    <color name="misty_shorts">#2C9787</color>
+
 
 </resources>

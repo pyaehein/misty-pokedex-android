@@ -52,14 +52,12 @@ public class MainActivity extends AppCompatActivity {
         mPokemonList = new ArrayList<>(list);
 
 
-        int x = 0;
+        // Debug code
+        /*int x = 0;
         for (Pokemon pokemon : mPokemonList) {
             x= x+1;
-            //Log.d("Roman", String.valueOf(x) + pokemon.getName() + " sp attack: " + pokemon.getBaseStats().getSpecialAttack() + " hp: " + pokemon.getBaseStats().getHp() + "type: " + pokemon.getType().get(0).getVal());
-
-            //Log.d("Roman", String.valueOf(x) + " " + pokemon.getBaseStats().getSpeed());
-
-        }
+            Log.d(Utility.APP_TAG, String.valueOf(x) + " " + pokemon.getBaseStats().getSpeed());
+        }*/
 
         // Set up RecyclerView
         mPokemonRecyclerView = (RecyclerView) findViewById(R.id.pokedex_recycler_view);
