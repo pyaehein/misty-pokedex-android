@@ -91,7 +91,7 @@ public class MyApplication extends Application {
         return singleton.getApplicationContext();
     }
 
-    //See: https://github.com/realm/realm-java -> Examples -> GridviewExample for source
+    // See: https://github.com/realm/realm-java -> Examples -> GridviewExample for source
     private void loadPokemonData() {
         // In this case we're loading from local assets.
         // NOTE: could alternatively easily load from network

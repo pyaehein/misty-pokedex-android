@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:launchMode="singleTask">
             <intent-filter>
@@ -20,8 +20,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DetailActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".activities.DetailActivity"
+            android:parentActivityName=".activities.MainActivity" />
     </application>
 
 </manifest>

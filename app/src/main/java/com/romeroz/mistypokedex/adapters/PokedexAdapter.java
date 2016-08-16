@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.romeroz.mistypokedex.DetailActivity;
+import com.romeroz.mistypokedex.activities.DetailActivity;
 import com.romeroz.mistypokedex.R;
 import com.romeroz.mistypokedex.Utility;
 import com.romeroz.mistypokedex.model.Pokemon;
@@ -150,8 +150,6 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
 
         }
     }
-
-
 
     public void swapData(ArrayList<Pokemon> itemArrayList) {
         this.mItemArrayList = null;
