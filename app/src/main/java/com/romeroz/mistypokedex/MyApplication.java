@@ -1,7 +1,6 @@
 package com.romeroz.mistypokedex;
 
 import android.app.Application;
-import android.content.Context;
 import android.content.ContextWrapper;
 import android.util.Log;
 
@@ -33,18 +32,12 @@ import io.realm.RealmObject;
 
 public class MyApplication extends Application {
 
-    private static MyApplication singleton;
-
     Realm mRealm;
     public static String POKEMON_DATA_LOADED_KEY;
 
-    public MyApplication getInstance(){
-        return singleton;
-    }
     @Override
     public void onCreate() {
         super.onCreate();
-        singleton = this;
 
         /**
          * Instantiate Realm with default configuration
@@ -85,10 +78,6 @@ public class MyApplication extends Application {
             Prefs.putBoolean(POKEMON_DATA_LOADED_KEY, true);
         }
 
-    }
-
-    public static Context getAppContext() {
-        return singleton.getApplicationContext();
     }
 
     // See: https://github.com/realm/realm-java -> Examples -> GridviewExample for source
