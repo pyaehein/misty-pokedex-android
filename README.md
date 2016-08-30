@@ -10,9 +10,10 @@ Check out how to use some cool Android transitions, libraries, Material Design a
 </p>
 
 ##Android technologies used:<br />
-Realm: https://realm.io/news/realm-for-android/ <br />
-Gson: https://github.com/google/gson <br />
-EasyPreferences: https://github.com/Pixplicity/EasyPreferences <br />
+- Realm: https://realm.io/news/realm-for-android/ <br />
+- Gson: https://github.com/google/gson <br />
+- EasyPreferences: https://github.com/Pixplicity/EasyPreferences <br />
+- Shared Element Transitions: https://developer.android.com/training/material/animations.html
 
 ##More information:
 - Pokemon data taken and altered from this helpful repo: https://github.com/fanzeyi/Pokemon-DB  <br />
