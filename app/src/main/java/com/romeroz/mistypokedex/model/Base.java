@@ -4,9 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import io.realm.RealmObject;
 
-/**
- * Note: property names must match case of json!
- */
 public class Base extends RealmObject {
     @SerializedName("attack")
     private int attack;

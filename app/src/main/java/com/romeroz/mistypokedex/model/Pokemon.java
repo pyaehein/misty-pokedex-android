@@ -5,9 +5,6 @@ import com.google.gson.annotations.SerializedName;
 import io.realm.RealmList;
 import io.realm.RealmObject;
 
-/**
- * Note: property names must match case of json!
- */
 public class Pokemon extends RealmObject {
     private int id;
     @SerializedName("ename")
