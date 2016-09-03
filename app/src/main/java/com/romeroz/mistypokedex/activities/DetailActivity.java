@@ -51,7 +51,6 @@ public class DetailActivity extends AppCompatActivity {
 
     Realm mRealm;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +68,6 @@ public class DetailActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
-
 
         mRealm = Realm.getDefaultInstance();
 
@@ -147,7 +145,6 @@ public class DetailActivity extends AppCompatActivity {
         } else {
             mTypeTwoImageView.setVisibility(View.GONE);
         }
-
     }
 
     private void setupPokemonStats(Pokemon pokemon){
@@ -223,7 +220,6 @@ public class DetailActivity extends AppCompatActivity {
         backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_spd));
         backgroundGradient = (GradientDrawable)mSpeBarView.getBackground();
         backgroundGradient.setColor(ContextCompat.getColor(DetailActivity.this, R.color.stat_spe));
-
     }
 
     @Override
@@ -231,5 +227,4 @@ public class DetailActivity extends AppCompatActivity {
         super.onDestroy();
         mRealm.close(); // Remember to close Realm when done.
     }
-
 }

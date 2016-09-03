@@ -42,8 +42,6 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(final ViewHolder viewHolder, final int position) {
-        // Set default view visibility
-
         // Data from the ArrayList
         int id;
         String name;
@@ -88,11 +86,9 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             viewHolder.mTypeTwoImageView.setImageResource(drawableResourceId);
 
             viewHolder.mTypeTwoImageView.setVisibility(View.VISIBLE);
-
         } else {
             viewHolder.mTypeTwoImageView.setVisibility(View.GONE);
         }
-
     }
 
     @Override
@@ -110,7 +106,6 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
         protected ImageView mTypeOneImageView;
         protected ImageView mTypeTwoImageView;
 
-
         public ViewHolder(View view) {
             super(view);
 
@@ -121,8 +116,6 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
             mIdTextView = (TextView) view.findViewById(R.id.id_text_view);
             mTypeOneImageView = (ImageView) view.findViewById(R.id.type_one_image_view);
             mTypeTwoImageView = (ImageView) view.findViewById(R.id.type_two_image_view);
-
-
 
             mCardView.setOnClickListener(new View.OnClickListener() {
 
@@ -154,7 +147,6 @@ public class PokedexAdapter extends RecyclerView.Adapter<PokedexAdapter.ViewHold
     public void swapData(ArrayList<Pokemon> itemArrayList) {
         this.mItemArrayList = null;
         this.mItemArrayList = itemArrayList;;
-
         notifyDataSetChanged();
     }
 

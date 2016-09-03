@@ -4,9 +4,9 @@
 Check out how to use some cool Android transitions, libraries, Material Design and more!
 
 <p align="center">
-  <img src="screenshot_main.png" width="250"/>
-  <img src="screenshot_pikachu.png" width="250"/>
-  <img src="screenshot_squirtle.png" width="250"/>
+  <img src="screenshots/screenshot_1.png" width="250"/>
+  <img src="screenshots/screenshot_2.png" width="250"/>
+  <img src="screenshots/screenshot_3.png" width="250"/>
 </p>
 
 ##Android technologies used:<br />
@@ -17,5 +17,5 @@ Check out how to use some cool Android transitions, libraries, Material Design a
 
 ##More information:
 - Free Pokemon API: http://pokeapi.co <br />
-- This app stores all resources locally. The Pokemon API is a bit too slow for my tastes right now.
+- This app contains all data resources locally because the pokeapi is too slow for an app.
 

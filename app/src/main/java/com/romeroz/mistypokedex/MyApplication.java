@@ -32,8 +32,8 @@ import io.realm.RealmObject;
 
 public class MyApplication extends Application {
 
-    Realm mRealm;
     public static String POKEMON_DATA_LOADED_KEY;
+    Realm mRealm;
 
     @Override
     public void onCreate() {

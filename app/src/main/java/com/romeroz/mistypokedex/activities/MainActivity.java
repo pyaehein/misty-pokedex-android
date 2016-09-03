@@ -6,7 +6,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
@@ -28,7 +27,6 @@ import io.realm.RealmResults;
 public class MainActivity extends AppCompatActivity {
 
     private EditText mSearchEditText;
-
     private RecyclerView mPokemonRecyclerView;
     private PokedexAdapter mPokedexAdapter;
 
@@ -44,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         mSearchEditText = (EditText) findViewById(R.id.search_edit_text);
         mSearchEditText.addTextChangedListener(new SearchTextWatcher());
 
-
         mRealm = Realm.getDefaultInstance();
 
         mPokemonList = null;
@@ -52,14 +49,6 @@ public class MainActivity extends AppCompatActivity {
         List<Pokemon> list =  mRealm.where(Pokemon.class).findAll();
         // Convert it to ArrayList so our adapter can use it
         mPokemonList = new ArrayList<>(list);
-
-
-        // Debug code
-        /*int x = 0;
-        for (Pokemon pokemon : mPokemonList) {
-            x= x+1;
-            Log.d(Utility.APP_TAG, String.valueOf(x) + " " + pokemon.getBaseStats().getSpeed());
-        }*/
 
         // Set up RecyclerView
         mPokemonRecyclerView = (RecyclerView) findViewById(R.id.pokedex_recycler_view);
@@ -92,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
     }
 
     // Execute code after text has changed in an EditText
@@ -118,8 +106,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
             if(textLength >= 1){
-                Log.d("Roman", "textLength: " + String.valueOf(textLength));
-                RealmResults<Pokemon> searchPokemonList = mRealm.where(Pokemon.class).contains("name", searchText, Case.INSENSITIVE).findAll();
+                RealmResults<Pokemon> searchPokemonList = mRealm
+                        .where(Pokemon.class)
+                        .contains("name", searchText, Case.INSENSITIVE)
+                        .findAll();
+
                 ArrayList<Pokemon> searchPokemonArrayList = new ArrayList<>(searchPokemonList);
                 mPokedexAdapter.swapData(searchPokemonArrayList);
             }
